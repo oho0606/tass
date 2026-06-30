@@ -21,4 +21,5 @@ HEALTHCHECK --interval=15s --timeout=5s --start-period=40s --retries=5 \
   CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')" || exit 1
 
 # Run DB migrations then start the API server
-CMD ["sh", "-c", "alembic upgrade head && uvicorn api.app:app --host 0.0.0.0 --port 8000"]
+# Render injects $PORT at runtime; fall back to 8000 for local Docker usage
+CMD ["sh", "-c", "alembic upgrade head && uvicorn api.app:app --host 0.0.0.0 --port ${PORT:-8000}"]
