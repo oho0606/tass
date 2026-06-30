@@ -1,25 +1,19 @@
 import type { NextConfig } from "next";
 
-const backendUrl =
-  process.env.BACKEND_URL ||
-  process.env.NEXT_PUBLIC_API_URL ||
-  "http://localhost:8000";
-
 const nextConfig: NextConfig = {
   output: "standalone",
 
-  // Proxy all /api/* and direct backend routes through Next.js server.
-  // This avoids CORS issues when deploying frontend on Vercel and backend on Render.
-  // Set BACKEND_URL (server-only) in Vercel environment variables.
+  // Rewrite backend API paths to the catch-all proxy route handler at
+  // /api/proxy/[...path]. The proxy reads BACKEND_URL at request time
+  // (runtime), so no build-time env var is needed here.
   async rewrites() {
     return [
-      { source: "/health", destination: `${backendUrl}/health` },
-      { source: "/picks/:path*", destination: `${backendUrl}/picks/:path*` },
-      { source: "/api/:path*", destination: `${backendUrl}/api/:path*` },
-      { source: "/ranking/:path*", destination: `${backendUrl}/ranking/:path*` },
-      { source: "/stock/:path*", destination: `${backendUrl}/stock/:path*` },
-      { source: "/market/:path*", destination: `${backendUrl}/market/:path*` },
-      { source: "/backtest/:path*", destination: `${backendUrl}/backtest/:path*` },
+      { source: "/health", destination: "/api/proxy/health" },
+      { source: "/picks/:path*", destination: "/api/proxy/picks/:path*" },
+      { source: "/ranking/:path*", destination: "/api/proxy/ranking/:path*" },
+      { source: "/stock/:path*", destination: "/api/proxy/stock/:path*" },
+      { source: "/market/:path*", destination: "/api/proxy/market/:path*" },
+      { source: "/backtest/:path*", destination: "/api/proxy/backtest/:path*" },
     ];
   },
 };
