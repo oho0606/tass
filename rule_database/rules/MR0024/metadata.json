@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0024",
+  "rule_name": "Close Within N-Period Range",
+  "category": "MR",
+  "subcategory": "Sideways Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Within N-Period Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

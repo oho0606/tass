@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0047",
+  "rule_name": "Price Up Volume Up",
+  "category": "VL",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Up Volume Up",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

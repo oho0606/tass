@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVO010",
+  "rule_name": "Volatility Confirmation",
+  "category": "VO",
+  "subcategory": "Volatility Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volatility Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVO"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0076",
+  "rule_name": "Bull Trend State",
+  "category": "TR",
+  "subcategory": "State",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bull Trend State",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

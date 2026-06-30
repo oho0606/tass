@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0006",
+  "rule_name": "RSI Falling",
+  "category": "MO",
+  "subcategory": "RSI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "RSI Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

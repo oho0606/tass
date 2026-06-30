@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0034",
+  "rule_name": "BOS Below Swing Low",
+  "category": "MS",
+  "subcategory": "Break of Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "BOS Below Swing Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

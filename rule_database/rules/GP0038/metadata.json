@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0038",
+  "rule_name": "Continuation Gap Down Bar Bearish",
+  "category": "GP",
+  "subcategory": "Continuation (Runaway) Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Continuation Gap Down Bar Bearish",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

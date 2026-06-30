@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0046",
+  "rule_name": "Exhaustion Gap Down Open Below Prior Low",
+  "category": "GP",
+  "subcategory": "Exhaustion Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exhaustion Gap Down Open Below Prior Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

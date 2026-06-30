@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0015",
+  "rule_name": "Daily Above SMA20 4H Below SMA20",
+  "category": "MT",
+  "subcategory": "Moving Average Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily Above SMA20 4H Below SMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

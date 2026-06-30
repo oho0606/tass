@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0051",
+  "rule_name": "Pattern Upper Boundary Defined",
+  "category": "PT",
+  "subcategory": "Pattern Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pattern Upper Boundary Defined",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

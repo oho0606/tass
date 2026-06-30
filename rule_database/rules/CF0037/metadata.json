@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0037",
+  "rule_name": "True Range Above Average Confirms Bullish Trend",
+  "category": "CF",
+  "subcategory": "Volatility Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range Above Average Confirms Bullish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

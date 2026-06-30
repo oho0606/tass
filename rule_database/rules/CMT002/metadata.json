@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMT002",
+  "rule_name": "Partial Alignment",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Partial Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMT"
+  ]
+}

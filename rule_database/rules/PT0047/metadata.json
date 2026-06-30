@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0047",
+  "rule_name": "Double Top Neckline Present",
+  "category": "PT",
+  "subcategory": "Double Top / Double Bottom",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Double Top Neckline Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

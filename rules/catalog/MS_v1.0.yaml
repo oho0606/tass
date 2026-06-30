@@ -1,0 +1,89 @@
+# TASS MS Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-019_MS_Rule_Catalog_v1.0.md
+# 60 atomic Market Structure rules (MS0001–MS0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: MS
+category_name: Market Structure
+rule_count: 60
+next_category: SR
+
+subcategories:
+  - name: Higher High / Higher Low
+    rules:
+      - { id: MS0001, name: Higher High Formed }
+      - { id: MS0002, name: Higher High Confirmed }
+      - { id: MS0003, name: Higher High Exceeds Prior }
+      - { id: MS0004, name: Higher High Active }
+      - { id: MS0005, name: Consecutive Higher High }
+      - { id: MS0006, name: Higher Low Formed }
+      - { id: MS0007, name: Higher Low Confirmed }
+      - { id: MS0008, name: Higher Low Exceeds Prior }
+      - { id: MS0009, name: Higher Low Active }
+      - { id: MS0010, name: Consecutive Higher Low }
+
+  - name: Lower High / Lower Low
+    rules:
+      - { id: MS0011, name: Lower High Formed }
+      - { id: MS0012, name: Lower High Confirmed }
+      - { id: MS0013, name: Lower High Below Prior }
+      - { id: MS0014, name: Lower High Active }
+      - { id: MS0015, name: Consecutive Lower High }
+      - { id: MS0016, name: Lower Low Formed }
+      - { id: MS0017, name: Lower Low Confirmed }
+      - { id: MS0018, name: Lower Low Below Prior }
+      - { id: MS0019, name: Lower Low Active }
+      - { id: MS0020, name: Consecutive Lower Low }
+
+  - name: Swing High / Swing Low
+    rules:
+      - { id: MS0021, name: Swing High Formed }
+      - { id: MS0022, name: Swing Low Formed }
+      - { id: MS0023, name: Swing High Confirmed }
+      - { id: MS0024, name: Swing Low Confirmed }
+      - { id: MS0025, name: Swing High Active }
+      - { id: MS0026, name: Swing Low Active }
+      - { id: MS0027, name: Recent Swing High }
+      - { id: MS0028, name: Recent Swing Low }
+      - { id: MS0029, name: Equal Swing High }
+      - { id: MS0030, name: Equal Swing Low }
+
+  - name: Break of Structure
+    rules:
+      - { id: MS0031, name: Bullish Break of Structure }
+      - { id: MS0032, name: Bearish Break of Structure }
+      - { id: MS0033, name: BOS Above Swing High }
+      - { id: MS0034, name: BOS Below Swing Low }
+      - { id: MS0035, name: Bullish BOS With Close }
+      - { id: MS0036, name: Bearish BOS With Close }
+      - { id: MS0037, name: Bullish BOS On Current Bar }
+      - { id: MS0038, name: Bearish BOS On Current Bar }
+      - { id: MS0039, name: Price Above BOS Level }
+      - { id: MS0040, name: Price Below BOS Level }
+
+  - name: Change of Character
+    rules:
+      - { id: MS0041, name: Bullish Change of Character }
+      - { id: MS0042, name: Bearish Change of Character }
+      - { id: MS0043, name: CHoCH Above Lower High }
+      - { id: MS0044, name: CHoCH Below Higher Low }
+      - { id: MS0045, name: Bullish CHoCH With Close }
+      - { id: MS0046, name: Bearish CHoCH With Close }
+      - { id: MS0047, name: Bullish CHoCH On Current Bar }
+      - { id: MS0048, name: Bearish CHoCH On Current Bar }
+      - { id: MS0049, name: Price Above CHoCH Level }
+      - { id: MS0050, name: Price Below CHoCH Level }
+
+  - name: Market Structure Quality
+    rules:
+      - { id: MS0051, name: Swing Spacing Narrow }
+      - { id: MS0052, name: Swing Spacing Wide }
+      - { id: MS0053, name: Swing Overlap Present }
+      - { id: MS0054, name: Swing Overlap Absent }
+      - { id: MS0055, name: Structure Leg Extended }
+      - { id: MS0056, name: Structure Leg Compressed }
+      - { id: MS0057, name: Equal Highs In Structure }
+      - { id: MS0058, name: Equal Lows In Structure }
+      - { id: MS0059, name: Internal Swing Present }
+      - { id: MS0060, name: External Swing Present }

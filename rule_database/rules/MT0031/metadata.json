@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0031",
+  "rule_name": "Weekly Daily Close Above N-Period High",
+  "category": "MT",
+  "subcategory": "Breakout Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily Close Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

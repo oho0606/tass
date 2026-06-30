@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0039",
+  "rule_name": "Continuation Gap Down Size Below N-Period Average Gap",
+  "category": "GP",
+  "subcategory": "Continuation (Runaway) Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Continuation Gap Down Size Below N-Period Average Gap",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

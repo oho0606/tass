@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0009",
+  "rule_name": "True Range Above ATR",
+  "category": "RK",
+  "subcategory": "ATR Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range Above ATR",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

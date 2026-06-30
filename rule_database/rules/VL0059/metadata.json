@@ -1,0 +1,24 @@
+{
+  "rule_id": "VL0059",
+  "rule_name": "Volume Structure Stable",
+  "category": "VL",
+  "subcategory": "Volume Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Structure Stable",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Adopted",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/vl/vl0059_volume_structure_stable.py",
+  "backtest_verdict": "ADOPT",
+  "backtest_evaluated_at": "2026-06-30T01:36:54Z",
+  "backtest_symbols": 30
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0048",
+  "rule_name": "Primary Uptrend Secondary Downtrend",
+  "category": "MT",
+  "subcategory": "Timeframe Agreement",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Primary Uptrend Secondary Downtrend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

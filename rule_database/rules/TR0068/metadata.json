@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0068",
+  "rule_name": "Trend Confirmation Weak",
+  "category": "TR",
+  "subcategory": "Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Confirmation Weak",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

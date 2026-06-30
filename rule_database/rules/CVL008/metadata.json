@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVL008",
+  "rule_name": "Volume Quality",
+  "category": "VL",
+  "subcategory": "Volume Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVL"
+  ]
+}

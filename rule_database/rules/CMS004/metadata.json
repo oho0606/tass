@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMS004",
+  "rule_name": "Higher High Sequence",
+  "category": "MS",
+  "subcategory": "Market Structure Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Higher High Sequence",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMS"
+  ]
+}

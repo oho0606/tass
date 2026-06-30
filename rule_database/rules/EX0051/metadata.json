@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0051",
+  "rule_name": "Exit Bar Wide Range",
+  "category": "EX",
+  "subcategory": "Exit Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Bar Wide Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

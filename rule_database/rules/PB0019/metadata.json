@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0019",
+  "rule_name": "Pullback Low At N-Period Low",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Low At N-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

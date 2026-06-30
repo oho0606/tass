@@ -1,0 +1,98 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tass"
+version = "1.0.0"
+description = "Technical Analysis Scoring System"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "yfinance>=0.2",
+    "pyarrow>=14.0",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "pyyaml>=6.0",
+    "loguru>=0.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "black>=24.0",
+    "ruff>=0.4",
+    "isort>=5.13",
+    "mypy>=1.10",
+    "pre-commit>=3.7",
+    "types-PyYAML>=6.0",
+]
+api = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "httpx>=0.27",
+]
+data = [
+    "sqlalchemy>=2.0",
+    "alembic>=1.13",
+    "redis>=5.0",
+    "apscheduler>=3.10",
+    "pykrx>=1.0",
+    "tenacity>=8.2",
+]
+analysis = [
+    "scipy>=1.11",
+    "polars>=0.20",
+]
+
+[project.scripts]
+tass = "main:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["engine*", "api*", "config*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--cov=engine --cov-report=term-missing --cov-fail-under=0"
+markers = [
+    "regression: Rule change regression tests (TASS-030 §15)",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+known_first_party = ["engine", "api", "config"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501", "UP042"]
+
+[tool.mypy]
+python_version = "3.11"
+packages = ["engine", "config", "api"]
+ignore_missing_imports = true
+warn_return_any = false
+warn_unused_ignores = true
+disallow_untyped_defs = false
+
+[tool.coverage.run]
+source = ["engine"]
+omit = ["tests/*", "*/__init__.py"]
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0041",
+  "rule_name": "Bullish Change of Character",
+  "category": "MS",
+  "subcategory": "Change of Character",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bullish Change of Character",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

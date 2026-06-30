@@ -1,0 +1,19 @@
+{
+  "rule_id": "CDQ002",
+  "rule_name": "Data Reliability",
+  "category": "DQ",
+  "subcategory": "Data Quality Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Data Reliability",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CDQ"
+  ]
+}

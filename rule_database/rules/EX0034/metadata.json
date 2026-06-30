@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0034",
+  "rule_name": "Exit High At N-Period High",
+  "category": "EX",
+  "subcategory": "Reversal Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit High At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

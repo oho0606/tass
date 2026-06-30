@@ -1,0 +1,19 @@
+{
+  "rule_id": "CSR003",
+  "rule_name": "Support Break",
+  "category": "SR",
+  "subcategory": "Support & Resistance Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Support Break",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CSR"
+  ]
+}

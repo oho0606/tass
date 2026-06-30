@@ -1,0 +1,89 @@
+# TASS VO Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-018_VO_Rule_Catalog_v1.0.md
+# 60 atomic Volatility rules (VO0001–VO0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: VO
+category_name: Volatility
+rule_count: 60
+next_category: MS
+
+subcategories:
+  - name: ATR
+    rules:
+      - { id: VO0001, name: ATR Rising }
+      - { id: VO0002, name: ATR Falling }
+      - { id: VO0003, name: ATR Above Prior ATR }
+      - { id: VO0004, name: ATR Below Prior ATR }
+      - { id: VO0005, name: ATR Above N-Period Average }
+      - { id: VO0006, name: ATR Below N-Period Average }
+      - { id: VO0007, name: ATR At N-Period High }
+      - { id: VO0008, name: ATR At N-Period Low }
+      - { id: VO0009, name: ATR Flat }
+      - { id: VO0010, name: ATR Turning }
+
+  - name: True Range
+    rules:
+      - { id: VO0011, name: True Range Above Prior True Range }
+      - { id: VO0012, name: True Range Below Prior True Range }
+      - { id: VO0013, name: True Range Above N-Period Average }
+      - { id: VO0014, name: True Range Below N-Period Average }
+      - { id: VO0015, name: True Range At N-Period High }
+      - { id: VO0016, name: True Range At N-Period Low }
+      - { id: VO0017, name: Wide True Range }
+      - { id: VO0018, name: Narrow True Range }
+      - { id: VO0019, name: True Range Expanding }
+      - { id: VO0020, name: True Range Contracting }
+
+  - name: Historical Volatility
+    rules:
+      - { id: VO0021, name: Historical Volatility Rising }
+      - { id: VO0022, name: Historical Volatility Falling }
+      - { id: VO0023, name: Historical Volatility Above Prior }
+      - { id: VO0024, name: Historical Volatility Below Prior }
+      - { id: VO0025, name: Historical Volatility Above N-Period Average }
+      - { id: VO0026, name: Historical Volatility Below N-Period Average }
+      - { id: VO0027, name: Historical Volatility At N-Period High }
+      - { id: VO0028, name: Historical Volatility At N-Period Low }
+      - { id: VO0029, name: Historical Volatility Flat }
+      - { id: VO0030, name: Historical Volatility Turning }
+
+  - name: Bollinger Bands
+    rules:
+      - { id: VO0031, name: Price Above Upper Bollinger Band }
+      - { id: VO0032, name: Price Below Lower Bollinger Band }
+      - { id: VO0033, name: Price At Upper Bollinger Band }
+      - { id: VO0034, name: Price At Lower Bollinger Band }
+      - { id: VO0035, name: Price At Middle Bollinger Band }
+      - { id: VO0036, name: Price Inside Bollinger Bands }
+      - { id: VO0037, name: Bollinger Band Width Above Average }
+      - { id: VO0038, name: Bollinger Band Width Below Average }
+      - { id: VO0039, name: Bollinger Band Width At N-Period Low }
+      - { id: VO0040, name: Bollinger Band Width At N-Period High }
+
+  - name: Volatility Expansion & Contraction
+    rules:
+      - { id: VO0041, name: Volatility Expanding }
+      - { id: VO0042, name: Volatility Contracting }
+      - { id: VO0043, name: ATR Expanding }
+      - { id: VO0044, name: ATR Contracting }
+      - { id: VO0045, name: Bollinger Band Width Expanding }
+      - { id: VO0046, name: Bollinger Band Width Contracting }
+      - { id: VO0047, name: Historical Volatility Expanding }
+      - { id: VO0048, name: Historical Volatility Contracting }
+      - { id: VO0049, name: Volatility At N-Period High }
+      - { id: VO0050, name: Volatility At N-Period Low }
+
+  - name: Volatility Stability
+    rules:
+      - { id: VO0051, name: ATR Stable }
+      - { id: VO0052, name: Historical Volatility Stable }
+      - { id: VO0053, name: Bollinger Band Width Stable }
+      - { id: VO0054, name: True Range Stable }
+      - { id: VO0055, name: ATR Within N-Period Range }
+      - { id: VO0056, name: Historical Volatility Within N-Period Range }
+      - { id: VO0057, name: Bollinger Band Width Within N-Period Range }
+      - { id: VO0058, name: Consecutive Stable ATR }
+      - { id: VO0059, name: Volatility Consistency High }
+      - { id: VO0060, name: Volatility Consistency Low }

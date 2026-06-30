@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0016",
+  "rule_name": "Gap Down Close Below Prior Close",
+  "category": "GP",
+  "subcategory": "Gap Down",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Down Close Below Prior Close",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

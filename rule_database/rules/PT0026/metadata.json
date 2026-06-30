@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0026",
+  "rule_name": "Symmetrical Triangle Active",
+  "category": "PT",
+  "subcategory": "Triangle Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Symmetrical Triangle Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

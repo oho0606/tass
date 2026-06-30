@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0051",
+  "rule_name": "ADX Above Threshold",
+  "category": "MR",
+  "subcategory": "Market Regime Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ADX Above Threshold",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CCS003",
+  "rule_name": "Reversal Candle Group",
+  "category": "CS",
+  "subcategory": "Candlestick Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Reversal Candle Group",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CCS"
+  ]
+}

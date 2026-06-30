@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0042",
+  "rule_name": "Exit Bar Volume Above N-Period Average",
+  "category": "EX",
+  "subcategory": "Exit Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Bar Volume Above N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVL004",
+  "rule_name": "Accumulation",
+  "category": "VL",
+  "subcategory": "Volume Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Accumulation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVL"
+  ]
+}

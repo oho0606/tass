@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0044",
+  "rule_name": "Consecutive Lower Lows",
+  "category": "TR",
+  "subcategory": "Persistence",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Lower Lows",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

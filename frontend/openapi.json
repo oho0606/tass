@@ -1,0 +1,1582 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "TASS API",
+    "description": "Technical Analysis Scoring System REST API (TASS-040)",
+    "version": "0.5.1"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "health"
+        ],
+        "summary": "Health Check",
+        "description": "Return API and engine health status.",
+        "operationId": "health_check_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/picks/today": {
+      "get": {
+        "tags": [
+          "picks"
+        ],
+        "summary": "Today Picks",
+        "description": "Return Today's Top 20 ranked picks (BFF view model).",
+        "operationId": "today_picks_picks_today_get",
+        "parameters": [
+          {
+            "name": "refresh",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "description": "Force regenerate picks from engine",
+              "default": false,
+              "title": "Refresh"
+            },
+            "description": "Force regenerate picks from engine"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DailyPicksResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ranking": {
+      "get": {
+        "tags": [
+          "ranking"
+        ],
+        "summary": "Ranking",
+        "description": "Return paginated full-universe ranking.",
+        "operationId": "ranking_ranking_get",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "title": "Page"
+            }
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "minimum": 1,
+              "default": 20,
+              "title": "Page Size"
+            }
+          },
+          {
+            "name": "refresh",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false,
+              "title": "Refresh"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RankingResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stock/{code}": {
+      "get": {
+        "tags": [
+          "stock"
+        ],
+        "summary": "Stock Meta",
+        "description": "Return stock metadata for detail header.",
+        "operationId": "stock_meta_stock__code__get",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Code"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StockMetaResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stock/{code}/indicators": {
+      "get": {
+        "tags": [
+          "stock"
+        ],
+        "summary": "Stock Indicators",
+        "description": "Return OHLCV + indicator time series for charting.",
+        "operationId": "stock_indicators_stock__code__indicators_get",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Code"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 500,
+              "minimum": 30,
+              "default": 120,
+              "title": "Limit"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndicatorsResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stock/{code}/domains": {
+      "get": {
+        "tags": [
+          "stock"
+        ],
+        "summary": "Stock Domains",
+        "description": "Return domain scores formatted for radar chart.",
+        "operationId": "stock_domains_stock__code__domains_get",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Code"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DomainsResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stock/{code}/rules": {
+      "get": {
+        "tags": [
+          "stock"
+        ],
+        "summary": "Stock Rules",
+        "description": "Return rule pass/fail and gate report for Explainable AI.",
+        "operationId": "stock_rules_stock__code__rules_get",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Code"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RulesResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/backtest/summary": {
+      "get": {
+        "tags": [
+          "backtest"
+        ],
+        "summary": "Backtest Summary",
+        "description": "Return aggregated backtest statistics from latest report.",
+        "operationId": "backtest_summary_backtest_summary_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BacktestSummaryResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ws/market": {
+      "get": {
+        "tags": [
+          "market"
+        ],
+        "summary": "Market Sse",
+        "description": "Server-Sent Events stream for market status (lightweight push).",
+        "operationId": "market_sse_ws_market_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BacktestRuleSummary": {
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "title": "Rule Id"
+          },
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "verdict": {
+            "type": "string",
+            "title": "Verdict"
+          },
+          "total_return_pct": {
+            "type": "number",
+            "title": "Total Return Pct"
+          },
+          "win_rate": {
+            "type": "number",
+            "title": "Win Rate"
+          },
+          "max_drawdown_pct": {
+            "type": "number",
+            "title": "Max Drawdown Pct"
+          },
+          "sharpe_ratio": {
+            "type": "number",
+            "title": "Sharpe Ratio"
+          },
+          "trade_count": {
+            "type": "integer",
+            "title": "Trade Count"
+          },
+          "sample_days": {
+            "type": "integer",
+            "title": "Sample Days"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rule_id",
+          "symbol",
+          "verdict",
+          "total_return_pct",
+          "win_rate",
+          "max_drawdown_pct",
+          "sharpe_ratio",
+          "trade_count",
+          "sample_days"
+        ],
+        "title": "BacktestRuleSummary",
+        "description": "Aggregated metrics for one rule backtest."
+      },
+      "BacktestSummaryResponse": {
+        "properties": {
+          "run_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Run Date"
+          },
+          "config_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Config Version"
+          },
+          "data_source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Data Source"
+          },
+          "rule_count": {
+            "type": "integer",
+            "title": "Rule Count",
+            "default": 0
+          },
+          "adopt_count": {
+            "type": "integer",
+            "title": "Adopt Count",
+            "default": 0
+          },
+          "reject_count": {
+            "type": "integer",
+            "title": "Reject Count",
+            "default": 0
+          },
+          "rules": {
+            "items": {
+              "$ref": "#/components/schemas/BacktestRuleSummary"
+            },
+            "type": "array",
+            "title": "Rules"
+          },
+          "available": {
+            "type": "boolean",
+            "title": "Available",
+            "default": false
+          },
+          "message": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Message"
+          }
+        },
+        "type": "object",
+        "title": "BacktestSummaryResponse",
+        "description": "Overall backtest summary for UI table."
+      },
+      "DailyPicksResponse": {
+        "properties": {
+          "date": {
+            "type": "string",
+            "title": "Date"
+          },
+          "mvp_mode": {
+            "type": "boolean",
+            "title": "Mvp Mode"
+          },
+          "generated_at": {
+            "type": "string",
+            "title": "Generated At"
+          },
+          "universe_size": {
+            "type": "integer",
+            "title": "Universe Size"
+          },
+          "candidates_evaluated": {
+            "type": "integer",
+            "title": "Candidates Evaluated"
+          },
+          "picks": {
+            "items": {
+              "$ref": "#/components/schemas/PickDetail"
+            },
+            "type": "array",
+            "title": "Picks"
+          }
+        },
+        "type": "object",
+        "required": [
+          "date",
+          "mvp_mode",
+          "generated_at",
+          "universe_size",
+          "candidates_evaluated",
+          "picks"
+        ],
+        "title": "DailyPicksResponse",
+        "description": "Today's Top 20 picks response."
+      },
+      "DomainScoreView": {
+        "properties": {
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "score": {
+            "type": "number",
+            "title": "Score"
+          },
+          "max_score": {
+            "type": "number",
+            "title": "Max Score"
+          },
+          "grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Grade"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "State"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "default": "implemented"
+          }
+        },
+        "type": "object",
+        "required": [
+          "key",
+          "label",
+          "score",
+          "max_score"
+        ],
+        "title": "DomainScoreView",
+        "description": "BFF view model for a single domain score (radar chart)."
+      },
+      "DomainsResponse": {
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "domains": {
+            "items": {
+              "$ref": "#/components/schemas/DomainScoreView"
+            },
+            "type": "array",
+            "title": "Domains"
+          },
+          "radar": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Radar",
+            "description": "Normalized 0-100 scores keyed by domain label for ECharts radar"
+          }
+        },
+        "type": "object",
+        "required": [
+          "symbol",
+          "name",
+          "domains",
+          "radar"
+        ],
+        "title": "DomainsResponse",
+        "description": "Domain scores formatted for radar chart."
+      },
+      "GateReportItem": {
+        "properties": {
+          "gate_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gate Key"
+          },
+          "gate_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gate Name"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "threshold": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Threshold"
+          },
+          "actual": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actual"
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reason"
+          }
+        },
+        "additionalProperties": true,
+        "type": "object",
+        "required": [
+          "status"
+        ],
+        "title": "GateReportItem",
+        "description": "Gate evaluation row for Explainable AI."
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "examples": [
+              "ok"
+            ]
+          },
+          "service": {
+            "type": "string",
+            "title": "Service",
+            "examples": [
+              "tass-api"
+            ]
+          },
+          "engine_version": {
+            "type": "string",
+            "title": "Engine Version"
+          },
+          "mvp_mode": {
+            "type": "boolean",
+            "title": "Mvp Mode"
+          },
+          "picks_cached": {
+            "type": "boolean",
+            "title": "Picks Cached"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "service",
+          "engine_version",
+          "mvp_mode",
+          "picks_cached"
+        ],
+        "title": "HealthResponse",
+        "description": "System health check payload."
+      },
+      "IndicatorBar": {
+        "properties": {
+          "date": {
+            "type": "string",
+            "title": "Date"
+          },
+          "open": {
+            "type": "number",
+            "title": "Open"
+          },
+          "high": {
+            "type": "number",
+            "title": "High"
+          },
+          "low": {
+            "type": "number",
+            "title": "Low"
+          },
+          "close": {
+            "type": "number",
+            "title": "Close"
+          },
+          "volume": {
+            "type": "number",
+            "title": "Volume"
+          },
+          "sma_20": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sma 20"
+          },
+          "sma_60": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sma 60"
+          },
+          "macd": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Macd"
+          },
+          "macd_signal": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Macd Signal"
+          },
+          "macd_hist": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Macd Hist"
+          },
+          "atr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Atr"
+          }
+        },
+        "type": "object",
+        "required": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume"
+        ],
+        "title": "IndicatorBar",
+        "description": "Single OHLCV + indicator bar for charting."
+      },
+      "IndicatorsResponse": {
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "bars": {
+            "items": {
+              "$ref": "#/components/schemas/IndicatorBar"
+            },
+            "type": "array",
+            "title": "Bars"
+          },
+          "meta": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Meta"
+          }
+        },
+        "type": "object",
+        "required": [
+          "symbol",
+          "name",
+          "bars"
+        ],
+        "title": "IndicatorsResponse",
+        "description": "Technical indicator time series (BFF chart view model)."
+      },
+      "PaginationMeta": {
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Page"
+          },
+          "page_size": {
+            "type": "integer",
+            "maximum": 100.0,
+            "minimum": 1.0,
+            "title": "Page Size"
+          },
+          "total": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Total"
+          },
+          "total_pages": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Total Pages"
+          }
+        },
+        "type": "object",
+        "required": [
+          "page",
+          "page_size",
+          "total",
+          "total_pages"
+        ],
+        "title": "PaginationMeta",
+        "description": "Pagination metadata."
+      },
+      "PickDetail": {
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "title": "Rank"
+          },
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "total_score": {
+            "type": "number",
+            "title": "Total Score"
+          },
+          "max_score": {
+            "type": "number",
+            "title": "Max Score"
+          },
+          "domains": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Domains"
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence"
+          },
+          "risk": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk"
+          },
+          "reasons": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Reasons"
+          },
+          "gate": {
+            "type": "string",
+            "title": "Gate"
+          },
+          "grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Grade"
+          },
+          "probability": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Probability"
+          },
+          "probability_grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Probability Grade"
+          },
+          "probability_level": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Probability Level"
+          },
+          "confidence_grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence Grade"
+          },
+          "confidence_level": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence Level"
+          },
+          "confidence_stars": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence Stars"
+          },
+          "risk_grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk Grade"
+          },
+          "risk_grade_stars": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk Grade Stars"
+          },
+          "risk_level": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk Level"
+          },
+          "risk_decision": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk Decision"
+          },
+          "risk_breakdown": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk Breakdown"
+          },
+          "recommendation": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recommendation"
+          },
+          "recommendation_grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recommendation Grade"
+          },
+          "recommendation_reason": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recommendation Reason"
+          },
+          "passed_conditions": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Passed Conditions"
+          },
+          "failed_conditions": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Failed Conditions"
+          },
+          "gate_report": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gate Report"
+          },
+          "composite_breakdown": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Composite Breakdown"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rank",
+          "symbol",
+          "name",
+          "total_score",
+          "max_score",
+          "domains",
+          "gate"
+        ],
+        "title": "PickDetail",
+        "description": "Full pick payload for stock detail / explainable AI."
+      },
+      "PickSummary": {
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "title": "Rank"
+          },
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "total_score": {
+            "type": "number",
+            "title": "Total Score"
+          },
+          "max_score": {
+            "type": "number",
+            "title": "Max Score"
+          },
+          "grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Grade"
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence"
+          },
+          "confidence_stars": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence Stars"
+          },
+          "risk": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk"
+          },
+          "risk_level": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Risk Level"
+          },
+          "probability": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Probability"
+          },
+          "recommendation": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recommendation"
+          },
+          "recommendation_grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recommendation Grade"
+          },
+          "gate": {
+            "type": "string",
+            "title": "Gate"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rank",
+          "symbol",
+          "name",
+          "total_score",
+          "max_score",
+          "gate"
+        ],
+        "title": "PickSummary",
+        "description": "Compact pick card for lists."
+      },
+      "RankingResponse": {
+        "properties": {
+          "date": {
+            "type": "string",
+            "title": "Date"
+          },
+          "generated_at": {
+            "type": "string",
+            "title": "Generated At"
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/PaginationMeta"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/PickSummary"
+            },
+            "type": "array",
+            "title": "Items"
+          }
+        },
+        "type": "object",
+        "required": [
+          "date",
+          "generated_at",
+          "pagination",
+          "items"
+        ],
+        "title": "RankingResponse",
+        "description": "Paginated full-universe ranking."
+      },
+      "RulesResponse": {
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "passed_conditions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Passed Conditions"
+          },
+          "failed_conditions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Failed Conditions"
+          },
+          "gate_report": {
+            "items": {
+              "$ref": "#/components/schemas/GateReportItem"
+            },
+            "type": "array",
+            "title": "Gate Report"
+          },
+          "composite_breakdown": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Composite Breakdown"
+          },
+          "recommendation_reason": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Recommendation Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "symbol",
+          "name"
+        ],
+        "title": "RulesResponse",
+        "description": "Rule pass/fail and gate deductions for Explainable AI."
+      },
+      "StockMetaResponse": {
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "title": "Symbol"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "market": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Market"
+          },
+          "rank": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rank"
+          },
+          "total_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Score"
+          },
+          "max_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Score"
+          },
+          "grade": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Grade"
+          },
+          "recommendation": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recommendation"
+          },
+          "gate": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gate"
+          }
+        },
+        "type": "object",
+        "required": [
+          "symbol",
+          "name"
+        ],
+        "title": "StockMetaResponse",
+        "description": "Stock metadata for detail header."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

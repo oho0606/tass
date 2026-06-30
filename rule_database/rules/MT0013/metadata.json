@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0013",
+  "rule_name": "Weekly Above SMA20 Daily Below SMA20",
+  "category": "MT",
+  "subcategory": "Moving Average Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Above SMA20 Daily Below SMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

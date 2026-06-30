@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0025",
+  "rule_name": "Stochastic Confirms Bullish Trend",
+  "category": "CF",
+  "subcategory": "Momentum Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Stochastic Confirms Bullish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0022",
+  "rule_name": "Swing Low Formed",
+  "category": "MS",
+  "subcategory": "Swing High / Swing Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Swing Low Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

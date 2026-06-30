@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0045",
+  "rule_name": "SMA Slope Increasing",
+  "category": "MA",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Slope Increasing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

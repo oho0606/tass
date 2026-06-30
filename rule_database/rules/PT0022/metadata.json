@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0022",
+  "rule_name": "Descending Triangle Formed",
+  "category": "PT",
+  "subcategory": "Triangle Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Descending Triangle Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

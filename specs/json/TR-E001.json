@@ -1,0 +1,1 @@
+{"engine_id":"TR-E001","version":"1.0.0","category":"TR","type":"engine","function":"evaluate_trend_engine","atomic_weights":{"TR-001":1.2,"TR-002":1.2,"TR-003":1.0,"TR-004":1.1},"composite_weights":{"TR-C001":1.5,"TR-C002":1.3,"TR-C003":1.2,"TR-C004":1.5},"scoring":{"atomic_max":80,"composite_max":120,"total_max":200}}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0059",
+  "rule_name": "Volatility Consistency High",
+  "category": "VO",
+  "subcategory": "Volatility Stability",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volatility Consistency High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

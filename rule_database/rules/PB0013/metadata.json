@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0013",
+  "rule_name": "Pullback Low Below Prior Swing Low",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Low Below Prior Swing Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

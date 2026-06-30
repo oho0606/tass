@@ -1,0 +1,275 @@
+{
+  "rule_id": "CTR009",
+  "evaluated_at": "2026-06-30T01:28:37Z",
+  "universe": "config\\universe_krx_backtest.csv",
+  "symbols_tested": [
+    "005930",
+    "000660",
+    "005380",
+    "000270",
+    "035420",
+    "035720",
+    "051910",
+    "006400",
+    "068270",
+    "105560",
+    "055550",
+    "086790",
+    "003550",
+    "012330",
+    "028260",
+    "032830",
+    "015760",
+    "034730",
+    "033780",
+    "009150",
+    "000810",
+    "010130",
+    "011200",
+    "018260",
+    "030200",
+    "003670",
+    "096770",
+    "017670",
+    "000100",
+    "090430"
+  ],
+  "aggregate_verdict": "ADOPT",
+  "lifecycle": "Adopted",
+  "per_symbol": [
+    {
+      "symbol": "005930",
+      "verdict": "REVISE",
+      "win_rate": 0.4186,
+      "profit_factor": 1.2825,
+      "trade_count": 43,
+      "max_drawdown_pct": 35.6
+    },
+    {
+      "symbol": "000660",
+      "verdict": "REVISE",
+      "win_rate": 0.375,
+      "profit_factor": 1.5251,
+      "trade_count": 40,
+      "max_drawdown_pct": 28.35
+    },
+    {
+      "symbol": "005380",
+      "verdict": "ADOPT",
+      "win_rate": 0.4286,
+      "profit_factor": 1.6541,
+      "trade_count": 42,
+      "max_drawdown_pct": 22.71
+    },
+    {
+      "symbol": "000270",
+      "verdict": "REVISE",
+      "win_rate": 0.4167,
+      "profit_factor": 1.283,
+      "trade_count": 48,
+      "max_drawdown_pct": 36.51
+    },
+    {
+      "symbol": "035420",
+      "verdict": "REVISE",
+      "win_rate": 0.3667,
+      "profit_factor": 1.1161,
+      "trade_count": 30,
+      "max_drawdown_pct": 23.52
+    },
+    {
+      "symbol": "035720",
+      "verdict": "REJECT",
+      "win_rate": 0.2647,
+      "profit_factor": 1.1311,
+      "trade_count": 34,
+      "max_drawdown_pct": 32.06
+    },
+    {
+      "symbol": "051910",
+      "verdict": "REJECT",
+      "win_rate": 0.3077,
+      "profit_factor": 0.8528,
+      "trade_count": 13,
+      "max_drawdown_pct": 27.33
+    },
+    {
+      "symbol": "006400",
+      "verdict": "ADOPT",
+      "win_rate": 0.5,
+      "profit_factor": 2.667,
+      "trade_count": 20,
+      "max_drawdown_pct": 18.86
+    },
+    {
+      "symbol": "068270",
+      "verdict": "REJECT",
+      "win_rate": 0.1379,
+      "profit_factor": 0.3293,
+      "trade_count": 29,
+      "max_drawdown_pct": 73.34
+    },
+    {
+      "symbol": "105560",
+      "verdict": "ADOPT",
+      "win_rate": 0.4828,
+      "profit_factor": 2.0141,
+      "trade_count": 29,
+      "max_drawdown_pct": 10.4
+    },
+    {
+      "symbol": "055550",
+      "verdict": "ADOPT",
+      "win_rate": 0.4483,
+      "profit_factor": 1.9323,
+      "trade_count": 29,
+      "max_drawdown_pct": 12.15
+    },
+    {
+      "symbol": "086790",
+      "verdict": "ADOPT",
+      "win_rate": 0.4839,
+      "profit_factor": 1.5076,
+      "trade_count": 31,
+      "max_drawdown_pct": 18.67
+    },
+    {
+      "symbol": "003550",
+      "error": "No numeric types to aggregate",
+      "skipped": true
+    },
+    {
+      "symbol": "012330",
+      "verdict": "REJECT",
+      "win_rate": 0.3462,
+      "profit_factor": 1.2316,
+      "trade_count": 52,
+      "max_drawdown_pct": 50.08
+    },
+    {
+      "symbol": "028260",
+      "verdict": "REVISE",
+      "win_rate": 0.4468,
+      "profit_factor": 1.8079,
+      "trade_count": 47,
+      "max_drawdown_pct": 40.01
+    },
+    {
+      "symbol": "032830",
+      "verdict": "REVISE",
+      "win_rate": 0.3617,
+      "profit_factor": 1.3138,
+      "trade_count": 47,
+      "max_drawdown_pct": 35.68
+    },
+    {
+      "symbol": "015760",
+      "verdict": "REVISE",
+      "win_rate": 0.3846,
+      "profit_factor": 1.3674,
+      "trade_count": 39,
+      "max_drawdown_pct": 25.9
+    },
+    {
+      "symbol": "034730",
+      "verdict": "REJECT",
+      "win_rate": 0.2791,
+      "profit_factor": 0.7786,
+      "trade_count": 43,
+      "max_drawdown_pct": 48.56
+    },
+    {
+      "symbol": "033780",
+      "verdict": "ADOPT",
+      "win_rate": 0.5926,
+      "profit_factor": 2.1866,
+      "trade_count": 27,
+      "max_drawdown_pct": 7.78
+    },
+    {
+      "symbol": "009150",
+      "verdict": "REVISE",
+      "win_rate": 0.48,
+      "profit_factor": 1.6905,
+      "trade_count": 50,
+      "max_drawdown_pct": 30.91
+    },
+    {
+      "symbol": "000810",
+      "verdict": "ADOPT",
+      "win_rate": 0.5484,
+      "profit_factor": 1.5861,
+      "trade_count": 31,
+      "max_drawdown_pct": 16.32
+    },
+    {
+      "symbol": "010130",
+      "verdict": "ADOPT",
+      "win_rate": 0.4286,
+      "profit_factor": 1.643,
+      "trade_count": 35,
+      "max_drawdown_pct": 13.61
+    },
+    {
+      "symbol": "011200",
+      "verdict": "REJECT",
+      "win_rate": 0.3548,
+      "profit_factor": 1.335,
+      "trade_count": 31,
+      "max_drawdown_pct": 41.07
+    },
+    {
+      "symbol": "018260",
+      "verdict": "REJECT",
+      "win_rate": 0.359,
+      "profit_factor": 1.246,
+      "trade_count": 39,
+      "max_drawdown_pct": 17.73
+    },
+    {
+      "symbol": "030200",
+      "verdict": "ADOPT",
+      "win_rate": 0.5161,
+      "profit_factor": 1.7737,
+      "trade_count": 31,
+      "max_drawdown_pct": 15.81
+    },
+    {
+      "symbol": "003670",
+      "verdict": "REJECT",
+      "win_rate": 0.32,
+      "profit_factor": 1.3441,
+      "trade_count": 50,
+      "max_drawdown_pct": 20.81
+    },
+    {
+      "symbol": "096770",
+      "verdict": "REJECT",
+      "win_rate": 0.2857,
+      "profit_factor": 1.0456,
+      "trade_count": 42,
+      "max_drawdown_pct": 42.21
+    },
+    {
+      "symbol": "017670",
+      "error": "No numeric types to aggregate",
+      "skipped": true
+    },
+    {
+      "symbol": "000100",
+      "verdict": "REJECT",
+      "win_rate": 0.2195,
+      "profit_factor": 0.5797,
+      "trade_count": 41,
+      "max_drawdown_pct": 76.77
+    },
+    {
+      "symbol": "090430",
+      "verdict": "REJECT",
+      "win_rate": 0.1786,
+      "profit_factor": 0.5696,
+      "trade_count": 28,
+      "max_drawdown_pct": 52.1
+    }
+  ]
+}

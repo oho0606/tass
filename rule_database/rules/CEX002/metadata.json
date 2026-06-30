@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEX002",
+  "rule_name": "Stop Loss Exit",
+  "category": "EX",
+  "subcategory": "Exit Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Stop Loss Exit",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEX"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0013",
+  "rule_name": "Strong Downtrend",
+  "category": "TR",
+  "subcategory": "Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Strong Downtrend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

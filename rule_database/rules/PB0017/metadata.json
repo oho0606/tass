@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0017",
+  "rule_name": "Pullback Depth Above N-Period Average",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Depth Above N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

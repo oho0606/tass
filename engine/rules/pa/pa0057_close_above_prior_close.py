@@ -1,0 +1,18 @@
+"""PA0057 — Close Above Prior Close. TASS catalog: One Rule · One Class · One File."""
+
+from __future__ import annotations
+
+import pandas as pd
+
+from engine.core.types import RuleResult
+from engine.rules._common.spec_runtime import SpecRule, run_spec_rule
+
+
+class PA0057CloseAbovePriorCloseRule(SpecRule):
+    rule_id = "PA0057"
+    rule_name = "Close Above Prior Close"
+
+
+def evaluate_pa0057(df: pd.DataFrame) -> RuleResult:
+    """Functional entry point for PA0057."""
+    return run_spec_rule(PA0057CloseAbovePriorCloseRule, df)

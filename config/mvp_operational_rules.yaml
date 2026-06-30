@@ -1,0 +1,52 @@
+# MVP Operational Rules — production subset (TASS-013 SSOT scope)
+# Used by scripts/retrofill_mvp_rule_ssot.py and scripts/verify_rule_ssot.py
+version: "1.0"
+status: frozen
+mvp_mode: true
+scoring_scale: 500  # Trend 200 + MA 150 + Volume 150
+
+trend_atomic:
+  - TR0001
+  - TR0002
+  - TR0003
+  - TR0004
+
+trend_composite:
+  - CTR001
+  - CTR002
+  - CTR003
+  - CTR004
+  - CTR005
+  - CTR006
+  - CTR007
+  - CTR008
+  - CTR009
+  - CTR010
+
+moving_average:
+  - MA0002
+  - MA0003
+  - MA0007
+  - MA0012
+  - MA0021
+  - MA0029
+
+volume:
+  - VL0001
+  - VL0004
+  - VL0021
+  - VL0041
+  - VL0027
+  - VL0059
+
+recommendation_gates:
+  validation_composites:
+    - CTR001
+    - CTR002
+    - CTR003
+    - CTR005
+    - CTR007
+    - CTR009
+    - CTR010
+
+lifecycle_target: Implemented

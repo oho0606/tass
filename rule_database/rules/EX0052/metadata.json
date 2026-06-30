@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0052",
+  "rule_name": "Exit Bar Narrow Range",
+  "category": "EX",
+  "subcategory": "Exit Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Bar Narrow Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

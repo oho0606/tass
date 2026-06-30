@@ -1,0 +1,32 @@
+{
+  "rule_id": "TR0001",
+  "parameters": [
+    {
+      "parameter_name": "lookback",
+      "parameter_type": "Integer",
+      "default_value": 40,
+      "minimum": 20,
+      "maximum": 120,
+      "required": true,
+      "description": "Trading days window"
+    },
+    {
+      "parameter_name": "pivot_strength",
+      "parameter_type": "Integer",
+      "default_value": 3,
+      "minimum": 2,
+      "maximum": 5,
+      "required": true,
+      "description": "Pivot detection strength"
+    },
+    {
+      "parameter_name": "min_hh_count",
+      "parameter_type": "Integer",
+      "default_value": 2,
+      "minimum": 1,
+      "maximum": 5,
+      "required": true,
+      "description": "Minimum higher-high count"
+    }
+  ]
+}

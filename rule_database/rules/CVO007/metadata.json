@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVO007",
+  "rule_name": "Risk Volatility",
+  "category": "VO",
+  "subcategory": "Volatility Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Risk Volatility",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVO"
+  ]
+}

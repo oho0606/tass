@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0010",
+  "rule_name": "Lower Low Confirms Bearish Trend",
+  "category": "CF",
+  "subcategory": "Trend Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Lower Low Confirms Bearish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

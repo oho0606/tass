@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPA003",
+  "rule_name": "Bullish Price Structure",
+  "category": "PA",
+  "subcategory": "Price Action Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bullish Price Structure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPA"
+  ]
+}

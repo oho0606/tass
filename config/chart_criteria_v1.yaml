@@ -1,0 +1,32 @@
+version: "1.0"
+status: draft
+
+moving_average:
+  periods: [5, 10, 20, 60, 120, 240]
+  ema_periods: [5, 10, 20, 60, 120, 240]
+
+volatility:
+  atr_period: 14
+  hist_vol_period: 20
+  bollinger_period: 20
+
+momentum:
+  rsi_period: 14
+  stochastic_period: 14
+  cci_period: 20
+  mfi_period: 14
+  roc_period: 12
+  momentum_period: 10
+  adx_period: 14
+
+volume:
+  volume_ma_period: 20
+  relative_volume_period: 20
+  volume_high_period: 20
+  volume_low_period: 20
+  traded_value_ma_period: 20
+
+macd:
+  fast: 12
+  slow: 26
+  signal: 9

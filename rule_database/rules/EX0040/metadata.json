@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0040",
+  "rule_name": "Exit Close Above Double Top Level",
+  "category": "EX",
+  "subcategory": "Reversal Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Above Double Top Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

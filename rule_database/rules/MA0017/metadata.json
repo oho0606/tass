@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0017",
+  "rule_name": "Price Below EMA20",
+  "category": "MA",
+  "subcategory": "EMA Position",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Below EMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

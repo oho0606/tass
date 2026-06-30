@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0020",
+  "rule_name": "Consecutive Gap Down Day",
+  "category": "GP",
+  "subcategory": "Gap Down",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Gap Down Day",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

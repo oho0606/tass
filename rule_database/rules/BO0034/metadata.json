@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0034",
+  "rule_name": "Breakout Bar ATR Above Prior ATR",
+  "category": "BO",
+  "subcategory": "Volatility Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar ATR Above Prior ATR",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

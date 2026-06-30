@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0023",
+  "rule_name": "EMA Bullish Alignment",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "EMA Bullish Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

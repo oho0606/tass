@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0008",
+  "rule_name": "Exit Close Below N-Period High",
+  "category": "EX",
+  "subcategory": "Trend Following Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

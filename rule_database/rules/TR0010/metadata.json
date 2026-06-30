@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0010",
+  "rule_name": "Trend Continuation",
+  "category": "TR",
+  "subcategory": "Direction",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Continuation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

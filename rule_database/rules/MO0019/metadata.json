@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0019",
+  "rule_name": "MACD Histogram Rising",
+  "category": "MO",
+  "subcategory": "MACD",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MACD Histogram Rising",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

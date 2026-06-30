@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0056",
+  "rule_name": "Pullback Close Near Bar High",
+  "category": "PB",
+  "subcategory": "Pullback Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Close Near Bar High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

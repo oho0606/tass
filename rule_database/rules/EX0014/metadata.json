@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0014",
+  "rule_name": "Exit Close Above Horizontal Support",
+  "category": "EX",
+  "subcategory": "Breakout Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Above Horizontal Support",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

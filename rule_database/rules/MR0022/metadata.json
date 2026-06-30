@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0022",
+  "rule_name": "SMA20 Flat",
+  "category": "MR",
+  "subcategory": "Sideways Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA20 Flat",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

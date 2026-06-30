@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0043",
+  "rule_name": "Price At Fibonacci 23.6 Level",
+  "category": "SR",
+  "subcategory": "Fibonacci Levels",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price At Fibonacci 23.6 Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

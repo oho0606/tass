@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0040",
+  "rule_name": "CCI Cross Below Negative 100",
+  "category": "MO",
+  "subcategory": "CCI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "CCI Cross Below Negative 100",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0007",
+  "rule_name": "Prior Low As Horizontal Support",
+  "category": "SR",
+  "subcategory": "Horizontal Support",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Prior Low As Horizontal Support",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

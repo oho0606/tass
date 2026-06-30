@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0005",
+  "rule_name": "Exit High Below Prior Bar High",
+  "category": "EX",
+  "subcategory": "Trend Following Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit High Below Prior Bar High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

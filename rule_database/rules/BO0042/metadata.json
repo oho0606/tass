@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0042",
+  "rule_name": "Close Below Horizontal Support",
+  "category": "BO",
+  "subcategory": "Resistance Breakout Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Below Horizontal Support",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

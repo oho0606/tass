@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0057",
+  "rule_name": "SMA200 Slope Steep",
+  "category": "MR",
+  "subcategory": "Market Regime Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA200 Slope Steep",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

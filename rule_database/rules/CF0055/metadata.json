@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0055",
+  "rule_name": "Confirmation Restored",
+  "category": "CF",
+  "subcategory": "Confirmation Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Confirmation Restored",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

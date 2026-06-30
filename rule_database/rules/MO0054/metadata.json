@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0054",
+  "rule_name": "Rate of Change Falling",
+  "category": "MO",
+  "subcategory": "Momentum Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rate of Change Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

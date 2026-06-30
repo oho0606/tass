@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0002",
+  "rule_name": "ATR Falling",
+  "category": "VO",
+  "subcategory": "ATR",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

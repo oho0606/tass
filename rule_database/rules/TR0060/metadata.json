@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0060",
+  "rule_name": "Exhaustion Recovery",
+  "category": "TR",
+  "subcategory": "Exhaustion",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exhaustion Recovery",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

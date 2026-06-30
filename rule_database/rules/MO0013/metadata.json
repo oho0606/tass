@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0013",
+  "rule_name": "MACD Above Signal Line",
+  "category": "MO",
+  "subcategory": "MACD",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MACD Above Signal Line",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

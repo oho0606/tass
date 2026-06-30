@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0043",
+  "rule_name": "Volume Spike Present",
+  "category": "DQ",
+  "subcategory": "Abnormal Market Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Spike Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

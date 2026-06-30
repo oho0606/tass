@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0038",
+  "rule_name": "Breakout Bar Volatility Expanding",
+  "category": "BO",
+  "subcategory": "Volatility Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Volatility Expanding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

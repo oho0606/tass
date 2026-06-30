@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMA007",
+  "rule_name": "MA Expansion State",
+  "category": "MA",
+  "subcategory": "Moving Average Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MA Expansion State",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMA"
+  ]
+}

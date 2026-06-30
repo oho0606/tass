@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0004",
+  "rule_name": "Bear Flag Active",
+  "category": "PT",
+  "subcategory": "Continuation Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bear Flag Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

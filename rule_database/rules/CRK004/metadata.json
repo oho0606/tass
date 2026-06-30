@@ -1,0 +1,19 @@
+{
+  "rule_id": "CRK004",
+  "rule_name": "Liquidity Risk",
+  "category": "RK",
+  "subcategory": "Risk Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Liquidity Risk",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CRK"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0020",
+  "rule_name": "Price Adjustment Mismatch",
+  "category": "DQ",
+  "subcategory": "Data Integrity",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Adjustment Mismatch",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0046",
+  "rule_name": "MFI Falling",
+  "category": "MO",
+  "subcategory": "MFI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MFI Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

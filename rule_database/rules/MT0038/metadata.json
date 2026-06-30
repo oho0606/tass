@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0038",
+  "rule_name": "Daily 4H Breakout Below Range",
+  "category": "MT",
+  "subcategory": "Breakout Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily 4H Breakout Below Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

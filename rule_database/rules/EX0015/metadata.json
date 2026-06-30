@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0015",
+  "rule_name": "Exit Close Below 52-Week High",
+  "category": "EX",
+  "subcategory": "Breakout Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below 52-Week High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

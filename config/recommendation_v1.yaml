@@ -1,0 +1,58 @@
+version: "1.0"
+status: frozen
+# Phase 6 tuning (2026-06-19): calibrated for MVP mode (500-pt scale → 1000-pt normalized).
+# Re-validated 2026-06-30: gate-eligible pool is primary bottleneck (not recommendation gates).
+# Re-run scripts/tune_recommendation_thresholds.py when gate_eligible pool or universe changes.
+
+top_n: 20
+
+gates:
+  master_score_min: 200
+  probability_min: 14.0
+  confidence_min: 52.0
+  risk_max: 72.0
+  market_regime_min: 0.0
+  max_composite_failures: 6
+  critical_conflict_min_pass: 10
+  critical_conflict_min_fail: 10
+  validation_composites:
+    - CTR001
+    - CTR002
+    - CTR003
+    - CTR005
+    - CTR009
+    - CTR010
+
+grades:
+  - stars: "★★★★★"
+    master_score_min: 450
+    probability_min: 25.0
+    confidence_min: 70.0
+    risk_max: 35.0
+    action: STRONG BUY
+  - stars: "★★★★☆"
+    master_score_min: 400
+    probability_min: 22.0
+    confidence_min: 65.0
+    risk_max: 45.0
+    action: BUY
+  - stars: "★★★☆☆"
+    master_score_min: 350
+    probability_min: 20.0
+    confidence_min: 60.0
+    risk_max: 55.0
+    action: WATCHLIST
+  - stars: "★★☆☆☆"
+    master_score_min: 200
+    probability_min: 14.0
+    confidence_min: 52.0
+    risk_max: 72.0
+    action: HOLD
+  - stars: "★☆☆☆☆"
+    action: NOT RECOMMENDED
+
+recommendable_actions:
+  - STRONG BUY
+  - BUY
+  - WATCHLIST
+  - HOLD

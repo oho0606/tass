@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0043",
+  "rule_name": "Current Drawdown Above 10 Percent",
+  "category": "RK",
+  "subcategory": "Drawdown Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Current Drawdown Above 10 Percent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

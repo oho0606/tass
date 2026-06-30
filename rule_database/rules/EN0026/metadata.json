@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0026",
+  "rule_name": "Entry Close Above 50 Percent Retracement",
+  "category": "EN",
+  "subcategory": "Pullback Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Close Above 50 Percent Retracement",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

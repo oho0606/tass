@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0058",
+  "rule_name": "Confirmation Duration Long",
+  "category": "CF",
+  "subcategory": "Confirmation Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Confirmation Duration Long",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0051",
+  "rule_name": "ATR Near 20-Period Average",
+  "category": "RK",
+  "subcategory": "Overall Risk Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Near 20-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0035",
+  "rule_name": "Volatility Above Average Confirms Bullish Trend",
+  "category": "CF",
+  "subcategory": "Volatility Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volatility Above Average Confirms Bullish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

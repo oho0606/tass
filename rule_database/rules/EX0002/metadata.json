@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0002",
+  "rule_name": "Exit Close Below SMA60",
+  "category": "EX",
+  "subcategory": "Trend Following Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below SMA60",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

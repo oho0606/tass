@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0002",
+  "rule_name": "Bear Flag Formed",
+  "category": "PT",
+  "subcategory": "Continuation Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bear Flag Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

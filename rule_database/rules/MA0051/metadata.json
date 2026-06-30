@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0051",
+  "rule_name": "Price Extended Above MA",
+  "category": "MA",
+  "subcategory": "Distance & Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Extended Above MA",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

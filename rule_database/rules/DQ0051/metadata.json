@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0051",
+  "rule_name": "Required History Present",
+  "category": "DQ",
+  "subcategory": "Overall Data Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Required History Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

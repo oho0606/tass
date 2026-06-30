@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0011",
+  "rule_name": "Lower High Formed",
+  "category": "MS",
+  "subcategory": "Lower High / Lower Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Lower High Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

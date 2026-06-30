@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0049",
+  "rule_name": "Exit Bar RSI Below 50",
+  "category": "EX",
+  "subcategory": "Exit Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Bar RSI Below 50",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

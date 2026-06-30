@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0005",
+  "rule_name": "Open Above N-Period High",
+  "category": "BO",
+  "subcategory": "Price Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Open Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

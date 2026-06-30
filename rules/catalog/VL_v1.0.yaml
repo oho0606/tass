@@ -1,0 +1,89 @@
+# TASS VL Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-017_VL_Rule_Catalog_v1.0.md
+# 60 atomic Volume rules (VL0001–VL0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: VL
+category_name: Volume
+rule_count: 60
+next_category: MO
+
+subcategories:
+  - name: Absolute Volume
+    rules:
+      - { id: VL0001, name: Volume Above N-Period Average }
+      - { id: VL0002, name: Volume Below N-Period Average }
+      - { id: VL0003, name: Volume Equal N-Period Average }
+      - { id: VL0004, name: Volume Above Prior Volume }
+      - { id: VL0005, name: Volume Below Prior Volume }
+      - { id: VL0006, name: Volume Equal Prior Volume }
+      - { id: VL0007, name: Volume Above N-Period High }
+      - { id: VL0008, name: Volume Below N-Period Low }
+      - { id: VL0009, name: Volume At N-Period High }
+      - { id: VL0010, name: Volume At N-Period Low }
+
+  - name: Relative Volume
+    rules:
+      - { id: VL0011, name: Relative Volume Above 1 }
+      - { id: VL0012, name: Relative Volume Below 1 }
+      - { id: VL0013, name: Relative Volume Equal 1 }
+      - { id: VL0014, name: Relative Volume Above 2 }
+      - { id: VL0015, name: Relative Volume Above Threshold }
+      - { id: VL0016, name: Relative Volume Below Threshold }
+      - { id: VL0017, name: Relative Volume Above Prior }
+      - { id: VL0018, name: Relative Volume Below Prior }
+      - { id: VL0019, name: Relative Volume At N-Period Average }
+      - { id: VL0020, name: Relative Volume At N-Period High }
+
+  - name: Volume Trend
+    rules:
+      - { id: VL0021, name: Volume Rising }
+      - { id: VL0022, name: Volume Falling }
+      - { id: VL0023, name: Volume Slope Positive }
+      - { id: VL0024, name: Volume Slope Negative }
+      - { id: VL0025, name: Volume Slope Increasing }
+      - { id: VL0026, name: Volume Slope Decreasing }
+      - { id: VL0027, name: Consecutive Higher Volume }
+      - { id: VL0028, name: Consecutive Lower Volume }
+      - { id: VL0029, name: Volume Flat }
+      - { id: VL0030, name: Volume Turning }
+
+  - name: Volume Spike
+    rules:
+      - { id: VL0031, name: Volume Spike }
+      - { id: VL0032, name: Volume Above Spike Threshold }
+      - { id: VL0033, name: Volume Sudden Increase }
+      - { id: VL0034, name: Volume Sudden Decrease }
+      - { id: VL0035, name: Volume Expansion }
+      - { id: VL0036, name: Volume Contraction }
+      - { id: VL0037, name: Volume Climax }
+      - { id: VL0038, name: Volume Dry Up }
+      - { id: VL0039, name: Volume Spike Above Prior Spike }
+      - { id: VL0040, name: Volume Spike Below Prior Spike }
+
+  - name: Volume Confirmation
+    rules:
+      - { id: VL0041, name: Up Bar Volume Above Average }
+      - { id: VL0042, name: Down Bar Volume Above Average }
+      - { id: VL0043, name: Up Bar Volume Below Average }
+      - { id: VL0044, name: Down Bar Volume Below Average }
+      - { id: VL0045, name: Up Bar Volume Above Prior Up Bar }
+      - { id: VL0046, name: Down Bar Volume Above Prior Down Bar }
+      - { id: VL0047, name: Price Up Volume Up }
+      - { id: VL0048, name: Price Down Volume Up }
+      - { id: VL0049, name: Price Up Volume Down }
+      - { id: VL0050, name: Price Down Volume Down }
+
+  - name: Volume Quality
+    rules:
+      - { id: VL0051, name: OBV Rising }
+      - { id: VL0052, name: OBV Falling }
+      - { id: VL0053, name: OBV Above Prior OBV }
+      - { id: VL0054, name: OBV Below Prior OBV }
+      - { id: VL0055, name: OBV Slope Increasing }
+      - { id: VL0056, name: OBV Slope Decreasing }
+      - { id: VL0057, name: Money Flow Positive }
+      - { id: VL0058, name: Money Flow Negative }
+      - { id: VL0059, name: Volume Structure Stable }
+      - { id: VL0060, name: Volume Pattern Consistent }

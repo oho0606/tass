@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0022",
+  "rule_name": "Stochastic Below 20",
+  "category": "MO",
+  "subcategory": "Stochastic",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Stochastic Below 20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

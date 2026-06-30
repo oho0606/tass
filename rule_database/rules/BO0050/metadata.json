@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0050",
+  "rule_name": "Close Below S1",
+  "category": "BO",
+  "subcategory": "Resistance Breakout Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Below S1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

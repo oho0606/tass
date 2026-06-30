@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0079",
+  "rule_name": "Trend Transition",
+  "category": "TR",
+  "subcategory": "State",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Transition",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

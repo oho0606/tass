@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0013",
+  "rule_name": "Gap Down High Below Prior Low",
+  "category": "GP",
+  "subcategory": "Gap Down",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Down High Below Prior Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

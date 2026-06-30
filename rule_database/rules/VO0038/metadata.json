@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0038",
+  "rule_name": "Bollinger Band Width Below Average",
+  "category": "VO",
+  "subcategory": "Bollinger Bands",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Below Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

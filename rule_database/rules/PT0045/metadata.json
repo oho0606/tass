@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0045",
+  "rule_name": "Double Top Peaks Equal",
+  "category": "PT",
+  "subcategory": "Double Top / Double Bottom",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Double Top Peaks Equal",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

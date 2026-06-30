@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0054",
+  "rule_name": "Exit Close Near Bar High",
+  "category": "EX",
+  "subcategory": "Exit Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Near Bar High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

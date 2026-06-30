@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0050",
+  "rule_name": "Entry Bar RSI Below 50",
+  "category": "EN",
+  "subcategory": "Entry Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Bar RSI Below 50",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

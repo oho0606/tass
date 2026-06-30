@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0059",
+  "rule_name": "Instrument Data Present",
+  "category": "DQ",
+  "subcategory": "Overall Data Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Instrument Data Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

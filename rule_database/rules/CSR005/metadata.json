@@ -1,0 +1,19 @@
+{
+  "rule_id": "CSR005",
+  "rule_name": "Dynamic Support Quality",
+  "category": "SR",
+  "subcategory": "Support & Resistance Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Dynamic Support Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CSR"
+  ]
+}

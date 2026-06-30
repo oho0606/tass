@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0075",
+  "rule_name": "Trend Restarting",
+  "category": "TR",
+  "subcategory": "State",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Restarting",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

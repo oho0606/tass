@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0053",
+  "rule_name": "ADX At N-Period High",
+  "category": "MR",
+  "subcategory": "Market Regime Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ADX At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

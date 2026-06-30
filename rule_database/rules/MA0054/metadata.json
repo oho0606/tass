@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0054",
+  "rule_name": "Moving Average Compression",
+  "category": "MA",
+  "subcategory": "Distance & Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Moving Average Compression",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

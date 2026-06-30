@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0055",
+  "rule_name": "Consecutive Close Above SMA200",
+  "category": "MR",
+  "subcategory": "Market Regime Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Close Above SMA200",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0046",
+  "rule_name": "Entry Bar Relative Volume Above 2",
+  "category": "EN",
+  "subcategory": "Entry Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Bar Relative Volume Above 2",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

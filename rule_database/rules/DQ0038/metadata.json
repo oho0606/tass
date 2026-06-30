@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0038",
+  "rule_name": "Wide Bid Ask Spread",
+  "category": "DQ",
+  "subcategory": "Liquidity & Trading Status",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Wide Bid Ask Spread",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

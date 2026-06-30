@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0055",
+  "rule_name": "Rate of Change Cross Above Zero",
+  "category": "MO",
+  "subcategory": "Momentum Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rate of Change Cross Above Zero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

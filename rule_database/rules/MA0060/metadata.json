@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0060",
+  "rule_name": "Moving Average Structure Stable",
+  "category": "MA",
+  "subcategory": "Distance & Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Moving Average Structure Stable",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0017",
+  "rule_name": "Rounding Top Active",
+  "category": "PT",
+  "subcategory": "Reversal Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rounding Top Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0022",
+  "rule_name": "Breakaway Gap Up Low Above N-Period High",
+  "category": "GP",
+  "subcategory": "Breakaway Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakaway Gap Up Low Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

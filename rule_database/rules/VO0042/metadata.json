@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0042",
+  "rule_name": "Volatility Contracting",
+  "category": "VO",
+  "subcategory": "Volatility Expansion & Contraction",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volatility Contracting",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

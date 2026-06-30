@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0029",
+  "rule_name": "Volume Flat",
+  "category": "VL",
+  "subcategory": "Volume Trend",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Flat",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0019",
+  "rule_name": "Relative Volume At N-Period Average",
+  "category": "VL",
+  "subcategory": "Relative Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Relative Volume At N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

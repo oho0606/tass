@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMO003",
+  "rule_name": "Momentum Continuation",
+  "category": "MO",
+  "subcategory": "Momentum Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Momentum Continuation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMO"
+  ]
+}

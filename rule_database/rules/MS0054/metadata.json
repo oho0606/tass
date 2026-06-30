@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0054",
+  "rule_name": "Swing Overlap Absent",
+  "category": "MS",
+  "subcategory": "Market Structure Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Swing Overlap Absent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

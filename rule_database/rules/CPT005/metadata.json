@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPT005",
+  "rule_name": "Pattern Quality",
+  "category": "PT",
+  "subcategory": "Pattern Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pattern Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPT"
+  ]
+}

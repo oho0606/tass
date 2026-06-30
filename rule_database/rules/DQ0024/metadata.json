@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0024",
+  "rule_name": "Rights Issue Present",
+  "category": "DQ",
+  "subcategory": "Corporate Actions",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rights Issue Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

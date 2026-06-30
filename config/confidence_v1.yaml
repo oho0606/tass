@@ -1,0 +1,20 @@
+version: "1.0"
+status: frozen
+
+pending_domain_ratio: 0.5
+default_historical_consistency: 0.5
+
+component_weights:
+  rule_consistency: 20
+  engine_consistency: 20
+  indicator_agreement: 10
+  composite_agreement: 10
+  trend_agreement: 10
+  volume_agreement: 5
+  momentum_agreement: 5
+  volatility_agreement: 5
+  multi_timeframe: 5
+  market_regime: 5
+  data_quality: 3
+  signal_stability: 1
+  historical_consistency: 1

@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0039",
+  "rule_name": "Exit Close Below Double Bottom Level",
+  "category": "EX",
+  "subcategory": "Reversal Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below Double Bottom Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

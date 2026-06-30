@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0034",
+  "rule_name": "Historical Volatility At N-Period High",
+  "category": "MR",
+  "subcategory": "High Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Historical Volatility At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

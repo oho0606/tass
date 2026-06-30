@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0029",
+  "rule_name": "Price Adjustment Applied",
+  "category": "DQ",
+  "subcategory": "Corporate Actions",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Adjustment Applied",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

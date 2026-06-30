@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0059",
+  "rule_name": "Exit Gap Up At Exit Bar",
+  "category": "EX",
+  "subcategory": "Exit Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Gap Up At Exit Bar",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

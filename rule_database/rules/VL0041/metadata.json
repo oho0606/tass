@@ -1,0 +1,24 @@
+{
+  "rule_id": "VL0041",
+  "rule_name": "Up Bar Volume Above Average",
+  "category": "VL",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Up Bar Volume Above Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Adopted",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/vl/vl0041_up_bar_volume_above_average.py",
+  "backtest_verdict": "ADOPT",
+  "backtest_evaluated_at": "2026-06-30T01:35:49Z",
+  "backtest_symbols": 30
+}

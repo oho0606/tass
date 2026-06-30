@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0015",
+  "rule_name": "OBV Rising Confirms Bullish Trend",
+  "category": "CF",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "OBV Rising Confirms Bullish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

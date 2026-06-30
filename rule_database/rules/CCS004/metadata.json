@@ -1,0 +1,19 @@
+{
+  "rule_id": "CCS004",
+  "rule_name": "Continuation Candle Group",
+  "category": "CS",
+  "subcategory": "Candlestick Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Continuation Candle Group",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CCS"
+  ]
+}

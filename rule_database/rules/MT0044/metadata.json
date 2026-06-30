@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0044",
+  "rule_name": "Daily 4H 1H Trend Conflict",
+  "category": "MT",
+  "subcategory": "Timeframe Agreement",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily 4H 1H Trend Conflict",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0060",
+  "rule_name": "Volume Pattern Consistent",
+  "category": "VL",
+  "subcategory": "Volume Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Pattern Consistent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

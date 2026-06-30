@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPT001",
+  "rule_name": "Continuation Pattern",
+  "category": "PT",
+  "subcategory": "Pattern Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Continuation Pattern",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPT"
+  ]
+}

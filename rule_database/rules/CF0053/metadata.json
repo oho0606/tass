@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0053",
+  "rule_name": "Confirmation Sustained",
+  "category": "CF",
+  "subcategory": "Confirmation Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Confirmation Sustained",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0045",
+  "rule_name": "Bollinger Band Width Expanding",
+  "category": "VO",
+  "subcategory": "Volatility Expansion & Contraction",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Expanding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

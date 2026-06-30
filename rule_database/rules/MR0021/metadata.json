@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0021",
+  "rule_name": "Close Between SMA20 And SMA60",
+  "category": "MR",
+  "subcategory": "Sideways Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Between SMA20 And SMA60",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

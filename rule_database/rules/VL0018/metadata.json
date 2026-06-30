@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0018",
+  "rule_name": "Relative Volume Below Prior",
+  "category": "VL",
+  "subcategory": "Relative Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Relative Volume Below Prior",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

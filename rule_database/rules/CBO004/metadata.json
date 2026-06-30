@@ -1,0 +1,19 @@
+{
+  "rule_id": "CBO004",
+  "rule_name": "Strong Breakout",
+  "category": "BO",
+  "subcategory": "Breakout Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Strong Breakout",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CBO"
+  ]
+}

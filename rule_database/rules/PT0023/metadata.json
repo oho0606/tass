@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0023",
+  "rule_name": "Symmetrical Triangle Formed",
+  "category": "PT",
+  "subcategory": "Triangle Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Symmetrical Triangle Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

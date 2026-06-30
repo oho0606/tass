@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0007",
+  "rule_name": "Sideways Trend",
+  "category": "TR",
+  "subcategory": "Direction",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Sideways Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

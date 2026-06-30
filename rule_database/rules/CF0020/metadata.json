@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0020",
+  "rule_name": "Volume Spike Confirms Bearish Trend",
+  "category": "CF",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Spike Confirms Bearish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

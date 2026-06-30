@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMA004",
+  "rule_name": "Death Cross Strength",
+  "category": "MA",
+  "subcategory": "Moving Average Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Death Cross Strength",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMA"
+  ]
+}

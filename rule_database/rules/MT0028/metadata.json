@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0028",
+  "rule_name": "Weekly Daily RSI Rising",
+  "category": "MT",
+  "subcategory": "Momentum Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily RSI Rising",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

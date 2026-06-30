@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0028",
+  "rule_name": "Consecutive Lower Volume",
+  "category": "VL",
+  "subcategory": "Volume Trend",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Lower Volume",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

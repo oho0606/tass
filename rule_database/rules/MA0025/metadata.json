@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0025",
+  "rule_name": "SMA Alignment Improving",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Alignment Improving",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

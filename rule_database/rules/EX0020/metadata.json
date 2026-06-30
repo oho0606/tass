@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0020",
+  "rule_name": "Exit Close Above S1",
+  "category": "EX",
+  "subcategory": "Breakout Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Above S1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0014",
+  "rule_name": "Inverse Head And Shoulders Active",
+  "category": "PT",
+  "subcategory": "Reversal Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Inverse Head And Shoulders Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

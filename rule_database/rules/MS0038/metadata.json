@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0038",
+  "rule_name": "Bearish BOS On Current Bar",
+  "category": "MS",
+  "subcategory": "Break of Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish BOS On Current Bar",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

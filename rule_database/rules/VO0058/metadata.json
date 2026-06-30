@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0058",
+  "rule_name": "Consecutive Stable ATR",
+  "category": "VO",
+  "subcategory": "Volatility Stability",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Stable ATR",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

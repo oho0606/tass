@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0049",
+  "rule_name": "Price Above CHoCH Level",
+  "category": "MS",
+  "subcategory": "Change of Character",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above CHoCH Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

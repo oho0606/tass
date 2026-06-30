@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0008",
+  "rule_name": "Daily 4H Downtrend Conflict",
+  "category": "MT",
+  "subcategory": "Trend Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily 4H Downtrend Conflict",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

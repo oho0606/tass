@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0015",
+  "rule_name": "Price Touching Horizontal Resistance",
+  "category": "SR",
+  "subcategory": "Horizontal Resistance",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Touching Horizontal Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

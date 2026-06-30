@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMT001",
+  "rule_name": "Full Alignment",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Full Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMT"
+  ]
+}

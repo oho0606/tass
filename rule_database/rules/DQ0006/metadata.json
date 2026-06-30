@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0006",
+  "rule_name": "OHLC All Missing",
+  "category": "DQ",
+  "subcategory": "Missing Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "OHLC All Missing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

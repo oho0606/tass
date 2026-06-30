@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0047",
+  "rule_name": "Bullish CHoCH On Current Bar",
+  "category": "MS",
+  "subcategory": "Change of Character",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bullish CHoCH On Current Bar",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0052",
+  "rule_name": "Rate of Change Negative",
+  "category": "MO",
+  "subcategory": "Momentum Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rate of Change Negative",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

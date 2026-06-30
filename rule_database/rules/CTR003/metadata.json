@@ -1,0 +1,26 @@
+{
+  "rule_id": "CTR003",
+  "rule_name": "Trend Quality",
+  "category": "TR",
+  "subcategory": "Trend Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CTR"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Adopted",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/composite/ctr.py",
+  "backtest_verdict": "ADOPT",
+  "backtest_evaluated_at": "2026-06-30T01:15:39Z",
+  "backtest_symbols": 30
+}

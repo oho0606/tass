@@ -1,0 +1,19 @@
+{
+  "rule_id": "CDQ001",
+  "rule_name": "Data Integrity",
+  "category": "DQ",
+  "subcategory": "Data Quality Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Data Integrity",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CDQ"
+  ]
+}

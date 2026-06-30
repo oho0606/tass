@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0037",
+  "rule_name": "Pullback Volume Above N-Period Average",
+  "category": "PB",
+  "subcategory": "Volume Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Volume Above N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

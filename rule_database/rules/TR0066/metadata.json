@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0066",
+  "rule_name": "Multi Timeframe Confirmation",
+  "category": "TR",
+  "subcategory": "Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Multi Timeframe Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

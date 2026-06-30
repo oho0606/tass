@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0019",
+  "rule_name": "Exit Close Below R1",
+  "category": "EX",
+  "subcategory": "Breakout Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below R1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

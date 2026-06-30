@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0010",
+  "rule_name": "Pullback Bar Count Fewer Than N",
+  "category": "PB",
+  "subcategory": "Healthy Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Bar Count Fewer Than N",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

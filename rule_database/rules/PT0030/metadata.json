@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0030",
+  "rule_name": "Triangle Boundaries Converging",
+  "category": "PT",
+  "subcategory": "Triangle Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Triangle Boundaries Converging",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

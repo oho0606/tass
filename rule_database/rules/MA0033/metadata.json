@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0033",
+  "rule_name": "EMA Golden Cross",
+  "category": "MA",
+  "subcategory": "Crossovers",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "EMA Golden Cross",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

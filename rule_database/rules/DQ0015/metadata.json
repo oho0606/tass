@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0015",
+  "rule_name": "Zero Price Present",
+  "category": "DQ",
+  "subcategory": "Data Integrity",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Zero Price Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

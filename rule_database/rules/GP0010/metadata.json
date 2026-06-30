@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0010",
+  "rule_name": "Consecutive Gap Up Day",
+  "category": "GP",
+  "subcategory": "Gap Up",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Gap Up Day",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

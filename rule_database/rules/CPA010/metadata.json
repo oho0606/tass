@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPA010",
+  "rule_name": "Price Confirmation",
+  "category": "PA",
+  "subcategory": "Price Action Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPA"
+  ]
+}

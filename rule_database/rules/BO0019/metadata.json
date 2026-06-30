@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0019",
+  "rule_name": "Breakout Bar Volume Spike",
+  "category": "BO",
+  "subcategory": "Volume Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Volume Spike",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

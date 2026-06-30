@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMR002",
+  "rule_name": "Bear Market",
+  "category": "MR",
+  "subcategory": "Market Regime Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bear Market",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMR"
+  ]
+}

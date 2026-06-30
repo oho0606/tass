@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0018",
+  "rule_name": "Exit Close Above Lower Bollinger Band",
+  "category": "EX",
+  "subcategory": "Breakout Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Above Lower Bollinger Band",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

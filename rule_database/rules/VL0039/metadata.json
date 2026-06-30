@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0039",
+  "rule_name": "Volume Spike Above Prior Spike",
+  "category": "VL",
+  "subcategory": "Volume Spike",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Spike Above Prior Spike",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

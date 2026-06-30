@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPA007",
+  "rule_name": "Swing Quality",
+  "category": "PA",
+  "subcategory": "Price Action Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Swing Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPA"
+  ]
+}

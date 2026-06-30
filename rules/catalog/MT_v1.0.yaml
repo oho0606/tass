@@ -1,0 +1,89 @@
+# TASS MT Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-025_MT_Rule_Catalog_v1.0.md
+# 60 atomic Multi Timeframe rules (MT0001–MT0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: MT
+category_name: Multi Timeframe
+rule_count: 60
+next_category: CF
+
+subcategories:
+  - name: Trend Alignment
+    rules:
+      - { id: MT0001, name: Weekly Daily Uptrend Match }
+      - { id: MT0002, name: Weekly Daily Uptrend Conflict }
+      - { id: MT0003, name: Weekly Daily Downtrend Match }
+      - { id: MT0004, name: Weekly Daily Downtrend Conflict }
+      - { id: MT0005, name: Daily 4H Uptrend Match }
+      - { id: MT0006, name: Daily 4H Uptrend Conflict }
+      - { id: MT0007, name: Daily 4H Downtrend Match }
+      - { id: MT0008, name: Daily 4H Downtrend Conflict }
+      - { id: MT0009, name: 4H 1H Uptrend Match }
+      - { id: MT0010, name: 4H 1H Uptrend Conflict }
+
+  - name: Moving Average Alignment
+    rules:
+      - { id: MT0011, name: Weekly Daily Price Above SMA20 }
+      - { id: MT0012, name: Weekly Daily Price Below SMA20 }
+      - { id: MT0013, name: Weekly Above SMA20 Daily Below SMA20 }
+      - { id: MT0014, name: Daily 4H Price Above SMA20 }
+      - { id: MT0015, name: Daily Above SMA20 4H Below SMA20 }
+      - { id: MT0016, name: Daily 4H Price Below SMA20 }
+      - { id: MT0017, name: Weekly Daily SMA Bullish Alignment }
+      - { id: MT0018, name: Weekly Daily SMA Bearish Alignment }
+      - { id: MT0019, name: Weekly Daily SMA Golden Cross }
+      - { id: MT0020, name: Weekly Daily SMA Death Cross }
+
+  - name: Momentum Alignment
+    rules:
+      - { id: MT0021, name: Weekly Daily RSI Above 50 }
+      - { id: MT0022, name: Weekly Daily RSI Below 50 }
+      - { id: MT0023, name: Weekly RSI Above 50 Daily Below 50 }
+      - { id: MT0024, name: Weekly Daily MACD Above Zero }
+      - { id: MT0025, name: Weekly Daily MACD Below Zero }
+      - { id: MT0026, name: Daily 4H MACD Above Signal }
+      - { id: MT0027, name: Daily 4H MACD Below Signal }
+      - { id: MT0028, name: Weekly Daily RSI Rising }
+      - { id: MT0029, name: Weekly Daily RSI Falling }
+      - { id: MT0030, name: Daily 4H Stochastic Above 50 }
+
+  - name: Breakout Alignment
+    rules:
+      - { id: MT0031, name: Weekly Daily Close Above N-Period High }
+      - { id: MT0032, name: Weekly Daily Close Below N-Period Low }
+      - { id: MT0033, name: Weekly Daily Swing High Break }
+      - { id: MT0034, name: Weekly Daily Swing Low Break }
+      - { id: MT0035, name: Weekly Daily Resistance Break }
+      - { id: MT0036, name: Weekly Daily Support Break }
+      - { id: MT0037, name: Daily 4H Breakout Above Range }
+      - { id: MT0038, name: Daily 4H Breakout Below Range }
+      - { id: MT0039, name: Weekly Breakout Confirmed By Daily Close }
+      - { id: MT0040, name: Daily Breakout Rejected By Weekly Close }
+
+  - name: Timeframe Agreement
+    rules:
+      - { id: MT0041, name: Weekly Daily 4H Trend Match }
+      - { id: MT0042, name: Weekly Daily 4H Trend Conflict }
+      - { id: MT0043, name: Daily 4H 1H Trend Match }
+      - { id: MT0044, name: Daily 4H 1H Trend Conflict }
+      - { id: MT0045, name: Higher Timeframe Trend Matches Lower Timeframe }
+      - { id: MT0046, name: Higher Timeframe Trend Opposes Lower Timeframe }
+      - { id: MT0047, name: Primary Secondary Uptrend Match }
+      - { id: MT0048, name: Primary Uptrend Secondary Downtrend }
+      - { id: MT0049, name: Primary Secondary Downtrend Match }
+      - { id: MT0050, name: Primary Downtrend Secondary Uptrend }
+
+  - name: Multi Timeframe Quality
+    rules:
+      - { id: MT0051, name: Weekly Trend Supports Daily Trend }
+      - { id: MT0052, name: Weekly Trend Opposes Daily Trend }
+      - { id: MT0053, name: Higher Timeframe Range Contains Lower Timeframe }
+      - { id: MT0054, name: Lower Timeframe Range Extends Beyond Higher Timeframe }
+      - { id: MT0055, name: Multi Timeframe Higher High Match }
+      - { id: MT0056, name: Multi Timeframe Lower Low Match }
+      - { id: MT0057, name: Multi Timeframe Volume Expansion Match }
+      - { id: MT0058, name: Multi Timeframe Volume Contraction Match }
+      - { id: MT0059, name: Multi Timeframe Bars Synchronized }
+      - { id: MT0060, name: Multi Timeframe Bars Desynchronized }

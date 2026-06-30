@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0045",
+  "rule_name": "Higher Timeframe Trend Matches Lower Timeframe",
+  "category": "MT",
+  "subcategory": "Timeframe Agreement",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Higher Timeframe Trend Matches Lower Timeframe",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

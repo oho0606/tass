@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0046",
+  "rule_name": "Bollinger Band Width At N-Period Low",
+  "category": "MR",
+  "subcategory": "Low Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width At N-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0057",
+  "rule_name": "Multi Timeframe Volume Expansion Match",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Multi Timeframe Volume Expansion Match",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

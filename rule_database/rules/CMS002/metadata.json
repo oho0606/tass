@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMS002",
+  "rule_name": "Bear Structure",
+  "category": "MS",
+  "subcategory": "Market Structure Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bear Structure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMS"
+  ]
+}

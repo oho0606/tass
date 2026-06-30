@@ -1,0 +1,275 @@
+{
+  "rule_id": "CTR008",
+  "evaluated_at": "2026-06-30T01:26:30Z",
+  "universe": "config\\universe_krx_backtest.csv",
+  "symbols_tested": [
+    "005930",
+    "000660",
+    "005380",
+    "000270",
+    "035420",
+    "035720",
+    "051910",
+    "006400",
+    "068270",
+    "105560",
+    "055550",
+    "086790",
+    "003550",
+    "012330",
+    "028260",
+    "032830",
+    "015760",
+    "034730",
+    "033780",
+    "009150",
+    "000810",
+    "010130",
+    "011200",
+    "018260",
+    "030200",
+    "003670",
+    "096770",
+    "017670",
+    "000100",
+    "090430"
+  ],
+  "aggregate_verdict": "REVISE",
+  "lifecycle": "Implemented",
+  "per_symbol": [
+    {
+      "symbol": "005930",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "000660",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "005380",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "000270",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "035420",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "035720",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "051910",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "006400",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "068270",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "105560",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "055550",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "086790",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "003550",
+      "error": "No numeric types to aggregate",
+      "skipped": true
+    },
+    {
+      "symbol": "012330",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "028260",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "032830",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "015760",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "034730",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "033780",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "009150",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "000810",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "010130",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "011200",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "018260",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "030200",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "003670",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "096770",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "017670",
+      "error": "No numeric types to aggregate",
+      "skipped": true
+    },
+    {
+      "symbol": "000100",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    },
+    {
+      "symbol": "090430",
+      "verdict": "INSUFFICIENT_DATA",
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "trade_count": 0,
+      "max_drawdown_pct": 0.0
+    }
+  ]
+}

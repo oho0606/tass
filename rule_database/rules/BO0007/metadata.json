@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0007",
+  "rule_name": "Close Above Prior High",
+  "category": "BO",
+  "subcategory": "Price Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Above Prior High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0055",
+  "rule_name": "ATR Within N-Period Range",
+  "category": "VO",
+  "subcategory": "Volatility Stability",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Within N-Period Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

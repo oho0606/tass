@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0016",
+  "rule_name": "ADX Falling",
+  "category": "TR",
+  "subcategory": "Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ADX Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

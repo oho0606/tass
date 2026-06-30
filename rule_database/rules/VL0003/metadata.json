@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0003",
+  "rule_name": "Volume Equal N-Period Average",
+  "category": "VL",
+  "subcategory": "Absolute Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Equal N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0003",
+  "rule_name": "Close Above SMA20",
+  "category": "MR",
+  "subcategory": "Bull Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Above SMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

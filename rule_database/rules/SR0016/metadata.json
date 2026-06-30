@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0016",
+  "rule_name": "Horizontal Resistance Level Identified",
+  "category": "SR",
+  "subcategory": "Horizontal Resistance",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Horizontal Resistance Level Identified",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

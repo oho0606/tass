@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0009",
+  "rule_name": "4H 1H Uptrend Match",
+  "category": "MT",
+  "subcategory": "Trend Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "4H 1H Uptrend Match",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

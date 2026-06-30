@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0045",
+  "rule_name": "Bollinger Band Width Below Average",
+  "category": "MR",
+  "subcategory": "Low Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Below Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

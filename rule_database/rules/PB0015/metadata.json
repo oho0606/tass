@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0015",
+  "rule_name": "Pullback Duration Greater Than N Bars",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Duration Greater Than N Bars",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

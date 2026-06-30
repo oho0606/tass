@@ -1,0 +1,199 @@
+# TASS Rule Registry
+# Official taxonomy: docs/TASS-011_Rule_Taxonomy_Specification.md
+
+version: "1.0.0"
+
+taxonomy_version: "1.0.0"
+
+categories:
+  TR:
+    name: Trend
+    subcategories: [Direction, Strength, Quality, Slope, Persistence, Exhaustion, Confirmation, State]
+  MA:
+    name: Moving Average
+    subcategories: [Price Position, EMA Position, Alignment, Crossovers, Slope, Distance & Structure]
+  PA:
+    name: Price Action
+    subcategories: [High, Low, Close, Range, Body, Wick, Swing]
+  VL:
+    name: Volume
+    subcategories: [Absolute Volume, Relative Volume, Volume Trend, Volume Spike, OBV, Money Flow]
+  MO:
+    name: Momentum
+    subcategories: [RSI, MACD, CCI, ROC, MFI, Stochastic, Momentum]
+  VO:
+    name: Volatility
+    subcategories: [ATR, True Range, Historical Volatility, Bollinger Band, Keltner Channel, Compression, Expansion]
+  MS:
+    name: Market Structure
+    subcategories: [Higher High, Higher Low, Lower High, Lower Low, Swing, Structure Break]
+  SR:
+    name: Support & Resistance
+    subcategories: [Horizontal, Trendline, Pivot, Dynamic, Fibonacci]
+  BO:
+    name: Breakout
+    subcategories: [Price Breakout, Volume Breakout, Trend Breakout, Volatility Breakout]
+  PB:
+    name: Pullback
+    subcategories: [Healthy Pullback, Deep Pullback, MA Pullback, Volume Pullback]
+  PT:
+    name: Pattern
+    subcategories: [Triangle, Rectangle, Flag, Pennant, Wedge, Channel, Cup & Handle, Double Top, Double Bottom, Head & Shoulders]
+  CS:
+    name: Candlestick
+    subcategories: [Bullish, Bearish, Continuation, Reversal]
+  GP:
+    name: Gap
+    subcategories: [Gap Up, Gap Down, Breakaway Gap, Runaway Gap, Exhaustion Gap, Common Gap]
+  RK:
+    name: Risk
+    subcategories: [ATR Risk, Gap Risk, Liquidity, Maximum Drawdown, Position Size]
+  EN:
+    name: Entry
+    subcategories: [Trend Entry, Breakout Entry, Pullback Entry, Reversal Entry]
+  EX:
+    name: Exit
+    subcategories: [Stop Loss, ATR Exit, Trailing Stop, Profit Target, Time Exit]
+  MR:
+    name: Market Regime
+    subcategories: [Bull, Bear, Sideways, High Volatility, Low Volatility]
+  MT:
+    name: Multi Timeframe
+    subcategories: [Weekly, Daily, 4H, 1H, Alignment, Conflict]
+  CF:
+    name: Confirmation
+    subcategories: [Trend Confirmation, Volume Confirmation, Momentum Confirmation, Breakout Confirmation, Indicator Agreement]
+  DQ:
+    name: Data Quality
+    subcategories: [Missing Data, Trading Halt, Corporate Action, Low Liquidity, Data Integrity]
+  MTA:
+    name: Meta Rules
+    subcategories: [Rule Version, Rule Weight, Rule Priority, Rule Dependency, Rule Status, Rule Conflict, Rule Lifecycle]
+
+# Registered rules — canonical IDs per TASS-012 (TR0001, TRC001, TRE001)
+# Specification standard: docs/TASS-012_Rule_Specification_Standard.md
+
+rules:
+  TR0001:
+    name: Higher High
+    type: atomic
+    subcategory: Direction
+    status: Draft
+    priority: High
+    weight: 1.00
+    legacy_ids: [TR-001, TREND-001]
+    spec: rules/tr/TR-001_HIGHER_HIGH_QUALITY.md
+    class: engine.rules.tr.tr0001_higher_high.TR0001HigherHighRule
+    function: evaluate_higher_high
+
+  TR0002:
+    name: Higher Low
+    type: atomic
+    subcategory: Direction
+    status: Draft
+    priority: High
+    weight: 1.00
+    legacy_ids: [TR-002, TREND-002]
+    spec: rules/tr/TR-002_HIGHER_LOW_QUALITY.md
+    function: evaluate_higher_low
+
+  TR0003:
+    name: Lower High
+    type: atomic
+    subcategory: Direction
+    status: Draft
+    priority: Medium
+    weight: 1.00
+    legacy_ids: [TR-003, TREND-003]
+    spec: rules/tr/TR-003_LOWER_HIGH_DETECTION.md
+    function: evaluate_lower_high
+
+  TR0004:
+    name: Lower Low
+    type: atomic
+    subcategory: Direction
+    status: Draft
+    priority: Medium
+    weight: 1.00
+    legacy_ids: [TR-004, TREND-004]
+    spec: rules/tr/TR-004_LOWER_LOW_QUALITY.md
+    function: evaluate_lower_low
+
+  TRC001:
+    name: Trend Structure
+    type: composite
+    subcategory: Direction
+    status: Draft
+    priority: High
+    weight: 1.50
+    legacy_ids: [TR-C001, TREND-C001]
+    spec: rules/tr/composite/TR-C001_Trend_Structure.md
+    function: evaluate_trend_structure
+    dependencies: [TR0001, TR0002, TR0003, TR0004]
+
+  TRC002:
+    name: Trend Quality
+    type: composite
+    subcategory: Quality
+    status: Draft
+    priority: High
+    weight: 1.30
+    legacy_ids: [TR-C002, TREND-C002]
+    spec: rules/tr/composite/TR-C002_Trend_Quality.md
+    function: evaluate_trend_quality
+    dependencies: [TR0001, TR0002, TR0003, TR0004]
+
+  TRC003:
+    name: Trend Continuation
+    type: composite
+    subcategory: Persistence
+    status: Draft
+    priority: Medium
+    weight: 1.20
+    legacy_ids: [TR-C003, TREND-C003]
+    spec: rules/tr/composite/TR-C003_Trend_Continuation.md
+    function: evaluate_trend_continuation
+    dependencies: [TR0001, TR0002, TR0003]
+
+  TRC004:
+    name: Trend Failure
+    type: composite
+    subcategory: Exhaustion
+    status: Draft
+    priority: High
+    weight: 1.50
+    legacy_ids: [TR-C004, TREND-C004]
+    spec: rules/tr/composite/TR-C004_Trend_Failure.md
+    function: evaluate_trend_failure
+    dependencies: [TR0003, TR0004]
+
+  TRE001:
+    name: Trend Engine
+    type: engine
+    subcategory: Quality
+    status: Stable
+    priority: High
+    weight: 1.00
+    legacy_ids: [TR-E001, TREND-E001]
+    spec: rules/tr/engine/TR-E001.md
+    function: evaluate_trend_engine
+
+legacy_aliases:
+  TREND-001: TR0001
+  TREND-002: TR0002
+  TREND-003: TR0003
+  TREND-004: TR0004
+  TREND-C001: TRC001
+  TREND-C002: TRC002
+  TREND-C003: TRC003
+  TREND-C004: TRC004
+  TREND-E001: TRE001
+  TR-001: TR0001
+  TR-002: TR0002
+  TR-003: TR0003
+  TR-004: TR0004
+  TR-C001: TRC001
+  TR-C002: TRC002
+  TR-C003: TRC003
+  TR-C004: TRC004
+  TR-E001: TRE001

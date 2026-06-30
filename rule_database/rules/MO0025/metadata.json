@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0025",
+  "rule_name": "Stochastic %K Above %D",
+  "category": "MO",
+  "subcategory": "Stochastic",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Stochastic %K Above %D",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

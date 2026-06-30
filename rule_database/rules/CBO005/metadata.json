@@ -1,0 +1,19 @@
+{
+  "rule_id": "CBO005",
+  "rule_name": "Breakout Continuation",
+  "category": "BO",
+  "subcategory": "Breakout Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Continuation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CBO"
+  ]
+}

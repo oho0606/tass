@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0011",
+  "rule_name": "High Below Low",
+  "category": "DQ",
+  "subcategory": "Data Integrity",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "High Below Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

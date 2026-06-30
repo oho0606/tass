@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0030",
+  "rule_name": "Volume Turning",
+  "category": "VL",
+  "subcategory": "Volume Trend",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Turning",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

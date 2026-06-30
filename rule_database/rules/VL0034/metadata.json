@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0034",
+  "rule_name": "Volume Sudden Decrease",
+  "category": "VL",
+  "subcategory": "Volume Spike",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Sudden Decrease",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0029",
+  "rule_name": "Close Near N-Period Midpoint",
+  "category": "MR",
+  "subcategory": "Sideways Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Near N-Period Midpoint",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

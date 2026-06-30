@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0041",
+  "rule_name": "Double Top Formed",
+  "category": "PT",
+  "subcategory": "Double Top / Double Bottom",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Double Top Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

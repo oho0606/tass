@@ -1,0 +1,89 @@
+# TASS DQ Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-026_DQ_Rule_Catalog_v1.0.md
+# 60 atomic Data Quality rules (DQ0001–DQ0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: DQ
+category_name: Data Quality
+rule_count: 60
+next_category: CR
+
+subcategories:
+  - name: Missing Data
+    rules:
+      - { id: DQ0001, name: Open Price Missing }
+      - { id: DQ0002, name: High Price Missing }
+      - { id: DQ0003, name: Low Price Missing }
+      - { id: DQ0004, name: Close Price Missing }
+      - { id: DQ0005, name: Volume Missing }
+      - { id: DQ0006, name: OHLC All Missing }
+      - { id: DQ0007, name: Consecutive Missing Bar }
+      - { id: DQ0008, name: Leading History Gap }
+      - { id: DQ0009, name: Internal History Gap }
+      - { id: DQ0010, name: Latest Bar Missing }
+
+  - name: Data Integrity
+    rules:
+      - { id: DQ0011, name: High Below Low }
+      - { id: DQ0012, name: Close Outside High Low Range }
+      - { id: DQ0013, name: Open Outside High Low Range }
+      - { id: DQ0014, name: Negative Price Present }
+      - { id: DQ0015, name: Zero Price Present }
+      - { id: DQ0016, name: Negative Volume Present }
+      - { id: DQ0017, name: Duplicate Timestamp }
+      - { id: DQ0018, name: Identical OHLC Values }
+      - { id: DQ0019, name: Timestamp Out of Sequence }
+      - { id: DQ0020, name: Price Adjustment Mismatch }
+
+  - name: Corporate Actions
+    rules:
+      - { id: DQ0021, name: Stock Split Present }
+      - { id: DQ0022, name: Reverse Split Present }
+      - { id: DQ0023, name: Dividend Present }
+      - { id: DQ0024, name: Rights Issue Present }
+      - { id: DQ0025, name: Merger Present }
+      - { id: DQ0026, name: Spinoff Present }
+      - { id: DQ0027, name: Symbol Change Present }
+      - { id: DQ0028, name: Delisting Event Present }
+      - { id: DQ0029, name: Price Adjustment Applied }
+      - { id: DQ0030, name: Price Unadjusted }
+
+  - name: Liquidity & Trading Status
+    rules:
+      - { id: DQ0031, name: Trading Halted }
+      - { id: DQ0032, name: Trading Suspended }
+      - { id: DQ0033, name: Delisted Instrument }
+      - { id: DQ0034, name: No Trade Session }
+      - { id: DQ0035, name: Zero Volume Session }
+      - { id: DQ0036, name: Low Volume Session }
+      - { id: DQ0037, name: Low Liquidity Session }
+      - { id: DQ0038, name: Wide Bid Ask Spread }
+      - { id: DQ0039, name: Limit Up Lock }
+      - { id: DQ0040, name: Limit Down Lock }
+
+  - name: Abnormal Market Data
+    rules:
+      - { id: DQ0041, name: Price Spike Present }
+      - { id: DQ0042, name: Abnormal Price Gap }
+      - { id: DQ0043, name: Volume Spike Present }
+      - { id: DQ0044, name: Abnormal Return Present }
+      - { id: DQ0045, name: Abnormal Range Present }
+      - { id: DQ0046, name: Tick Size Violation }
+      - { id: DQ0047, name: Stale Quote Present }
+      - { id: DQ0048, name: After Hours Trade Present }
+      - { id: DQ0049, name: Erroneous Tick Present }
+      - { id: DQ0050, name: Statistical Outlier Present }
+
+  - name: Overall Data Quality
+    rules:
+      - { id: DQ0051, name: Required History Present }
+      - { id: DQ0052, name: Required History Absent }
+      - { id: DQ0053, name: Current Bar Present }
+      - { id: DQ0054, name: Current Bar Absent }
+      - { id: DQ0055, name: Session Data Complete }
+      - { id: DQ0056, name: Session Data Incomplete }
+      - { id: DQ0057, name: Data Feed Current }
+      - { id: DQ0058, name: Data Feed Stale }
+      - { id: DQ0059, name: Instrument Data Present }
+      - { id: DQ0060, name: Instrument Data Absent }

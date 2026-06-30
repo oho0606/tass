@@ -1,0 +1,91 @@
+version: "1.0"
+status: frozen
+last_calibration_date: "2026-01-01"
+
+calibration_sources:
+  - historical_backtest
+  - walk_forward_test
+  - paper_trading
+  - live_trading
+  - monte_carlo_simulation
+
+buckets:
+  - min_score: 990
+    max_score: 1000
+    prob_min: 95.0
+    prob_max: 99.0
+    historical_win_rate: 97.0
+    sample_size: 142
+    confidence_margin: 1.5
+
+  - min_score: 950
+    max_score: 989
+    prob_min: 90.0
+    prob_max: 94.0
+    historical_win_rate: 92.0
+    sample_size: 318
+    confidence_margin: 1.8
+
+  - min_score: 900
+    max_score: 949
+    prob_min: 82.0
+    prob_max: 89.0
+    historical_win_rate: 85.5
+    sample_size: 456
+    confidence_margin: 2.0
+
+  - min_score: 850
+    max_score: 899
+    prob_min: 74.0
+    prob_max: 81.0
+    historical_win_rate: 77.5
+    sample_size: 512
+    confidence_margin: 2.2
+
+  - min_score: 800
+    max_score: 849
+    prob_min: 66.0
+    prob_max: 73.0
+    historical_win_rate: 69.5
+    sample_size: 589
+    confidence_margin: 2.4
+
+  - min_score: 750
+    max_score: 799
+    prob_min: 58.0
+    prob_max: 65.0
+    historical_win_rate: 61.5
+    sample_size: 634
+    confidence_margin: 2.6
+
+  - min_score: 700
+    max_score: 749
+    prob_min: 50.0
+    prob_max: 57.0
+    historical_win_rate: 53.5
+    sample_size: 701
+    confidence_margin: 2.8
+
+  - min_score: 650
+    max_score: 699
+    prob_min: 42.0
+    prob_max: 49.0
+    historical_win_rate: 45.5
+    sample_size: 768
+    confidence_margin: 3.0
+
+  - min_score: 600
+    max_score: 649
+    prob_min: 35.0
+    prob_max: 41.0
+    historical_win_rate: 38.0
+    sample_size: 812
+    confidence_margin: 3.2
+
+  - min_score: 0
+    max_score: 599
+    prob_min: 5.0
+    prob_max: 34.9
+    historical_win_rate: 20.0
+    sample_size: 1240
+    confidence_margin: 3.5

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPB004",
+  "rule_name": "Pullback Quality",
+  "category": "PB",
+  "subcategory": "Pullback Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPB"
+  ]
+}

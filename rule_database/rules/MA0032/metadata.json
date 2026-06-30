@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0032",
+  "rule_name": "SMA Death Cross",
+  "category": "MA",
+  "subcategory": "Crossovers",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Death Cross",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

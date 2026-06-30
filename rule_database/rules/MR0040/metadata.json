@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0040",
+  "rule_name": "Consecutive Wide Range Bars",
+  "category": "MR",
+  "subcategory": "High Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Wide Range Bars",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

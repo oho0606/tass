@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0031",
+  "rule_name": "ATR Above N-Period Average",
+  "category": "MR",
+  "subcategory": "High Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Above N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

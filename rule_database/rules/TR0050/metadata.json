@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0050",
+  "rule_name": "Trend Age Increasing",
+  "category": "TR",
+  "subcategory": "Persistence",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Age Increasing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0023",
+  "rule_name": "Entry Close Above SMA20 After Touch",
+  "category": "EN",
+  "subcategory": "Pullback Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Close Above SMA20 After Touch",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

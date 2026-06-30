@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0033",
+  "rule_name": "Bollinger Band Width Expanding Confirms Breakout",
+  "category": "CF",
+  "subcategory": "Volatility Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Expanding Confirms Breakout",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

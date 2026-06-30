@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0030",
+  "rule_name": "Equal Swing Low",
+  "category": "MS",
+  "subcategory": "Swing High / Swing Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Equal Swing Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

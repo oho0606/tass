@@ -1,0 +1,19 @@
+{
+  "rule_id": "TRC003",
+  "rule_name": "Trend Continuation",
+  "category": "TR",
+  "subcategory": "Stability",
+  "version": "1.0.0",
+  "status": "Draft",
+  "priority": "Medium",
+  "weight": 1.2,
+  "description": "Trend Continuation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [
+    "TR0001",
+    "TR0002",
+    "TR0003"
+  ],
+  "tags": []
+}

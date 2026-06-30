@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0003",
+  "rule_name": "Price At Horizontal Support",
+  "category": "SR",
+  "subcategory": "Horizontal Support",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price At Horizontal Support",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

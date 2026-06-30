@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0034",
+  "rule_name": "Weekly Daily Swing Low Break",
+  "category": "MT",
+  "subcategory": "Breakout Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily Swing Low Break",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

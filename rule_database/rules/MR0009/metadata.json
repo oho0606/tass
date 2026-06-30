@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0009",
+  "rule_name": "N-Period Return Positive",
+  "category": "MR",
+  "subcategory": "Bull Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "N-Period Return Positive",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

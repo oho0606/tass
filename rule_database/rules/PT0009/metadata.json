@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0009",
+  "rule_name": "Rectangle Continuation Formed",
+  "category": "PT",
+  "subcategory": "Continuation Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rectangle Continuation Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

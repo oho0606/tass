@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0013",
+  "rule_name": "Exit Close Below Horizontal Resistance",
+  "category": "EX",
+  "subcategory": "Breakout Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below Horizontal Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

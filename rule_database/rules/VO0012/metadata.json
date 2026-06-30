@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0012",
+  "rule_name": "True Range Below Prior True Range",
+  "category": "VO",
+  "subcategory": "True Range",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range Below Prior True Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMO007",
+  "rule_name": "Bearish Momentum",
+  "category": "MO",
+  "subcategory": "Momentum Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish Momentum",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMO"
+  ]
+}

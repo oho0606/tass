@@ -1,0 +1,1 @@
+{"rule_id":"TR-C003","version":"1.0.0","category":"TR","type":"composite","function":"evaluate_trend_continuation","inputs":["TR-001","TR-002","TR-003"],"scoring":{"max":50}}

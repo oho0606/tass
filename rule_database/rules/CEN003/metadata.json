@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEN003",
+  "rule_name": "Pullback Entry",
+  "category": "EN",
+  "subcategory": "Entry Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Entry",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEN"
+  ]
+}

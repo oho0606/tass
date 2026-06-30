@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0027",
+  "rule_name": "CCI Confirms Bullish Trend",
+  "category": "CF",
+  "subcategory": "Momentum Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "CCI Confirms Bullish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

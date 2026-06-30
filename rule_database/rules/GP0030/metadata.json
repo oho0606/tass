@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0030",
+  "rule_name": "Breakaway Gap Down Volume Above N-Period Average",
+  "category": "GP",
+  "subcategory": "Breakaway Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakaway Gap Down Volume Above N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

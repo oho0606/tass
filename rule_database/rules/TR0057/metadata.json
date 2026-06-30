@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0057",
+  "rule_name": "Trend Failure",
+  "category": "TR",
+  "subcategory": "Exhaustion",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Failure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

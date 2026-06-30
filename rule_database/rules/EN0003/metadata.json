@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0003",
+  "rule_name": "Entry Close Above EMA20",
+  "category": "EN",
+  "subcategory": "Trend Following Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Close Above EMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

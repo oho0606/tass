@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0049",
+  "rule_name": "Erroneous Tick Present",
+  "category": "DQ",
+  "subcategory": "Abnormal Market Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Erroneous Tick Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

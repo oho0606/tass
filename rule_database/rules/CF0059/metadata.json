@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0059",
+  "rule_name": "Confirmation Duration Short",
+  "category": "CF",
+  "subcategory": "Confirmation Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Confirmation Duration Short",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

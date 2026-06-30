@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0002",
+  "rule_name": "Weekly Daily Uptrend Conflict",
+  "category": "MT",
+  "subcategory": "Trend Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily Uptrend Conflict",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

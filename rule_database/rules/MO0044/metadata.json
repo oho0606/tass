@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0044",
+  "rule_name": "MFI Below 50",
+  "category": "MO",
+  "subcategory": "MFI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MFI Below 50",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

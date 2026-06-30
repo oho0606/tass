@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0038",
+  "rule_name": "Wide Daily Range",
+  "category": "MR",
+  "subcategory": "High Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Wide Daily Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

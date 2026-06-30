@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0025",
+  "rule_name": "Merger Present",
+  "category": "DQ",
+  "subcategory": "Corporate Actions",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Merger Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

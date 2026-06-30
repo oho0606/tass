@@ -1,0 +1,24 @@
+{
+  "rule_id": "VL0027",
+  "rule_name": "Consecutive Higher Volume",
+  "category": "VL",
+  "subcategory": "Volume Trend",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Higher Volume",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Adopted",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/vl/vl0027_consecutive_higher_volume.py",
+  "backtest_verdict": "ADOPT",
+  "backtest_evaluated_at": "2026-06-30T01:36:16Z",
+  "backtest_symbols": 30
+}

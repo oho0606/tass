@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0040",
+  "rule_name": "Breakout Bar Bollinger Band Width At N-Period High",
+  "category": "BO",
+  "subcategory": "Volatility Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Bollinger Band Width At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

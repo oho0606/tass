@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0016",
+  "rule_name": "Rounding Bottom Formed",
+  "category": "PT",
+  "subcategory": "Reversal Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Rounding Bottom Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

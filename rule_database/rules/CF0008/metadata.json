@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0008",
+  "rule_name": "SMA Alignment Confirms Bearish Trend",
+  "category": "CF",
+  "subcategory": "Trend Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Alignment Confirms Bearish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

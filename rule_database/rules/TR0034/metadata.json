@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0034",
+  "rule_name": "Increasing Slope",
+  "category": "TR",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Increasing Slope",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

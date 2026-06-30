@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0053",
+  "rule_name": "Higher Timeframe Range Contains Lower Timeframe",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Higher Timeframe Range Contains Lower Timeframe",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

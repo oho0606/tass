@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0020",
+  "rule_name": "Close At N-Period Low",
+  "category": "MR",
+  "subcategory": "Bear Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close At N-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

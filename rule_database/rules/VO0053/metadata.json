@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0053",
+  "rule_name": "Bollinger Band Width Stable",
+  "category": "VO",
+  "subcategory": "Volatility Stability",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Stable",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

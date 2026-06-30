@@ -1,0 +1,280 @@
+# TASS Composite Rule Library v1.0 — Frozen
+# Human doc: docs/TASS-027_Composite_Rule_Library_v1.0.md
+# 130 composite rules across 20 composite categories
+
+catalog_version: "1.0"
+status: Frozen
+catalog_type: composite
+rule_count: 130
+return_types: [PASS, PARTIAL, FAIL, UNKNOWN]
+
+composite_categories:
+  - code: CTR
+    name: Trend Composite
+    atomic_category: TR
+    subcategories:
+      - name: Trend Composite
+        rules:
+          - { id: CTR001, name: Trend Direction }
+          - { id: CTR002, name: Trend Strength }
+          - { id: CTR003, name: Trend Quality }
+          - { id: CTR004, name: Trend Stability }
+          - { id: CTR005, name: Trend Continuation }
+          - { id: CTR006, name: Trend Exhaustion }
+          - { id: CTR007, name: Trend Reversal }
+          - { id: CTR008, name: Trend Acceleration }
+          - { id: CTR009, name: Trend Consistency }
+          - { id: CTR010, name: Trend Confirmation }
+
+  - code: CMA
+    name: Moving Average Composite
+    atomic_category: MA
+    subcategories:
+      - name: Moving Average Composite
+        rules:
+          - { id: CMA001, name: MA Position Quality }
+          - { id: CMA002, name: MA Alignment Quality }
+          - { id: CMA003, name: Golden Cross Strength }
+          - { id: CMA004, name: Death Cross Strength }
+          - { id: CMA005, name: MA Trend Quality }
+          - { id: CMA006, name: MA Compression State }
+          - { id: CMA007, name: MA Expansion State }
+          - { id: CMA008, name: Dynamic Support Quality }
+          - { id: CMA009, name: Dynamic Resistance Quality }
+          - { id: CMA010, name: MA Structure Quality }
+
+  - code: CPA
+    name: Price Action Composite
+    atomic_category: PA
+    subcategories:
+      - name: Price Action Composite
+        rules:
+          - { id: CPA001, name: Price Strength }
+          - { id: CPA002, name: Price Weakness }
+          - { id: CPA003, name: Bullish Price Structure }
+          - { id: CPA004, name: Bearish Price Structure }
+          - { id: CPA005, name: Breakout Candle Quality }
+          - { id: CPA006, name: Pullback Candle Quality }
+          - { id: CPA007, name: Swing Quality }
+          - { id: CPA008, name: Range Quality }
+          - { id: CPA009, name: Price Stability }
+          - { id: CPA010, name: Price Confirmation }
+
+  - code: CVL
+    name: Volume Composite
+    atomic_category: VL
+    subcategories:
+      - name: Volume Composite
+        rules:
+          - { id: CVL001, name: Volume Confirmation }
+          - { id: CVL002, name: Volume Expansion }
+          - { id: CVL003, name: Volume Contraction }
+          - { id: CVL004, name: Accumulation }
+          - { id: CVL005, name: Distribution }
+          - { id: CVL006, name: Buying Pressure }
+          - { id: CVL007, name: Selling Pressure }
+          - { id: CVL008, name: Volume Quality }
+          - { id: CVL009, name: Volume Stability }
+          - { id: CVL010, name: Smart Money Activity }
+
+  - code: CMO
+    name: Momentum Composite
+    atomic_category: MO
+    subcategories:
+      - name: Momentum Composite
+        rules:
+          - { id: CMO001, name: Momentum Strength }
+          - { id: CMO002, name: Momentum Agreement }
+          - { id: CMO003, name: Momentum Continuation }
+          - { id: CMO004, name: Momentum Reversal }
+          - { id: CMO005, name: Momentum Divergence }
+          - { id: CMO006, name: Bullish Momentum }
+          - { id: CMO007, name: Bearish Momentum }
+          - { id: CMO008, name: Momentum Quality }
+          - { id: CMO009, name: Momentum Stability }
+          - { id: CMO010, name: Momentum Confirmation }
+
+  - code: CVO
+    name: Volatility Composite
+    atomic_category: VO
+    subcategories:
+      - name: Volatility Composite
+        rules:
+          - { id: CVO001, name: Volatility Compression }
+          - { id: CVO002, name: Volatility Expansion }
+          - { id: CVO003, name: Stable Volatility }
+          - { id: CVO004, name: High Volatility }
+          - { id: CVO005, name: Low Volatility }
+          - { id: CVO006, name: Breakout Volatility }
+          - { id: CVO007, name: Risk Volatility }
+          - { id: CVO008, name: ATR Stability }
+          - { id: CVO009, name: Volatility Quality }
+          - { id: CVO010, name: Volatility Confirmation }
+
+  - code: CMS
+    name: Market Structure Composite
+    atomic_category: MS
+    subcategories:
+      - name: Market Structure Composite
+        rules:
+          - { id: CMS001, name: Bull Structure }
+          - { id: CMS002, name: Bear Structure }
+          - { id: CMS003, name: Structure Break }
+          - { id: CMS004, name: Higher High Sequence }
+          - { id: CMS005, name: Lower Low Sequence }
+          - { id: CMS006, name: Swing Structure }
+          - { id: CMS007, name: Trend Structure }
+          - { id: CMS008, name: Structure Quality }
+          - { id: CMS009, name: Structure Stability }
+          - { id: CMS010, name: Structure Confirmation }
+
+  - code: CSR
+    name: Support & Resistance Composite
+    atomic_category: SR
+    subcategories:
+      - name: Support & Resistance Composite
+        rules:
+          - { id: CSR001, name: Support Quality }
+          - { id: CSR002, name: Resistance Quality }
+          - { id: CSR003, name: Support Break }
+          - { id: CSR004, name: Resistance Break }
+          - { id: CSR005, name: Dynamic Support Quality }
+
+  - code: CBO
+    name: Breakout Composite
+    atomic_category: BO
+    subcategories:
+      - name: Breakout Composite
+        rules:
+          - { id: CBO001, name: Breakout Quality }
+          - { id: CBO002, name: Breakout Confirmation }
+          - { id: CBO003, name: False Breakout }
+          - { id: CBO004, name: Strong Breakout }
+          - { id: CBO005, name: Breakout Continuation }
+
+  - code: CPB
+    name: Pullback Composite
+    atomic_category: PB
+    subcategories:
+      - name: Pullback Composite
+        rules:
+          - { id: CPB001, name: Healthy Pullback }
+          - { id: CPB002, name: Deep Pullback }
+          - { id: CPB003, name: Pullback Recovery }
+          - { id: CPB004, name: Pullback Quality }
+          - { id: CPB005, name: Pullback Confirmation }
+
+  - code: CPT
+    name: Pattern Composite
+    atomic_category: PT
+    subcategories:
+      - name: Pattern Composite
+        rules:
+          - { id: CPT001, name: Continuation Pattern }
+          - { id: CPT002, name: Reversal Pattern }
+          - { id: CPT003, name: Bullish Pattern }
+          - { id: CPT004, name: Bearish Pattern }
+          - { id: CPT005, name: Pattern Quality }
+
+  - code: CCS
+    name: Candlestick Composite
+    atomic_category: CS
+    subcategories:
+      - name: Candlestick Composite
+        rules:
+          - { id: CCS001, name: Bullish Candle Group }
+          - { id: CCS002, name: Bearish Candle Group }
+          - { id: CCS003, name: Reversal Candle Group }
+          - { id: CCS004, name: Continuation Candle Group }
+          - { id: CCS005, name: Candle Quality }
+
+  - code: CGP
+    name: Gap Composite
+    atomic_category: GP
+    subcategories:
+      - name: Gap Composite
+        rules:
+          - { id: CGP001, name: Bullish Gap }
+          - { id: CGP002, name: Bearish Gap }
+          - { id: CGP003, name: Gap Quality }
+
+  - code: CRK
+    name: Risk Composite
+    atomic_category: RK
+    subcategories:
+      - name: Risk Composite
+        rules:
+          - { id: CRK001, name: Overall Risk }
+          - { id: CRK002, name: Volatility Risk }
+          - { id: CRK003, name: Gap Risk }
+          - { id: CRK004, name: Liquidity Risk }
+          - { id: CRK005, name: Position Risk }
+
+  - code: CEN
+    name: Entry Composite
+    atomic_category: EN
+    subcategories:
+      - name: Entry Composite
+        rules:
+          - { id: CEN001, name: Entry Quality }
+          - { id: CEN002, name: Breakout Entry }
+          - { id: CEN003, name: Pullback Entry }
+          - { id: CEN004, name: Trend Entry }
+          - { id: CEN005, name: Entry Confirmation }
+
+  - code: CEX
+    name: Exit Composite
+    atomic_category: EX
+    subcategories:
+      - name: Exit Composite
+        rules:
+          - { id: CEX001, name: Exit Quality }
+          - { id: CEX002, name: Stop Loss Exit }
+          - { id: CEX003, name: Target Exit }
+          - { id: CEX004, name: Trailing Exit }
+          - { id: CEX005, name: Exit Confirmation }
+
+  - code: CMR
+    name: Market Regime Composite
+    atomic_category: MR
+    subcategories:
+      - name: Market Regime Composite
+        rules:
+          - { id: CMR001, name: Bull Market }
+          - { id: CMR002, name: Bear Market }
+          - { id: CMR003, name: Sideways Market }
+          - { id: CMR004, name: High Volatility Market }
+          - { id: CMR005, name: Low Volatility Market }
+
+  - code: CMT
+    name: Multi Timeframe Composite
+    atomic_category: MT
+    subcategories:
+      - name: Multi Timeframe Composite
+        rules:
+          - { id: CMT001, name: Full Alignment }
+          - { id: CMT002, name: Partial Alignment }
+          - { id: CMT003, name: Timeframe Conflict }
+          - { id: CMT004, name: Higher Timeframe Agreement }
+          - { id: CMT005, name: Lower Timeframe Agreement }
+
+  - code: CCF
+    name: Confirmation Composite
+    atomic_category: CF
+    subcategories:
+      - name: Confirmation Composite
+        rules:
+          - { id: CCF001, name: Trend Confirmation }
+          - { id: CCF002, name: Volume Confirmation }
+          - { id: CCF003, name: Momentum Confirmation }
+          - { id: CCF004, name: Breakout Confirmation }
+          - { id: CCF005, name: Full Confirmation }
+
+  - code: CDQ
+    name: Data Quality Composite
+    atomic_category: DQ
+    subcategories:
+      - name: Data Quality Composite
+        rules:
+          - { id: CDQ001, name: Data Integrity }
+          - { id: CDQ002, name: Data Reliability }

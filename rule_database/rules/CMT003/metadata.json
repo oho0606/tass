@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMT003",
+  "rule_name": "Timeframe Conflict",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Timeframe Conflict",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMT"
+  ]
+}

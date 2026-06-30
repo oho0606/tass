@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0064",
+  "rule_name": "Volatility Confirms Trend",
+  "category": "TR",
+  "subcategory": "Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volatility Confirms Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

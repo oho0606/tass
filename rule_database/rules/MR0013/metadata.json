@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0013",
+  "rule_name": "Close Below SMA20",
+  "category": "MR",
+  "subcategory": "Bear Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Below SMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

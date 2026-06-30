@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0047",
+  "rule_name": "Close Above Trendline Resistance",
+  "category": "BO",
+  "subcategory": "Resistance Breakout Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Above Trendline Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CCS005",
+  "rule_name": "Candle Quality",
+  "category": "CS",
+  "subcategory": "Candlestick Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Candle Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CCS"
+  ]
+}

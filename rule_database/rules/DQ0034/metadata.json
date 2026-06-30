@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0034",
+  "rule_name": "No Trade Session",
+  "category": "DQ",
+  "subcategory": "Liquidity & Trading Status",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "No Trade Session",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

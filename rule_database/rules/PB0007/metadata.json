@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0007",
+  "rule_name": "Pullback Duration Fewer Than N Bars",
+  "category": "PB",
+  "subcategory": "Healthy Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Duration Fewer Than N Bars",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

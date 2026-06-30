@@ -1,0 +1,72 @@
+version: "1.0"
+status: frozen
+
+component_weights:
+  - key: volatility_risk
+    label: Volatility Risk
+    weight: 20
+  - key: gap_risk
+    label: Gap Risk
+    weight: 15
+  - key: liquidity_risk
+    label: Liquidity Risk
+    weight: 10
+  - key: trend_risk
+    label: Trend Risk
+    weight: 10
+  - key: momentum_risk
+    label: Momentum Risk
+    weight: 5
+  - key: market_risk
+    label: Market Risk
+    weight: 10
+  - key: entry_timing_risk
+    label: Entry Timing Risk
+    weight: 5
+  - key: stop_loss_distance
+    label: Stop Loss Distance
+    weight: 5
+  - key: atr_risk
+    label: ATR Risk
+    weight: 5
+  - key: maximum_drawdown_risk
+    label: Maximum Drawdown Risk
+    weight: 5
+  - key: price_extension_risk
+    label: Price Extension Risk
+    weight: 3
+  - key: false_breakout_risk
+    label: False Breakout Risk
+    weight: 3
+  - key: data_quality_risk
+    label: Data Quality Risk
+    weight: 2
+  - key: signal_conflict_risk
+    label: Signal Conflict Risk
+    weight: 2
+
+thresholds:
+  volatility_atr_pct_low: 1.0
+  volatility_atr_pct_high: 5.0
+  gap_pct_low: 0.5
+  gap_pct_high: 4.0
+  liquidity_value_low: 100000000
+  liquidity_value_high: 2000000000
+  trend_score_max: 200.0
+  rsi_neutral_low: 30.0
+  rsi_neutral_high: 70.0
+  ma_extension_low: 0.0
+  ma_extension_high: 10.0
+  drawdown_low: 0.0
+  drawdown_high: 20.0
+  min_bars: 60
+
+validation_sources:
+  - unit_test
+  - integration_test
+  - regression_test
+  - historical_validation
+  - walk_forward_test
+  - monte_carlo_simulation
+  - paper_trading
+  - live_trading_validation

@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0042",
+  "rule_name": "Price At 20-Period Low",
+  "category": "RK",
+  "subcategory": "Drawdown Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price At 20-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

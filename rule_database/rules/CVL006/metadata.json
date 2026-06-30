@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVL006",
+  "rule_name": "Buying Pressure",
+  "category": "VL",
+  "subcategory": "Volume Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Buying Pressure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVL"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0011",
+  "rule_name": "Retracement Above 61.8 Percent",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Retracement Above 61.8 Percent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

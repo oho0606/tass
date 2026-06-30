@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVL009",
+  "rule_name": "Volume Stability",
+  "category": "VL",
+  "subcategory": "Volume Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Stability",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVL"
+  ]
+}

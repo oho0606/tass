@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0049",
+  "rule_name": "Volatility Below Prior Period",
+  "category": "MR",
+  "subcategory": "Low Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volatility Below Prior Period",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0023",
+  "rule_name": "Gap Size Above ATR",
+  "category": "RK",
+  "subcategory": "Gap Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Size Above ATR",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

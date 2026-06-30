@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0005",
+  "rule_name": "Uptrend",
+  "category": "TR",
+  "subcategory": "Direction",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Uptrend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0059",
+  "rule_name": "Failed Trend Reversal",
+  "category": "TR",
+  "subcategory": "Exhaustion",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Failed Trend Reversal",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPA006",
+  "rule_name": "Pullback Candle Quality",
+  "category": "PA",
+  "subcategory": "Price Action Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Candle Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPA"
+  ]
+}

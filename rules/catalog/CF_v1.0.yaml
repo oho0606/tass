@@ -1,0 +1,89 @@
+# TASS CF Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-025_CF_Rule_Catalog_v1.0.md
+# 60 atomic Confirmation rules (CF0001–CF0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: CF
+category_name: Confirmation
+rule_count: 60
+next_category: DQ
+
+subcategories:
+  - name: Trend Confirmation
+    rules:
+      - { id: CF0001, name: Close Confirms Bullish Trend }
+      - { id: CF0002, name: Close Confirms Bearish Trend }
+      - { id: CF0003, name: SMA20 Confirms Bullish Trend }
+      - { id: CF0004, name: SMA20 Confirms Bearish Trend }
+      - { id: CF0005, name: EMA20 Confirms Bullish Trend }
+      - { id: CF0006, name: EMA20 Confirms Bearish Trend }
+      - { id: CF0007, name: SMA Alignment Confirms Bullish Trend }
+      - { id: CF0008, name: SMA Alignment Confirms Bearish Trend }
+      - { id: CF0009, name: Higher High Confirms Bullish Trend }
+      - { id: CF0010, name: Lower Low Confirms Bearish Trend }
+
+  - name: Volume Confirmation
+    rules:
+      - { id: CF0011, name: Volume Confirms Bullish Trend }
+      - { id: CF0012, name: Volume Confirms Bearish Trend }
+      - { id: CF0013, name: Up Bar Volume Confirms Uptrend }
+      - { id: CF0014, name: Down Bar Volume Confirms Downtrend }
+      - { id: CF0015, name: OBV Rising Confirms Bullish Trend }
+      - { id: CF0016, name: OBV Falling Confirms Bearish Trend }
+      - { id: CF0017, name: Volume Above Average Confirms Bullish Trend }
+      - { id: CF0018, name: Volume Above Average Confirms Bearish Trend }
+      - { id: CF0019, name: Volume Spike Confirms Bullish Trend }
+      - { id: CF0020, name: Volume Spike Confirms Bearish Trend }
+
+  - name: Momentum Confirmation
+    rules:
+      - { id: CF0021, name: RSI Confirms Bullish Trend }
+      - { id: CF0022, name: RSI Confirms Bearish Trend }
+      - { id: CF0023, name: MACD Confirms Bullish Trend }
+      - { id: CF0024, name: MACD Confirms Bearish Trend }
+      - { id: CF0025, name: Stochastic Confirms Bullish Trend }
+      - { id: CF0026, name: Stochastic Confirms Bearish Trend }
+      - { id: CF0027, name: CCI Confirms Bullish Trend }
+      - { id: CF0028, name: CCI Confirms Bearish Trend }
+      - { id: CF0029, name: Rate Of Change Confirms Bullish Trend }
+      - { id: CF0030, name: Rate Of Change Confirms Bearish Trend }
+
+  - name: Volatility Confirmation
+    rules:
+      - { id: CF0031, name: ATR Rising Confirms Bullish Trend }
+      - { id: CF0032, name: ATR Rising Confirms Bearish Trend }
+      - { id: CF0033, name: Bollinger Band Width Expanding Confirms Breakout }
+      - { id: CF0034, name: Bollinger Band Width Contracting Confirms Consolidation }
+      - { id: CF0035, name: Volatility Above Average Confirms Bullish Trend }
+      - { id: CF0036, name: Volatility Above Average Confirms Bearish Trend }
+      - { id: CF0037, name: True Range Above Average Confirms Bullish Trend }
+      - { id: CF0038, name: True Range Above Average Confirms Bearish Trend }
+      - { id: CF0039, name: Historical Volatility Rising Confirms Bullish Trend }
+      - { id: CF0040, name: Historical Volatility Rising Confirms Bearish Trend }
+
+  - name: Multi-Indicator Confirmation
+    rules:
+      - { id: CF0041, name: Price And Volume Agreement }
+      - { id: CF0042, name: Price And Momentum Agreement }
+      - { id: CF0043, name: Price And Volatility Agreement }
+      - { id: CF0044, name: Trend And Volume Agreement }
+      - { id: CF0045, name: Trend And Momentum Agreement }
+      - { id: CF0046, name: Trend And Volatility Agreement }
+      - { id: CF0047, name: Momentum And Volume Agreement }
+      - { id: CF0048, name: MACD And RSI Agreement }
+      - { id: CF0049, name: SMA And EMA Agreement }
+      - { id: CF0050, name: Multi Indicator Agreement }
+
+  - name: Confirmation Quality
+    rules:
+      - { id: CF0051, name: Confirmation Present }
+      - { id: CF0052, name: Confirmation Absent }
+      - { id: CF0053, name: Confirmation Sustained }
+      - { id: CF0054, name: Confirmation Lost }
+      - { id: CF0055, name: Confirmation Restored }
+      - { id: CF0056, name: Confirmation Increasing }
+      - { id: CF0057, name: Confirmation Decreasing }
+      - { id: CF0058, name: Confirmation Duration Long }
+      - { id: CF0059, name: Confirmation Duration Short }
+      - { id: CF0060, name: Confirmation Structure Stable }

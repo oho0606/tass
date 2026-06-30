@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0037",
+  "rule_name": "Mid MA Cross Above Long MA",
+  "category": "MA",
+  "subcategory": "Crossovers",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Mid MA Cross Above Long MA",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

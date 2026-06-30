@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0054",
+  "rule_name": "Entry Close Near Bar Low",
+  "category": "EN",
+  "subcategory": "Entry Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Close Near Bar Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

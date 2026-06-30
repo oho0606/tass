@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEN001",
+  "rule_name": "Entry Quality",
+  "category": "EN",
+  "subcategory": "Entry Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEN"
+  ]
+}

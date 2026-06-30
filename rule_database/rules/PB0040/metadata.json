@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0040",
+  "rule_name": "Pullback Volume Flat",
+  "category": "PB",
+  "subcategory": "Volume Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Volume Flat",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

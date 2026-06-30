@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0006",
+  "rule_name": "Entry Low Above Prior Bar Low",
+  "category": "EN",
+  "subcategory": "Trend Following Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Low Above Prior Bar Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

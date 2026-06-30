@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0059",
+  "rule_name": "Pattern Neckline Defined",
+  "category": "PT",
+  "subcategory": "Pattern Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pattern Neckline Defined",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

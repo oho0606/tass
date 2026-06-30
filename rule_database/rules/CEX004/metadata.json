@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEX004",
+  "rule_name": "Trailing Exit",
+  "category": "EX",
+  "subcategory": "Exit Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trailing Exit",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEX"
+  ]
+}

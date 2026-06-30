@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0019",
+  "rule_name": "Timestamp Out of Sequence",
+  "category": "DQ",
+  "subcategory": "Data Integrity",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Timestamp Out of Sequence",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

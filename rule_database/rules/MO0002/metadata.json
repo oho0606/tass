@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0002",
+  "rule_name": "RSI Below 30",
+  "category": "MO",
+  "subcategory": "RSI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "RSI Below 30",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0024",
+  "rule_name": "Volume Slope Negative",
+  "category": "VL",
+  "subcategory": "Volume Trend",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Slope Negative",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

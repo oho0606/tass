@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0022",
+  "rule_name": "Exit Low Below Pullback Low",
+  "category": "EX",
+  "subcategory": "Pullback Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Low Below Pullback Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

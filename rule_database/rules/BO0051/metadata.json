@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0051",
+  "rule_name": "Breakout Bar Bullish",
+  "category": "BO",
+  "subcategory": "Breakout Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Bullish",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

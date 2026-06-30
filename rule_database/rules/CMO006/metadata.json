@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMO006",
+  "rule_name": "Bullish Momentum",
+  "category": "MO",
+  "subcategory": "Momentum Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bullish Momentum",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMO"
+  ]
+}

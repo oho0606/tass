@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMR005",
+  "rule_name": "Low Volatility Market",
+  "category": "MR",
+  "subcategory": "Market Regime Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Low Volatility Market",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMR"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0080",
+  "rule_name": "Trend Undefined",
+  "category": "TR",
+  "subcategory": "State",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Undefined",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

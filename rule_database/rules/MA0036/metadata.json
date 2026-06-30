@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0036",
+  "rule_name": "Short MA Cross Below Mid MA",
+  "category": "MA",
+  "subcategory": "Crossovers",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Short MA Cross Below Mid MA",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,115 @@
+# TASS TR Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-014_TR_Rule_Catalog_v1.0.md
+# 80 atomic Trend rules (TR0001–TR0080)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: TR
+category_name: Trend
+rule_count: 80
+next_category: MA
+
+subcategories:
+  - name: Direction
+    rules:
+      - { id: TR0001, name: Higher High }
+      - { id: TR0002, name: Higher Low }
+      - { id: TR0003, name: Lower High }
+      - { id: TR0004, name: Lower Low }
+      - { id: TR0005, name: Uptrend }
+      - { id: TR0006, name: Downtrend }
+      - { id: TR0007, name: Sideways Trend }
+      - { id: TR0008, name: Trend Reversal Up }
+      - { id: TR0009, name: Trend Reversal Down }
+      - { id: TR0010, name: Trend Continuation }
+
+  - name: Strength
+    rules:
+      - { id: TR0011, name: Strong Uptrend }
+      - { id: TR0012, name: Weak Uptrend }
+      - { id: TR0013, name: Strong Downtrend }
+      - { id: TR0014, name: Weak Downtrend }
+      - { id: TR0015, name: ADX Rising }
+      - { id: TR0016, name: ADX Falling }
+      - { id: TR0017, name: ADX Above Threshold }
+      - { id: TR0018, name: ADX Below Threshold }
+      - { id: TR0019, name: Trend Momentum Increasing }
+      - { id: TR0020, name: Trend Momentum Decreasing }
+
+  - name: Quality
+    rules:
+      - { id: TR0021, name: Clean Uptrend }
+      - { id: TR0022, name: Clean Downtrend }
+      - { id: TR0023, name: Choppy Trend }
+      - { id: TR0024, name: Smooth Trend }
+      - { id: TR0025, name: Noisy Trend }
+      - { id: TR0026, name: Stable Trend }
+      - { id: TR0027, name: Unstable Trend }
+      - { id: TR0028, name: Trend Consistency High }
+      - { id: TR0029, name: Trend Consistency Low }
+      - { id: TR0030, name: Trend Integrity }
+
+  - name: Slope
+    rules:
+      - { id: TR0031, name: Positive Slope }
+      - { id: TR0032, name: Negative Slope }
+      - { id: TR0033, name: Flat Slope }
+      - { id: TR0034, name: Increasing Slope }
+      - { id: TR0035, name: Decreasing Slope }
+      - { id: TR0036, name: Accelerating Trend }
+      - { id: TR0037, name: Decelerating Trend }
+      - { id: TR0038, name: Slope Breakout }
+      - { id: TR0039, name: Slope Reversal }
+      - { id: TR0040, name: Slope Stability }
+
+  - name: Persistence
+    rules:
+      - { id: TR0041, name: Consecutive Higher Highs }
+      - { id: TR0042, name: Consecutive Higher Lows }
+      - { id: TR0043, name: Consecutive Lower Highs }
+      - { id: TR0044, name: Consecutive Lower Lows }
+      - { id: TR0045, name: Trend Persistence High }
+      - { id: TR0046, name: Trend Persistence Low }
+      - { id: TR0047, name: Trend Duration Short }
+      - { id: TR0048, name: Trend Duration Medium }
+      - { id: TR0049, name: Trend Duration Long }
+      - { id: TR0050, name: Trend Age Increasing }
+
+  - name: Exhaustion
+    rules:
+      - { id: TR0051, name: Trend Exhaustion Up }
+      - { id: TR0052, name: Trend Exhaustion Down }
+      - { id: TR0053, name: Buying Exhaustion }
+      - { id: TR0054, name: Selling Exhaustion }
+      - { id: TR0055, name: Trend Climax }
+      - { id: TR0056, name: Trend Weakening }
+      - { id: TR0057, name: Trend Failure }
+      - { id: TR0058, name: Failed Trend Continuation }
+      - { id: TR0059, name: Failed Trend Reversal }
+      - { id: TR0060, name: Exhaustion Recovery }
+
+  - name: Confirmation
+    rules:
+      - { id: TR0061, name: Price Confirms Trend }
+      - { id: TR0062, name: Volume Confirms Trend }
+      - { id: TR0063, name: Momentum Confirms Trend }
+      - { id: TR0064, name: Volatility Confirms Trend }
+      - { id: TR0065, name: Multi Indicator Confirmation }
+      - { id: TR0066, name: Multi Timeframe Confirmation }
+      - { id: TR0067, name: Trend Confirmation Strong }
+      - { id: TR0068, name: Trend Confirmation Weak }
+      - { id: TR0069, name: Trend Confirmation Lost }
+      - { id: TR0070, name: Trend Confirmation Restored }
+
+  - name: State
+    rules:
+      - { id: TR0071, name: Trend Established }
+      - { id: TR0072, name: Trend Emerging }
+      - { id: TR0073, name: Trend Maturing }
+      - { id: TR0074, name: Trend Ending }
+      - { id: TR0075, name: Trend Restarting }
+      - { id: TR0076, name: Bull Trend State }
+      - { id: TR0077, name: Bear Trend State }
+      - { id: TR0078, name: Neutral Trend State }
+      - { id: TR0079, name: Trend Transition }
+      - { id: TR0080, name: Trend Undefined }

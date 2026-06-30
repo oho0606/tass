@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0009",
+  "rule_name": "RSI Cross Above 70",
+  "category": "MO",
+  "subcategory": "RSI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "RSI Cross Above 70",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

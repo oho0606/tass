@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0005",
+  "rule_name": "ATR At 20-Period High",
+  "category": "RK",
+  "subcategory": "ATR Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR At 20-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

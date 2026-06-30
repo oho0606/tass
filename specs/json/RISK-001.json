@@ -1,0 +1,46 @@
+{
+  "engine_id": "RISK-001",
+  "version": "1.0",
+  "status": "frozen",
+  "maximum_score": 100,
+  "minimum_score": 0,
+  "component_weights": {
+    "volatility_risk": 20,
+    "gap_risk": 15,
+    "liquidity_risk": 10,
+    "trend_risk": 10,
+    "momentum_risk": 5,
+    "market_risk": 10,
+    "entry_timing_risk": 5,
+    "stop_loss_distance": 5,
+    "atr_risk": 5,
+    "maximum_drawdown_risk": 5,
+    "price_extension_risk": 3,
+    "false_breakout_risk": 3,
+    "data_quality_risk": 2,
+    "signal_conflict_risk": 2
+  },
+  "grades": {
+    "very_low": {"min": 0, "max": 10, "stars": "★★★★★"},
+    "low": {"min": 11, "max": 20, "stars": "★★★★★"},
+    "moderate": {"min": 21, "max": 30, "stars": "★★★★☆"},
+    "elevated": {"min": 31, "max": 40, "stars": "★★★☆☆"},
+    "high": {"min": 41, "max": 50, "stars": "★★☆☆☆"},
+    "very_high": {"min": 51, "max": 70, "stars": "★☆☆☆☆"},
+    "extreme": {"min": 71, "max": 100, "stars": "Reject"}
+  },
+  "levels": {
+    "excellent": {"min": 0, "max": 10},
+    "good": {"min": 11, "max": 20},
+    "acceptable": {"min": 21, "max": 30},
+    "caution": {"min": 31, "max": 40},
+    "danger": {"min": 41, "max": 50},
+    "reject": {"min": 51, "max": 100}
+  },
+  "decisions": {
+    "pass": {"max": 20},
+    "pass_with_caution": {"min": 21, "max": 30},
+    "review_required": {"min": 31, "max": 40},
+    "fail": {"min": 41}
+  }
+}

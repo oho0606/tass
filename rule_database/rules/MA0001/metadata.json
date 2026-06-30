@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0001",
+  "rule_name": "Price Above SMA5",
+  "category": "MA",
+  "subcategory": "Price Position",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above SMA5",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

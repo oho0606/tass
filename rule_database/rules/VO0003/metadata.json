@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0003",
+  "rule_name": "ATR Above Prior ATR",
+  "category": "VO",
+  "subcategory": "ATR",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Above Prior ATR",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0043",
+  "rule_name": "Double Top Active",
+  "category": "PT",
+  "subcategory": "Double Top / Double Bottom",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Double Top Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,33 @@
+version: "1.0"
+status: frozen
+
+trading:
+  commission_rate: 0.00015
+  slippage_rate: 0.001
+  initial_capital: 100000000
+  entry_mode: next_open
+  hold_days: 20
+  stop_loss_pct: 0.05
+  take_profit_pct: 0.15
+
+evaluation:
+  min_bars: 60
+  min_trades: 5
+  in_sample_ratio: 0.7
+  min_win_rate: 0.40
+  max_drawdown_pct: 0.30
+
+data:
+  lookback_days: 3650
+  cache_dir: data/cache
+  adapter: yahoo
+  default_universe: config/universe_krx_backtest.csv
+  compute_indicators: false
+
+default_rules:
+  - TR0001
+  - TR0002
+  - TR0003
+  - TR0004
+
+output_dir: backtest/reports

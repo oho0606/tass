@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPA004",
+  "rule_name": "Bearish Price Structure",
+  "category": "PA",
+  "subcategory": "Price Action Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish Price Structure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPA"
+  ]
+}

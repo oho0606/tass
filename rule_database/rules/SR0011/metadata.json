@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0011",
+  "rule_name": "Price Above Horizontal Resistance",
+  "category": "SR",
+  "subcategory": "Horizontal Resistance",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above Horizontal Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

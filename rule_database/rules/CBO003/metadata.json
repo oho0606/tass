@@ -1,0 +1,19 @@
+{
+  "rule_id": "CBO003",
+  "rule_name": "False Breakout",
+  "category": "BO",
+  "subcategory": "Breakout Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "False Breakout",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CBO"
+  ]
+}

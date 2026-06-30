@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0048",
+  "rule_name": "EMA Slope Decreasing",
+  "category": "MA",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "EMA Slope Decreasing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

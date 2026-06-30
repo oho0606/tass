@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0008",
+  "rule_name": "Price Below SMA60",
+  "category": "MA",
+  "subcategory": "Price Position",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Below SMA60",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

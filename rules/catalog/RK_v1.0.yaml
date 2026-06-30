@@ -1,0 +1,89 @@
+# TASS RK Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-023_RK_Rule_Catalog_v1.0.md
+# 60 atomic Risk rules (RK0001–RK0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: RK
+category_name: Risk
+rule_count: 60
+next_category: EN
+
+subcategories:
+  - name: ATR Risk
+    rules:
+      - { id: RK0001, name: ATR Above 20-Period Average }
+      - { id: RK0002, name: ATR Below 20-Period Average }
+      - { id: RK0003, name: ATR Rising }
+      - { id: RK0004, name: ATR Falling }
+      - { id: RK0005, name: ATR At 20-Period High }
+      - { id: RK0006, name: ATR At 20-Period Low }
+      - { id: RK0007, name: ATR Expanding }
+      - { id: RK0008, name: ATR Contracting }
+      - { id: RK0009, name: True Range Above ATR }
+      - { id: RK0010, name: True Range Below ATR }
+
+  - name: Volatility Risk
+    rules:
+      - { id: RK0011, name: Historical Volatility Above 20-Period Average }
+      - { id: RK0012, name: Historical Volatility Below 20-Period Average }
+      - { id: RK0013, name: Historical Volatility Rising }
+      - { id: RK0014, name: Historical Volatility Falling }
+      - { id: RK0015, name: Bollinger Band Width Expanding }
+      - { id: RK0016, name: Bollinger Band Width Contracting }
+      - { id: RK0017, name: Daily Range Above 20-Period Average }
+      - { id: RK0018, name: Daily Range Below 20-Period Average }
+      - { id: RK0019, name: Close-To-Close Volatility Above 20-Period Average }
+      - { id: RK0020, name: High-Low Volatility Above 20-Period Average }
+
+  - name: Gap Risk
+    rules:
+      - { id: RK0021, name: Overnight Gap Up Present }
+      - { id: RK0022, name: Overnight Gap Down Present }
+      - { id: RK0023, name: Gap Size Above ATR }
+      - { id: RK0024, name: Gap Size Below ATR }
+      - { id: RK0025, name: Unfilled Gap Up Present }
+      - { id: RK0026, name: Unfilled Gap Down Present }
+      - { id: RK0027, name: Gap Up Filled Same Session }
+      - { id: RK0028, name: Gap Down Filled Same Session }
+      - { id: RK0029, name: Gap Up From Prior High }
+      - { id: RK0030, name: Gap Down From Prior Low }
+
+  - name: Liquidity Risk
+    rules:
+      - { id: RK0031, name: Volume Below 20-Period Average }
+      - { id: RK0032, name: Volume Above 20-Period Average }
+      - { id: RK0033, name: Bid-Ask Spread Above 20-Period Average }
+      - { id: RK0034, name: Bid-Ask Spread Below 20-Period Average }
+      - { id: RK0035, name: Turnover Below 20-Period Average }
+      - { id: RK0036, name: Turnover Above 20-Period Average }
+      - { id: RK0037, name: Volume Declining }
+      - { id: RK0038, name: Volume Increasing }
+      - { id: RK0039, name: Dollar Volume Below 20-Period Average }
+      - { id: RK0040, name: Dollar Volume Above 20-Period Average }
+
+  - name: Drawdown Risk
+    rules:
+      - { id: RK0041, name: Price Below 20-Period High }
+      - { id: RK0042, name: Price At 20-Period Low }
+      - { id: RK0043, name: Current Drawdown Above 10 Percent }
+      - { id: RK0044, name: Current Drawdown Below 10 Percent }
+      - { id: RK0045, name: New 20-Period Low Made }
+      - { id: RK0046, name: New 20-Period High Made }
+      - { id: RK0047, name: Drawdown Increasing }
+      - { id: RK0048, name: Drawdown Decreasing }
+      - { id: RK0049, name: Price Underwater From Peak }
+      - { id: RK0050, name: Price Above Prior Peak }
+
+  - name: Overall Risk Quality
+    rules:
+      - { id: RK0051, name: ATR Near 20-Period Average }
+      - { id: RK0052, name: ATR Extended Above 20-Period Average }
+      - { id: RK0053, name: ATR Extended Below 20-Period Average }
+      - { id: RK0054, name: Volatility Near 20-Period Average }
+      - { id: RK0055, name: Volatility Extended Above 20-Period Average }
+      - { id: RK0056, name: Volatility Extended Below 20-Period Average }
+      - { id: RK0057, name: Volume Near 20-Period Average }
+      - { id: RK0058, name: Drawdown Near 20-Period Average }
+      - { id: RK0059, name: Gap Frequency Above 20-Period Average }
+      - { id: RK0060, name: Risk Structure Stable }

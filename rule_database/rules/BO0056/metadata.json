@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0056",
+  "rule_name": "Breakout Close Near Low",
+  "category": "BO",
+  "subcategory": "Breakout Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Close Near Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

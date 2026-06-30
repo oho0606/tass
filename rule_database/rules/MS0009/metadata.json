@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0009",
+  "rule_name": "Higher Low Active",
+  "category": "MS",
+  "subcategory": "Higher High / Higher Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Higher Low Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0055",
+  "rule_name": "Multi Timeframe Higher High Match",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Multi Timeframe Higher High Match",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

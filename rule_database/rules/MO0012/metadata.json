@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0012",
+  "rule_name": "MACD Below Zero",
+  "category": "MO",
+  "subcategory": "MACD",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MACD Below Zero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

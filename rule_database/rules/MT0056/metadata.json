@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0056",
+  "rule_name": "Multi Timeframe Lower Low Match",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Multi Timeframe Lower Low Match",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

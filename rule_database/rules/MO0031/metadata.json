@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0031",
+  "rule_name": "CCI Above 100",
+  "category": "MO",
+  "subcategory": "CCI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "CCI Above 100",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

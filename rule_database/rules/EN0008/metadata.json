@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0008",
+  "rule_name": "Entry Close Above N-Period High",
+  "category": "EN",
+  "subcategory": "Trend Following Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Close Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

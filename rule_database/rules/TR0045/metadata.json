@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0045",
+  "rule_name": "Trend Persistence High",
+  "category": "TR",
+  "subcategory": "Persistence",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Persistence High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

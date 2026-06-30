@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0019",
+  "rule_name": "Weekly Daily SMA Golden Cross",
+  "category": "MT",
+  "subcategory": "Moving Average Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily SMA Golden Cross",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

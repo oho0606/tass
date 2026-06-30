@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0060",
+  "rule_name": "Confirmation Structure Stable",
+  "category": "CF",
+  "subcategory": "Confirmation Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Confirmation Structure Stable",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

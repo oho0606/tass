@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0051",
+  "rule_name": "Swing Spacing Narrow",
+  "category": "MS",
+  "subcategory": "Market Structure Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Swing Spacing Narrow",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

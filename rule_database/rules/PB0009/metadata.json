@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0009",
+  "rule_name": "Pullback Close Above Prior Leg Midpoint",
+  "category": "PB",
+  "subcategory": "Healthy Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Close Above Prior Leg Midpoint",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

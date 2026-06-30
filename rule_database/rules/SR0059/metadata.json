@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0059",
+  "rule_name": "Confluent Support Levels Present",
+  "category": "SR",
+  "subcategory": "Support & Resistance Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Confluent Support Levels Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

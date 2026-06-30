@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0002",
+  "rule_name": "Retracement Below 38.2 Percent",
+  "category": "PB",
+  "subcategory": "Healthy Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Retracement Below 38.2 Percent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

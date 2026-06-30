@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0029",
+  "rule_name": "Triangle Apex Present",
+  "category": "PT",
+  "subcategory": "Triangle Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Triangle Apex Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

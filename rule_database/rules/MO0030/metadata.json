@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0030",
+  "rule_name": "Stochastic Falling",
+  "category": "MO",
+  "subcategory": "Stochastic",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Stochastic Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

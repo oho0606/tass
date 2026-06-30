@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0027",
+  "rule_name": "EMA Alignment Improving",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "EMA Alignment Improving",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

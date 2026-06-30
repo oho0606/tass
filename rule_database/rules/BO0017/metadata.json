@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0017",
+  "rule_name": "Breakout Bar Relative Volume Above 1",
+  "category": "BO",
+  "subcategory": "Volume Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Relative Volume Above 1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

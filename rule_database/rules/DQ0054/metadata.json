@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0054",
+  "rule_name": "Current Bar Absent",
+  "category": "DQ",
+  "subcategory": "Overall Data Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Current Bar Absent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

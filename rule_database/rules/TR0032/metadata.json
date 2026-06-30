@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0032",
+  "rule_name": "Negative Slope",
+  "category": "TR",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Negative Slope",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

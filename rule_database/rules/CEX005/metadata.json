@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEX005",
+  "rule_name": "Exit Confirmation",
+  "category": "EX",
+  "subcategory": "Exit Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEX"
+  ]
+}

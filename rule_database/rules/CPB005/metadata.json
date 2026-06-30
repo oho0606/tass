@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPB005",
+  "rule_name": "Pullback Confirmation",
+  "category": "PB",
+  "subcategory": "Pullback Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPB"
+  ]
+}

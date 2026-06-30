@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0037",
+  "rule_name": "Breakout Bar Bollinger Band Width Expanding",
+  "category": "BO",
+  "subcategory": "Volatility Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Bollinger Band Width Expanding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

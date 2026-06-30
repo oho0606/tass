@@ -1,0 +1,89 @@
+# TASS BO Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-020_BO_Rule_Catalog_v1.0.md
+# 60 atomic Breakout rules (BO0001–BO0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: BO
+category_name: Breakout
+rule_count: 60
+next_category: PB
+
+subcategories:
+  - name: Price Breakout
+    rules:
+      - { id: BO0001, name: Close Above N-Period High }
+      - { id: BO0002, name: Close Below N-Period Low }
+      - { id: BO0003, name: High Above N-Period High }
+      - { id: BO0004, name: Low Below N-Period Low }
+      - { id: BO0005, name: Open Above N-Period High }
+      - { id: BO0006, name: Open Below N-Period Low }
+      - { id: BO0007, name: Close Above Prior High }
+      - { id: BO0008, name: Close Below Prior Low }
+      - { id: BO0009, name: Price Above 52-Week High }
+      - { id: BO0010, name: Price Below 52-Week Low }
+
+  - name: Volume Breakout
+    rules:
+      - { id: BO0011, name: Breakout Bar Volume Above N-Period Average }
+      - { id: BO0012, name: Breakout Bar Volume Below N-Period Average }
+      - { id: BO0013, name: Breakout Bar Volume Above Prior Volume }
+      - { id: BO0014, name: Breakout Bar Volume Below Prior Volume }
+      - { id: BO0015, name: Breakout Bar Volume Above N-Period High }
+      - { id: BO0016, name: Breakout Bar Volume At N-Period High }
+      - { id: BO0017, name: Breakout Bar Relative Volume Above 1 }
+      - { id: BO0018, name: Breakout Bar Relative Volume Above 2 }
+      - { id: BO0019, name: Breakout Bar Volume Spike }
+      - { id: BO0020, name: Breakout Bar Volume Rising }
+
+  - name: Moving Average Breakout
+    rules:
+      - { id: BO0021, name: Close Cross Above SMA5 }
+      - { id: BO0022, name: Close Cross Below SMA5 }
+      - { id: BO0023, name: Close Cross Above SMA20 }
+      - { id: BO0024, name: Close Cross Below SMA20 }
+      - { id: BO0025, name: Close Cross Above SMA60 }
+      - { id: BO0026, name: Close Cross Below SMA60 }
+      - { id: BO0027, name: Close Cross Above EMA20 }
+      - { id: BO0028, name: Close Cross Below EMA20 }
+      - { id: BO0029, name: Close Cross Above EMA60 }
+      - { id: BO0030, name: Close Cross Below EMA60 }
+
+  - name: Volatility Breakout
+    rules:
+      - { id: BO0031, name: Breakout Bar True Range Above N-Period Average }
+      - { id: BO0032, name: Breakout Bar True Range Above N-Period High }
+      - { id: BO0033, name: Breakout Bar ATR Above N-Period Average }
+      - { id: BO0034, name: Breakout Bar ATR Above Prior ATR }
+      - { id: BO0035, name: Price Above Upper Bollinger Band }
+      - { id: BO0036, name: Price Below Lower Bollinger Band }
+      - { id: BO0037, name: Breakout Bar Bollinger Band Width Expanding }
+      - { id: BO0038, name: Breakout Bar Volatility Expanding }
+      - { id: BO0039, name: Breakout Bar Historical Volatility Above N-Period Average }
+      - { id: BO0040, name: Breakout Bar Bollinger Band Width At N-Period High }
+
+  - name: Resistance Breakout Confirmation
+    rules:
+      - { id: BO0041, name: Close Above Horizontal Resistance }
+      - { id: BO0042, name: Close Below Horizontal Support }
+      - { id: BO0043, name: High Above Horizontal Resistance }
+      - { id: BO0044, name: Low Below Horizontal Support }
+      - { id: BO0045, name: Close Above Prior Swing High }
+      - { id: BO0046, name: Close Below Prior Swing Low }
+      - { id: BO0047, name: Close Above Trendline Resistance }
+      - { id: BO0048, name: Close Below Trendline Support }
+      - { id: BO0049, name: Close Above R1 }
+      - { id: BO0050, name: Close Below S1 }
+
+  - name: Breakout Quality
+    rules:
+      - { id: BO0051, name: Breakout Bar Bullish }
+      - { id: BO0052, name: Breakout Bar Bearish }
+      - { id: BO0053, name: Breakout Bar Wide Range }
+      - { id: BO0054, name: Breakout Bar Narrow Range }
+      - { id: BO0055, name: Breakout Close Near High }
+      - { id: BO0056, name: Breakout Close Near Low }
+      - { id: BO0057, name: Breakout Body Above Half Range }
+      - { id: BO0058, name: Breakout Body Below Half Range }
+      - { id: BO0059, name: Breakout Gap Up }
+      - { id: BO0060, name: Breakout Gap Down }

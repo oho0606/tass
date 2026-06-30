@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0060",
+  "rule_name": "Exit Wick Rejection At Resistance",
+  "category": "EX",
+  "subcategory": "Exit Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Wick Rejection At Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0033",
+  "rule_name": "Price At Pivot Point",
+  "category": "SR",
+  "subcategory": "Pivot Levels",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price At Pivot Point",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

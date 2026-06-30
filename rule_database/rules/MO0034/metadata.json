@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0034",
+  "rule_name": "CCI Below Zero",
+  "category": "MO",
+  "subcategory": "CCI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "CCI Below Zero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

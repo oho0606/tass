@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEX001",
+  "rule_name": "Exit Quality",
+  "category": "EX",
+  "subcategory": "Exit Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEX"
+  ]
+}

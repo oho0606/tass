@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0022",
+  "rule_name": "SMA Bearish Alignment",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Bearish Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

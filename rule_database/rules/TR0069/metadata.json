@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0069",
+  "rule_name": "Trend Confirmation Lost",
+  "category": "TR",
+  "subcategory": "Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Confirmation Lost",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

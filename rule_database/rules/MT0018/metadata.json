@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0018",
+  "rule_name": "Weekly Daily SMA Bearish Alignment",
+  "category": "MT",
+  "subcategory": "Moving Average Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily SMA Bearish Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

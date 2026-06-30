@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0021",
+  "rule_name": "Weekly Daily RSI Above 50",
+  "category": "MT",
+  "subcategory": "Momentum Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily RSI Above 50",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

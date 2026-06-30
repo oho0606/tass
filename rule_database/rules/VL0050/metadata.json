@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0050",
+  "rule_name": "Price Down Volume Down",
+  "category": "VL",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Down Volume Down",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

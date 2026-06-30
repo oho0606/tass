@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0042",
+  "rule_name": "Bearish Change of Character",
+  "category": "MS",
+  "subcategory": "Change of Character",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish Change of Character",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

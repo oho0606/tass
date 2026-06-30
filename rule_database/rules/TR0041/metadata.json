@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0041",
+  "rule_name": "Consecutive Higher Highs",
+  "category": "TR",
+  "subcategory": "Persistence",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Higher Highs",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

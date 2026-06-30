@@ -1,0 +1,89 @@
+# TASS SR Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-019_SR_Rule_Catalog_v1.0.md
+# 60 atomic Support & Resistance rules (SR0001–SR0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: SR
+category_name: Support & Resistance
+rule_count: 60
+next_category: BO
+
+subcategories:
+  - name: Horizontal Support
+    rules:
+      - { id: SR0001, name: Price Above Horizontal Support }
+      - { id: SR0002, name: Price Below Horizontal Support }
+      - { id: SR0003, name: Price At Horizontal Support }
+      - { id: SR0004, name: Price Near Horizontal Support }
+      - { id: SR0005, name: Price Touching Horizontal Support }
+      - { id: SR0006, name: Horizontal Support Level Identified }
+      - { id: SR0007, name: Prior Low As Horizontal Support }
+      - { id: SR0008, name: Swing Low As Horizontal Support }
+      - { id: SR0009, name: N-Period Low As Horizontal Support }
+      - { id: SR0010, name: Price Crossing Above Horizontal Support }
+
+  - name: Horizontal Resistance
+    rules:
+      - { id: SR0011, name: Price Above Horizontal Resistance }
+      - { id: SR0012, name: Price Below Horizontal Resistance }
+      - { id: SR0013, name: Price At Horizontal Resistance }
+      - { id: SR0014, name: Price Near Horizontal Resistance }
+      - { id: SR0015, name: Price Touching Horizontal Resistance }
+      - { id: SR0016, name: Horizontal Resistance Level Identified }
+      - { id: SR0017, name: Prior High As Horizontal Resistance }
+      - { id: SR0018, name: Swing High As Horizontal Resistance }
+      - { id: SR0019, name: N-Period High As Horizontal Resistance }
+      - { id: SR0020, name: Price Crossing Below Horizontal Resistance }
+
+  - name: Dynamic Support & Resistance
+    rules:
+      - { id: SR0021, name: Price Above Dynamic Support }
+      - { id: SR0022, name: Price Below Dynamic Support }
+      - { id: SR0023, name: Price At Dynamic Support }
+      - { id: SR0024, name: Price Near Dynamic Support }
+      - { id: SR0025, name: Price Touching Dynamic Support }
+      - { id: SR0026, name: Dynamic Support Present }
+      - { id: SR0027, name: Price Above Dynamic Resistance }
+      - { id: SR0028, name: Price Below Dynamic Resistance }
+      - { id: SR0029, name: Price At Dynamic Resistance }
+      - { id: SR0030, name: Price Touching Dynamic Resistance }
+
+  - name: Pivot Levels
+    rules:
+      - { id: SR0031, name: Price Above Pivot Point }
+      - { id: SR0032, name: Price Below Pivot Point }
+      - { id: SR0033, name: Price At Pivot Point }
+      - { id: SR0034, name: Price Above S1 }
+      - { id: SR0035, name: Price Below S1 }
+      - { id: SR0036, name: Price At S1 }
+      - { id: SR0037, name: Price Above R1 }
+      - { id: SR0038, name: Price Below R1 }
+      - { id: SR0039, name: Price At R1 }
+      - { id: SR0040, name: Price At S2 }
+
+  - name: Fibonacci Levels
+    rules:
+      - { id: SR0041, name: Price Above Fibonacci 23.6 Level }
+      - { id: SR0042, name: Price Below Fibonacci 23.6 Level }
+      - { id: SR0043, name: Price At Fibonacci 23.6 Level }
+      - { id: SR0044, name: Price Above Fibonacci 38.2 Level }
+      - { id: SR0045, name: Price Below Fibonacci 38.2 Level }
+      - { id: SR0046, name: Price At Fibonacci 38.2 Level }
+      - { id: SR0047, name: Price Above Fibonacci 50.0 Level }
+      - { id: SR0048, name: Price Below Fibonacci 50.0 Level }
+      - { id: SR0049, name: Price At Fibonacci 50.0 Level }
+      - { id: SR0050, name: Price At Fibonacci 61.8 Level }
+
+  - name: Support & Resistance Strength
+    rules:
+      - { id: SR0051, name: Support Level First Touch }
+      - { id: SR0052, name: Support Level Second Touch }
+      - { id: SR0053, name: Support Level Multiple Touches }
+      - { id: SR0054, name: Resistance Level First Touch }
+      - { id: SR0055, name: Resistance Level Second Touch }
+      - { id: SR0056, name: Resistance Level Multiple Touches }
+      - { id: SR0057, name: Support Level Holding }
+      - { id: SR0058, name: Resistance Level Holding }
+      - { id: SR0059, name: Confluent Support Levels Present }
+      - { id: SR0060, name: Confluent Resistance Levels Present }

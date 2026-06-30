@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0016",
+  "rule_name": "Pullback Range Wider Than Prior Leg",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Range Wider Than Prior Leg",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

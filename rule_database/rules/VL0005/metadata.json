@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0005",
+  "rule_name": "Volume Below Prior Volume",
+  "category": "VL",
+  "subcategory": "Absolute Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Below Prior Volume",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

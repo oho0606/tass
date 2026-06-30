@@ -1,0 +1,58 @@
+version: "1.0"
+status: draft
+# Full Engine (1000-pt scale) baseline gates for mvp_mode=false dry-runs.
+# Tune with:
+# python scripts/tune_recommendation_thresholds.py --settings config/settings_full.yaml --recommendation-config config/recommendation_full_v1.yaml
+
+top_n: 20
+
+gates:
+  master_score_min: 520
+  probability_min: 20.0
+  confidence_min: 55.0
+  risk_max: 70.0
+  market_regime_min: 0.0
+  max_composite_failures: 6
+  critical_conflict_min_pass: 2
+  critical_conflict_min_fail: 2
+  validation_composites:
+    - CTR001
+    - CTR002
+    - CTR003
+    - CTR005
+    - CTR009
+    - CTR010
+
+grades:
+  - stars: "★★★★★"
+    master_score_min: 820
+    probability_min: 55.0
+    confidence_min: 75.0
+    risk_max: 30.0
+    action: STRONG BUY
+  - stars: "★★★★☆"
+    master_score_min: 740
+    probability_min: 45.0
+    confidence_min: 70.0
+    risk_max: 40.0
+    action: BUY
+  - stars: "★★★☆☆"
+    master_score_min: 660
+    probability_min: 35.0
+    confidence_min: 65.0
+    risk_max: 50.0
+    action: WATCHLIST
+  - stars: "★★☆☆☆"
+    master_score_min: 520
+    probability_min: 20.0
+    confidence_min: 55.0
+    risk_max: 70.0
+    action: HOLD
+  - stars: "★☆☆☆☆"
+    action: NOT RECOMMENDED
+
+recommendable_actions:
+  - STRONG BUY
+  - BUY
+  - WATCHLIST
+  - HOLD

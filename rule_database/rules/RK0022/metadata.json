@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0022",
+  "rule_name": "Overnight Gap Down Present",
+  "category": "RK",
+  "subcategory": "Gap Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Overnight Gap Down Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

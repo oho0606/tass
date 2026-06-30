@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0008",
+  "rule_name": "Pullback Range Narrower Than Prior Leg",
+  "category": "PB",
+  "subcategory": "Healthy Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Range Narrower Than Prior Leg",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

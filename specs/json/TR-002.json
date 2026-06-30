@@ -1,0 +1,1 @@
+{"rule_id":"TR-002","version":"1.0.0","category":"TR","type":"atomic","function":"evaluate_higher_low","inputs":["low","close","volume"],"parameters":{"lookback":40,"pivot_strength":3,"min_hl":2},"scoring":{"max":20}}

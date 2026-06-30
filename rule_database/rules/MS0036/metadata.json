@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0036",
+  "rule_name": "Bearish BOS With Close",
+  "category": "MS",
+  "subcategory": "Break of Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish BOS With Close",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

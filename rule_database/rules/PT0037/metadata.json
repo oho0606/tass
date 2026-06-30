@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0037",
+  "rule_name": "Descending Channel Active",
+  "category": "PT",
+  "subcategory": "Channel & Wedge Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Descending Channel Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0053",
+  "rule_name": "Swing Overlap Present",
+  "category": "MS",
+  "subcategory": "Market Structure Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Swing Overlap Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

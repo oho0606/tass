@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0002",
+  "rule_name": "Close Below N-Period Low",
+  "category": "BO",
+  "subcategory": "Price Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Close Below N-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

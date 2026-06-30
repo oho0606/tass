@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0040",
+  "rule_name": "Daily Breakout Rejected By Weekly Close",
+  "category": "MT",
+  "subcategory": "Breakout Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily Breakout Rejected By Weekly Close",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

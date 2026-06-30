@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0040",
+  "rule_name": "Price At S2",
+  "category": "SR",
+  "subcategory": "Pivot Levels",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price At S2",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

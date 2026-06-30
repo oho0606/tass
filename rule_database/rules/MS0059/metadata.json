@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0059",
+  "rule_name": "Internal Swing Present",
+  "category": "MS",
+  "subcategory": "Market Structure Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Internal Swing Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

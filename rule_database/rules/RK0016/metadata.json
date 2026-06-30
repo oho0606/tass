@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0016",
+  "rule_name": "Bollinger Band Width Contracting",
+  "category": "RK",
+  "subcategory": "Volatility Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Contracting",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

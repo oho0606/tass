@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMA006",
+  "rule_name": "MA Compression State",
+  "category": "MA",
+  "subcategory": "Moving Average Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MA Compression State",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMA"
+  ]
+}

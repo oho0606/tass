@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMO010",
+  "rule_name": "Momentum Confirmation",
+  "category": "MO",
+  "subcategory": "Momentum Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Momentum Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMO"
+  ]
+}

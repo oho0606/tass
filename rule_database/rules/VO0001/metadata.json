@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0001",
+  "rule_name": "ATR Rising",
+  "category": "VO",
+  "subcategory": "ATR",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Rising",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

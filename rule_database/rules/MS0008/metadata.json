@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0008",
+  "rule_name": "Higher Low Exceeds Prior",
+  "category": "MS",
+  "subcategory": "Higher High / Higher Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Higher Low Exceeds Prior",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

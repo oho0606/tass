@@ -1,0 +1,20 @@
+{
+  "rule_id": "TRC001",
+  "rule_name": "Trend Structure",
+  "category": "TR",
+  "subcategory": "Direction",
+  "version": "1.0.0",
+  "status": "Draft",
+  "priority": "High",
+  "weight": 1.5,
+  "description": "Trend Structure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [
+    "TR0001",
+    "TR0002",
+    "TR0003",
+    "TR0004"
+  ],
+  "tags": []
+}

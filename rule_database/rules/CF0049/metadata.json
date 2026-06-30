@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0049",
+  "rule_name": "SMA And EMA Agreement",
+  "category": "CF",
+  "subcategory": "Multi-Indicator Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA And EMA Agreement",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

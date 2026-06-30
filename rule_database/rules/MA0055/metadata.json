@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0055",
+  "rule_name": "Moving Average Expansion",
+  "category": "MA",
+  "subcategory": "Distance & Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Moving Average Expansion",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

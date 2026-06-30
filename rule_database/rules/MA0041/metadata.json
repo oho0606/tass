@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0041",
+  "rule_name": "SMA Rising",
+  "category": "MA",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Rising",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

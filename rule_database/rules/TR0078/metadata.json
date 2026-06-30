@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0078",
+  "rule_name": "Neutral Trend State",
+  "category": "TR",
+  "subcategory": "State",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Neutral Trend State",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMR001",
+  "rule_name": "Bull Market",
+  "category": "MR",
+  "subcategory": "Market Regime Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bull Market",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMR"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0006",
+  "rule_name": "Volume Equal Prior Volume",
+  "category": "VL",
+  "subcategory": "Absolute Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Equal Prior Volume",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

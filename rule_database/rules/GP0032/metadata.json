@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0032",
+  "rule_name": "Continuation Gap Up Unfilled At Close",
+  "category": "GP",
+  "subcategory": "Continuation (Runaway) Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Continuation Gap Up Unfilled At Close",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "rule_id": "MA0029",
+  "rule_name": "Full Bullish Alignment",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Full Bullish Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Rejected",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/ma/ma0029_full_bullish_alignment.py",
+  "backtest_verdict": "REJECT",
+  "backtest_evaluated_at": "2026-06-30T01:33:29Z",
+  "backtest_symbols": 30,
+  "rejection_reason": "Aggregate backtest verdict REVISE — not promoted to Adopted (TASS-009: rules not passing backtest must not be adopted).",
+  "finalized_at": "2026-06-30T01:53:25Z"
+}

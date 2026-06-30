@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0036",
+  "rule_name": "Accelerating Trend",
+  "category": "TR",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Accelerating Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0040",
+  "rule_name": "Historical Volatility Rising Confirms Bearish Trend",
+  "category": "CF",
+  "subcategory": "Volatility Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Historical Volatility Rising Confirms Bearish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

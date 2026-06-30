@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0015",
+  "rule_name": "Consecutive Lower High",
+  "category": "MS",
+  "subcategory": "Lower High / Lower Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Consecutive Lower High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

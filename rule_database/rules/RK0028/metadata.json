@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0028",
+  "rule_name": "Gap Down Filled Same Session",
+  "category": "RK",
+  "subcategory": "Gap Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Down Filled Same Session",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

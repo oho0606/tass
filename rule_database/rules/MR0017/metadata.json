@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0017",
+  "rule_name": "SMA60 Falling",
+  "category": "MR",
+  "subcategory": "Bear Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA60 Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

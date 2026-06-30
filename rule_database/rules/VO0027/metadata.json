@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0027",
+  "rule_name": "Historical Volatility At N-Period High",
+  "category": "VO",
+  "subcategory": "Historical Volatility",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Historical Volatility At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

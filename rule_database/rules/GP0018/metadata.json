@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0018",
+  "rule_name": "Gap Down Size Larger Than Prior Range",
+  "category": "GP",
+  "subcategory": "Gap Down",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Down Size Larger Than Prior Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

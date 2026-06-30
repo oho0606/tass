@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0050",
+  "rule_name": "Price Above Prior Peak",
+  "category": "RK",
+  "subcategory": "Drawdown Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above Prior Peak",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEX003",
+  "rule_name": "Target Exit",
+  "category": "EX",
+  "subcategory": "Exit Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Target Exit",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEX"
+  ]
+}

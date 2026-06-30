@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0019",
+  "rule_name": "True Range Expanding",
+  "category": "VO",
+  "subcategory": "True Range",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range Expanding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

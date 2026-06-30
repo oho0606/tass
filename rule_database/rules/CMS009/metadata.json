@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMS009",
+  "rule_name": "Structure Stability",
+  "category": "MS",
+  "subcategory": "Market Structure Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Structure Stability",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMS"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0022",
+  "rule_name": "Clean Downtrend",
+  "category": "TR",
+  "subcategory": "Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Clean Downtrend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

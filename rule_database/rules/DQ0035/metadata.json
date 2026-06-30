@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0035",
+  "rule_name": "Zero Volume Session",
+  "category": "DQ",
+  "subcategory": "Liquidity & Trading Status",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Zero Volume Session",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0045",
+  "rule_name": "Exit Bar Relative Volume Below 1",
+  "category": "EX",
+  "subcategory": "Exit Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Bar Relative Volume Below 1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

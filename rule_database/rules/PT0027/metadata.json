@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0027",
+  "rule_name": "Triangle Upper Trendline Present",
+  "category": "PT",
+  "subcategory": "Triangle Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Triangle Upper Trendline Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

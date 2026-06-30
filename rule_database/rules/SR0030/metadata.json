@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0030",
+  "rule_name": "Price Touching Dynamic Resistance",
+  "category": "SR",
+  "subcategory": "Dynamic Support & Resistance",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Touching Dynamic Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

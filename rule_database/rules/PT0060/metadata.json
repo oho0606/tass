@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0060",
+  "rule_name": "Pattern Structure Complete",
+  "category": "PT",
+  "subcategory": "Pattern Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pattern Structure Complete",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

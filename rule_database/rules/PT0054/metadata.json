@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0054",
+  "rule_name": "Pattern Boundaries Converging",
+  "category": "PT",
+  "subcategory": "Pattern Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pattern Boundaries Converging",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

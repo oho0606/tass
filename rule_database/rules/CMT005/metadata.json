@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMT005",
+  "rule_name": "Lower Timeframe Agreement",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Lower Timeframe Agreement",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMT"
+  ]
+}

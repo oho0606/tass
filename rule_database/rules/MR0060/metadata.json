@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0060",
+  "rule_name": "Minus DI Above Plus DI",
+  "category": "MR",
+  "subcategory": "Market Regime Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Minus DI Above Plus DI",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

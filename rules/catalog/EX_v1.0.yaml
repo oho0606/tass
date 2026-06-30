@@ -1,0 +1,142 @@
+# TASS EX Rule Catalog v1.0 — Frozen
+# Mirror of EN catalog with exit-oriented conditions
+# 60 atomic Exit rules (EX0001–EX0060)
+
+catalog_version: '1.0'
+status: Frozen
+category_code: EX
+category_name: Exit
+rule_count: 60
+subcategories:
+- name: Trend Following Exit
+  rules:
+  - id: EX0001
+    name: Exit Close Below SMA20
+  - id: EX0002
+    name: Exit Close Below SMA60
+  - id: EX0003
+    name: Exit Close Below EMA20
+  - id: EX0004
+    name: Exit Close Below EMA60
+  - id: EX0005
+    name: Exit High Below Prior Bar High
+  - id: EX0006
+    name: Exit Low Below Prior Bar Low
+  - id: EX0007
+    name: Exit Close Below Prior Close
+  - id: EX0008
+    name: Exit Close Below N-Period High
+  - id: EX0009
+    name: Exit Open Above Exit Close
+  - id: EX0010
+    name: Exit Close Below Prior Bar Open
+- name: Breakout Exit
+  rules:
+  - id: EX0011
+    name: Exit Close Below Prior Swing High
+  - id: EX0012
+    name: Exit Close Above Prior Swing Low
+  - id: EX0013
+    name: Exit Close Below Horizontal Resistance
+  - id: EX0014
+    name: Exit Close Above Horizontal Support
+  - id: EX0015
+    name: Exit Close Below 52-Week High
+  - id: EX0016
+    name: Exit Close Above 52-Week Low
+  - id: EX0017
+    name: Exit Close Below Upper Bollinger Band
+  - id: EX0018
+    name: Exit Close Above Lower Bollinger Band
+  - id: EX0019
+    name: Exit Close Below R1
+  - id: EX0020
+    name: Exit Close Above S1
+- name: Pullback Exit
+  rules:
+  - id: EX0021
+    name: Exit Close Below Pullback Low
+  - id: EX0022
+    name: Exit Low Below Pullback Low
+  - id: EX0023
+    name: Exit Close Below SMA20 After Touch
+  - id: EX0024
+    name: Exit Close Below EMA20 After Touch
+  - id: EX0025
+    name: Exit Close Below 38.2 Percent Retracement
+  - id: EX0026
+    name: Exit Close Below 50 Percent Retracement
+  - id: EX0027
+    name: Exit Close Below 61.8 Percent Retracement
+  - id: EX0028
+    name: Exit Bar Following Pullback Low
+  - id: EX0029
+    name: Exit Close Below Prior Pullback High
+  - id: EX0030
+    name: Exit Low At Pullback Support Level
+- name: Reversal Exit
+  rules:
+  - id: EX0031
+    name: Exit Close Below Prior Swing Low
+  - id: EX0032
+    name: Exit Close Above Prior Swing High
+  - id: EX0033
+    name: Exit Low At N-Period Low
+  - id: EX0034
+    name: Exit High At N-Period High
+  - id: EX0035
+    name: Exit Close Below Support Level
+  - id: EX0036
+    name: Exit Close Above Resistance Level
+  - id: EX0037
+    name: Exit Close Below Reversal Bar High
+  - id: EX0038
+    name: Exit Close Above Reversal Bar Low
+  - id: EX0039
+    name: Exit Close Below Double Bottom Level
+  - id: EX0040
+    name: Exit Close Above Double Top Level
+- name: Exit Confirmation
+  rules:
+  - id: EX0041
+    name: Exit Bar Volume Below N-Period Average
+  - id: EX0042
+    name: Exit Bar Volume Above N-Period Average
+  - id: EX0043
+    name: Exit Bar Volume Below Prior Bar
+  - id: EX0044
+    name: Exit Bar Volume Above Prior Bar
+  - id: EX0045
+    name: Exit Bar Relative Volume Below 1
+  - id: EX0046
+    name: Exit Bar Relative Volume Below 2
+  - id: EX0047
+    name: Exit Bar Bearish
+  - id: EX0048
+    name: Exit Bar Bullish
+  - id: EX0049
+    name: Exit Bar RSI Below 50
+  - id: EX0050
+    name: Exit Bar RSI Above 50
+- name: Exit Quality
+  rules:
+  - id: EX0051
+    name: Exit Bar Wide Range
+  - id: EX0052
+    name: Exit Bar Narrow Range
+  - id: EX0053
+    name: Exit Close Near Bar Low
+  - id: EX0054
+    name: Exit Close Near Bar High
+  - id: EX0055
+    name: Exit Bar Body Below Half Range
+  - id: EX0056
+    name: Exit Bar Body Above Half Range
+  - id: EX0057
+    name: Exit Bar Overlapping Prior Bar
+  - id: EX0058
+    name: Exit Gap Down At Exit Bar
+  - id: EX0059
+    name: Exit Gap Up At Exit Bar
+  - id: EX0060
+    name: Exit Wick Rejection At Resistance

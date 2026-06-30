@@ -1,0 +1,19 @@
+{
+  "rule_id": "CSR001",
+  "rule_name": "Support Quality",
+  "category": "SR",
+  "subcategory": "Support & Resistance Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Support Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CSR"
+  ]
+}

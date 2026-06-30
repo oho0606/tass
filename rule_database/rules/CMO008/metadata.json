@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMO008",
+  "rule_name": "Momentum Quality",
+  "category": "MO",
+  "subcategory": "Momentum Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Momentum Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMO"
+  ]
+}

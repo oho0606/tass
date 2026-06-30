@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0044",
+  "rule_name": "CHoCH Below Higher Low",
+  "category": "MS",
+  "subcategory": "Change of Character",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "CHoCH Below Higher Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

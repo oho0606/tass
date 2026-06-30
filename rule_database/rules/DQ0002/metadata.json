@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0002",
+  "rule_name": "High Price Missing",
+  "category": "DQ",
+  "subcategory": "Missing Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "High Price Missing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

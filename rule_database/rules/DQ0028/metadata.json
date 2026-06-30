@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0028",
+  "rule_name": "Delisting Event Present",
+  "category": "DQ",
+  "subcategory": "Corporate Actions",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Delisting Event Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

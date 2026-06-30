@@ -1,0 +1,89 @@
+# TASS MO Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-017_MO_Rule_Catalog_v1.0.md
+# 60 atomic Momentum rules (MO0001–MO0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: MO
+category_name: Momentum
+rule_count: 60
+next_category: VO
+
+subcategories:
+  - name: RSI
+    rules:
+      - { id: MO0001, name: RSI Above 70 }
+      - { id: MO0002, name: RSI Below 30 }
+      - { id: MO0003, name: RSI Above 50 }
+      - { id: MO0004, name: RSI Below 50 }
+      - { id: MO0005, name: RSI Rising }
+      - { id: MO0006, name: RSI Falling }
+      - { id: MO0007, name: RSI Cross Above 50 }
+      - { id: MO0008, name: RSI Cross Below 50 }
+      - { id: MO0009, name: RSI Cross Above 70 }
+      - { id: MO0010, name: RSI Cross Below 30 }
+
+  - name: MACD
+    rules:
+      - { id: MO0011, name: MACD Above Zero }
+      - { id: MO0012, name: MACD Below Zero }
+      - { id: MO0013, name: MACD Above Signal Line }
+      - { id: MO0014, name: MACD Below Signal Line }
+      - { id: MO0015, name: MACD Cross Above Signal }
+      - { id: MO0016, name: MACD Cross Below Signal }
+      - { id: MO0017, name: MACD Histogram Positive }
+      - { id: MO0018, name: MACD Histogram Negative }
+      - { id: MO0019, name: MACD Histogram Rising }
+      - { id: MO0020, name: MACD Histogram Falling }
+
+  - name: Stochastic
+    rules:
+      - { id: MO0021, name: Stochastic Above 80 }
+      - { id: MO0022, name: Stochastic Below 20 }
+      - { id: MO0023, name: Stochastic Above 50 }
+      - { id: MO0024, name: Stochastic Below 50 }
+      - { id: MO0025, name: "Stochastic %K Above %D" }
+      - { id: MO0026, name: "Stochastic %K Below %D" }
+      - { id: MO0027, name: "Stochastic %K Cross Above %D" }
+      - { id: MO0028, name: "Stochastic %K Cross Below %D" }
+      - { id: MO0029, name: Stochastic Rising }
+      - { id: MO0030, name: Stochastic Falling }
+
+  - name: CCI
+    rules:
+      - { id: MO0031, name: CCI Above 100 }
+      - { id: MO0032, name: CCI Below Negative 100 }
+      - { id: MO0033, name: CCI Above Zero }
+      - { id: MO0034, name: CCI Below Zero }
+      - { id: MO0035, name: CCI Rising }
+      - { id: MO0036, name: CCI Falling }
+      - { id: MO0037, name: CCI Cross Above Zero }
+      - { id: MO0038, name: CCI Cross Below Zero }
+      - { id: MO0039, name: CCI Cross Above 100 }
+      - { id: MO0040, name: CCI Cross Below Negative 100 }
+
+  - name: MFI
+    rules:
+      - { id: MO0041, name: MFI Above 80 }
+      - { id: MO0042, name: MFI Below 20 }
+      - { id: MO0043, name: MFI Above 50 }
+      - { id: MO0044, name: MFI Below 50 }
+      - { id: MO0045, name: MFI Rising }
+      - { id: MO0046, name: MFI Falling }
+      - { id: MO0047, name: MFI Cross Above 50 }
+      - { id: MO0048, name: MFI Cross Below 50 }
+      - { id: MO0049, name: MFI Cross Above 80 }
+      - { id: MO0050, name: MFI Cross Below 20 }
+
+  - name: Momentum Strength
+    rules:
+      - { id: MO0051, name: Rate of Change Positive }
+      - { id: MO0052, name: Rate of Change Negative }
+      - { id: MO0053, name: Rate of Change Rising }
+      - { id: MO0054, name: Rate of Change Falling }
+      - { id: MO0055, name: Rate of Change Cross Above Zero }
+      - { id: MO0056, name: Rate of Change Cross Below Zero }
+      - { id: MO0057, name: Momentum Above Zero }
+      - { id: MO0058, name: Momentum Below Zero }
+      - { id: MO0059, name: Momentum Rising }
+      - { id: MO0060, name: Momentum Falling }

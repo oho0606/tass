@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0012",
+  "rule_name": "Volume Confirms Bearish Trend",
+  "category": "CF",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Confirms Bearish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

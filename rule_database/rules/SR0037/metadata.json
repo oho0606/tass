@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0037",
+  "rule_name": "Price Above R1",
+  "category": "SR",
+  "subcategory": "Pivot Levels",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above R1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0041",
+  "rule_name": "Price Spike Present",
+  "category": "DQ",
+  "subcategory": "Abnormal Market Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Spike Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

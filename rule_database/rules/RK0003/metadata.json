@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0003",
+  "rule_name": "ATR Rising",
+  "category": "RK",
+  "subcategory": "ATR Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "ATR Rising",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

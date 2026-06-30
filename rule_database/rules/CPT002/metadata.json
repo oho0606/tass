@@ -1,0 +1,19 @@
+{
+  "rule_id": "CPT002",
+  "rule_name": "Reversal Pattern",
+  "category": "PT",
+  "subcategory": "Pattern Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Reversal Pattern",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CPT"
+  ]
+}

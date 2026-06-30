@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0013",
+  "rule_name": "Up Bar Volume Confirms Uptrend",
+  "category": "CF",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Up Bar Volume Confirms Uptrend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

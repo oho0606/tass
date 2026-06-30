@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0015",
+  "rule_name": "Relative Volume Above Threshold",
+  "category": "VL",
+  "subcategory": "Relative Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Relative Volume Above Threshold",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

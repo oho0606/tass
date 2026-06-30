@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0036",
+  "rule_name": "Continuation Gap Down High Below Prior Low",
+  "category": "GP",
+  "subcategory": "Continuation (Runaway) Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Continuation Gap Down High Below Prior Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

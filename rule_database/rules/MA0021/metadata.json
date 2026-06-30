@@ -1,0 +1,26 @@
+{
+  "rule_id": "MA0021",
+  "rule_name": "SMA Bullish Alignment",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Bullish Alignment",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Rejected",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/ma/ma0021_sma_bullish_alignment.py",
+  "backtest_verdict": "REJECT",
+  "backtest_evaluated_at": "2026-06-30T01:32:59Z",
+  "backtest_symbols": 30,
+  "rejection_reason": "Aggregate backtest verdict REVISE — not promoted to Adopted (TASS-009: rules not passing backtest must not be adopted).",
+  "finalized_at": "2026-06-30T01:53:25Z"
+}

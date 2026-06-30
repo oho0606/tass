@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0059",
+  "rule_name": "Dynamic Resistance Holding",
+  "category": "MA",
+  "subcategory": "Distance & Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Dynamic Resistance Holding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0018",
+  "rule_name": "Price Below 50 Percent Retracement Level",
+  "category": "PB",
+  "subcategory": "Deep Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Below 50 Percent Retracement Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

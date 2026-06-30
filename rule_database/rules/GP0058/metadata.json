@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0058",
+  "rule_name": "Gap Volume Above N-Period Average",
+  "category": "GP",
+  "subcategory": "Gap Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Volume Above N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

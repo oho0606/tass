@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0054",
+  "rule_name": "Lower Timeframe Range Extends Beyond Higher Timeframe",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Lower Timeframe Range Extends Beyond Higher Timeframe",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

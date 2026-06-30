@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0003",
+  "rule_name": "Retracement Between 38.2 And 50 Percent",
+  "category": "PB",
+  "subcategory": "Healthy Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Retracement Between 38.2 And 50 Percent",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

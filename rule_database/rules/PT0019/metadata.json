@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0019",
+  "rule_name": "V Top Formed",
+  "category": "PT",
+  "subcategory": "Reversal Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "V Top Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

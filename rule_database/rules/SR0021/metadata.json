@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0021",
+  "rule_name": "Price Above Dynamic Support",
+  "category": "SR",
+  "subcategory": "Dynamic Support & Resistance",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above Dynamic Support",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

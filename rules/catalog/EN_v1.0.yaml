@@ -1,0 +1,89 @@
+# TASS EN Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-023_EN_Rule_Catalog_v1.0.md
+# 60 atomic Entry rules (EN0001–EN0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: EN
+category_name: Entry
+rule_count: 60
+next_category: EX
+
+subcategories:
+  - name: Trend Following Entry
+    rules:
+      - { id: EN0001, name: Entry Close Above SMA20 }
+      - { id: EN0002, name: Entry Close Above SMA60 }
+      - { id: EN0003, name: Entry Close Above EMA20 }
+      - { id: EN0004, name: Entry Close Above EMA60 }
+      - { id: EN0005, name: Entry High Above Prior Bar High }
+      - { id: EN0006, name: Entry Low Above Prior Bar Low }
+      - { id: EN0007, name: Entry Close Above Prior Close }
+      - { id: EN0008, name: Entry Close Above N-Period High }
+      - { id: EN0009, name: Entry Open Below Entry Close }
+      - { id: EN0010, name: Entry Close Above Prior Bar Open }
+
+  - name: Breakout Entry
+    rules:
+      - { id: EN0011, name: Entry Close Above Prior Swing High }
+      - { id: EN0012, name: Entry Close Below Prior Swing Low }
+      - { id: EN0013, name: Entry Close Above Horizontal Resistance }
+      - { id: EN0014, name: Entry Close Below Horizontal Support }
+      - { id: EN0015, name: Entry Close Above 52-Week High }
+      - { id: EN0016, name: Entry Close Below 52-Week Low }
+      - { id: EN0017, name: Entry Close Above Upper Bollinger Band }
+      - { id: EN0018, name: Entry Close Below Lower Bollinger Band }
+      - { id: EN0019, name: Entry Close Above R1 }
+      - { id: EN0020, name: Entry Close Below S1 }
+
+  - name: Pullback Entry
+    rules:
+      - { id: EN0021, name: Entry Close Above Pullback Low }
+      - { id: EN0022, name: Entry Low Above Pullback Low }
+      - { id: EN0023, name: Entry Close Above SMA20 After Touch }
+      - { id: EN0024, name: Entry Close Above EMA20 After Touch }
+      - { id: EN0025, name: Entry Close Above 38.2 Percent Retracement }
+      - { id: EN0026, name: Entry Close Above 50 Percent Retracement }
+      - { id: EN0027, name: Entry Close Above 61.8 Percent Retracement }
+      - { id: EN0028, name: Entry Bar Following Pullback Low }
+      - { id: EN0029, name: Entry Close Above Prior Pullback High }
+      - { id: EN0030, name: Entry Low At Pullback Support Level }
+
+  - name: Reversal Entry
+    rules:
+      - { id: EN0031, name: Entry Close Above Prior Swing Low }
+      - { id: EN0032, name: Entry Close Below Prior Swing High }
+      - { id: EN0033, name: Entry Low At N-Period Low }
+      - { id: EN0034, name: Entry High At N-Period High }
+      - { id: EN0035, name: Entry Close Above Support Level }
+      - { id: EN0036, name: Entry Close Below Resistance Level }
+      - { id: EN0037, name: Entry Close Above Reversal Bar High }
+      - { id: EN0038, name: Entry Close Below Reversal Bar Low }
+      - { id: EN0039, name: Entry Close Above Double Bottom Level }
+      - { id: EN0040, name: Entry Close Below Double Top Level }
+
+  - name: Entry Confirmation
+    rules:
+      - { id: EN0041, name: Entry Bar Volume Above N-Period Average }
+      - { id: EN0042, name: Entry Bar Volume Below N-Period Average }
+      - { id: EN0043, name: Entry Bar Volume Above Prior Bar }
+      - { id: EN0044, name: Entry Bar Volume Below Prior Bar }
+      - { id: EN0045, name: Entry Bar Relative Volume Above 1 }
+      - { id: EN0046, name: Entry Bar Relative Volume Above 2 }
+      - { id: EN0047, name: Entry Bar Bullish }
+      - { id: EN0048, name: Entry Bar Bearish }
+      - { id: EN0049, name: Entry Bar RSI Above 50 }
+      - { id: EN0050, name: Entry Bar RSI Below 50 }
+
+  - name: Entry Quality
+    rules:
+      - { id: EN0051, name: Entry Bar Wide Range }
+      - { id: EN0052, name: Entry Bar Narrow Range }
+      - { id: EN0053, name: Entry Close Near Bar High }
+      - { id: EN0054, name: Entry Close Near Bar Low }
+      - { id: EN0055, name: Entry Bar Body Above Half Range }
+      - { id: EN0056, name: Entry Bar Body Below Half Range }
+      - { id: EN0057, name: Entry Bar Overlapping Prior Bar }
+      - { id: EN0058, name: Entry Gap Up At Entry Bar }
+      - { id: EN0059, name: Entry Gap Down At Entry Bar }
+      - { id: EN0060, name: Entry Wick Rejection At Support }

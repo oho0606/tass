@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0008",
+  "rule_name": "Gap Up Size Larger Than Prior Range",
+  "category": "GP",
+  "subcategory": "Gap Up",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Up Size Larger Than Prior Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

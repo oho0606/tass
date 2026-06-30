@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0024",
+  "rule_name": "Weekly Daily MACD Above Zero",
+  "category": "MT",
+  "subcategory": "Momentum Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily MACD Above Zero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

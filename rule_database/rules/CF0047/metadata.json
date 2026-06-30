@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0047",
+  "rule_name": "Momentum And Volume Agreement",
+  "category": "CF",
+  "subcategory": "Multi-Indicator Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Momentum And Volume Agreement",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0040",
+  "rule_name": "Limit Down Lock",
+  "category": "DQ",
+  "subcategory": "Liquidity & Trading Status",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Limit Down Lock",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

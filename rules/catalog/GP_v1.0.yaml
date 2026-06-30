@@ -1,0 +1,89 @@
+# TASS GP Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-022_GP_Rule_Catalog_v1.0.md
+# 60 atomic Gap rules (GP0001–GP0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: GP
+category_name: Gap
+rule_count: 60
+next_category: RK
+
+subcategories:
+  - name: Gap Up
+    rules:
+      - { id: GP0001, name: Gap Up Open Above Prior High }
+      - { id: GP0002, name: Gap Up Open Above Prior Close }
+      - { id: GP0003, name: Gap Up Low Above Prior High }
+      - { id: GP0004, name: Gap Up Low Above Prior Close }
+      - { id: GP0005, name: Gap Up Close Above Prior High }
+      - { id: GP0006, name: Gap Up Close Above Prior Close }
+      - { id: GP0007, name: Gap Up Range Larger Than Prior Range }
+      - { id: GP0008, name: Gap Up Size Larger Than Prior Range }
+      - { id: GP0009, name: Gap Up Bar Bullish }
+      - { id: GP0010, name: Consecutive Gap Up Day }
+
+  - name: Gap Down
+    rules:
+      - { id: GP0011, name: Gap Down Open Below Prior Low }
+      - { id: GP0012, name: Gap Down Open Below Prior Close }
+      - { id: GP0013, name: Gap Down High Below Prior Low }
+      - { id: GP0014, name: Gap Down High Below Prior Close }
+      - { id: GP0015, name: Gap Down Close Below Prior Low }
+      - { id: GP0016, name: Gap Down Close Below Prior Close }
+      - { id: GP0017, name: Gap Down Range Larger Than Prior Range }
+      - { id: GP0018, name: Gap Down Size Larger Than Prior Range }
+      - { id: GP0019, name: Gap Down Bar Bearish }
+      - { id: GP0020, name: Consecutive Gap Down Day }
+
+  - name: Breakaway Gap
+    rules:
+      - { id: GP0021, name: Breakaway Gap Up Open Above N-Period High }
+      - { id: GP0022, name: Breakaway Gap Up Low Above N-Period High }
+      - { id: GP0023, name: Breakaway Gap Down Open Below N-Period Low }
+      - { id: GP0024, name: Breakaway Gap Down High Below N-Period Low }
+      - { id: GP0025, name: Breakaway Gap Up Open Outside N-Period Range }
+      - { id: GP0026, name: Breakaway Gap Down Open Outside N-Period Range }
+      - { id: GP0027, name: Breakaway Gap Up Size Exceeds N-Period Average Range }
+      - { id: GP0028, name: Breakaway Gap Down Size Exceeds N-Period Average Range }
+      - { id: GP0029, name: Breakaway Gap Up Volume Above N-Period Average }
+      - { id: GP0030, name: Breakaway Gap Down Volume Above N-Period Average }
+
+  - name: Continuation (Runaway) Gap
+    rules:
+      - { id: GP0031, name: Continuation Gap Up Low Above Prior High }
+      - { id: GP0032, name: Continuation Gap Up Unfilled At Close }
+      - { id: GP0033, name: Continuation Gap Up Bar Bullish }
+      - { id: GP0034, name: Continuation Gap Up Size Below N-Period Average Gap }
+      - { id: GP0035, name: Continuation Gap Up After Higher Close }
+      - { id: GP0036, name: Continuation Gap Down High Below Prior Low }
+      - { id: GP0037, name: Continuation Gap Down Unfilled At Close }
+      - { id: GP0038, name: Continuation Gap Down Bar Bearish }
+      - { id: GP0039, name: Continuation Gap Down Size Below N-Period Average Gap }
+      - { id: GP0040, name: Continuation Gap Down After Lower Close }
+
+  - name: Exhaustion Gap
+    rules:
+      - { id: GP0041, name: Exhaustion Gap Up Open Above Prior High }
+      - { id: GP0042, name: Exhaustion Gap Up Filled Intraday }
+      - { id: GP0043, name: Exhaustion Gap Up Bar Bearish }
+      - { id: GP0044, name: Exhaustion Gap Up At N-Period High }
+      - { id: GP0045, name: Exhaustion Gap Up Size Exceeds N-Period Average Gap }
+      - { id: GP0046, name: Exhaustion Gap Down Open Below Prior Low }
+      - { id: GP0047, name: Exhaustion Gap Down Filled Intraday }
+      - { id: GP0048, name: Exhaustion Gap Down Bar Bullish }
+      - { id: GP0049, name: Exhaustion Gap Down At N-Period Low }
+      - { id: GP0050, name: Exhaustion Gap Down Size Exceeds N-Period Average Gap }
+
+  - name: Gap Quality
+    rules:
+      - { id: GP0051, name: Gap Size Above N-Period Average }
+      - { id: GP0052, name: Gap Size Below N-Period Average }
+      - { id: GP0053, name: Gap Size Exceeds Prior Gap Size }
+      - { id: GP0054, name: Gap Size Below Prior Gap Size }
+      - { id: GP0055, name: Gap Unfilled At Close }
+      - { id: GP0056, name: Gap Filled Intraday }
+      - { id: GP0057, name: Gap Partially Filled Intraday }
+      - { id: GP0058, name: Gap Volume Above N-Period Average }
+      - { id: GP0059, name: Gap Volume Below N-Period Average }
+      - { id: GP0060, name: Gap Range Above N-Period Average }

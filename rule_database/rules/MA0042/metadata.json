@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0042",
+  "rule_name": "SMA Falling",
+  "category": "MA",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

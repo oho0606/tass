@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0026",
+  "rule_name": "Daily 4H MACD Above Signal",
+  "category": "MT",
+  "subcategory": "Momentum Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily 4H MACD Above Signal",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

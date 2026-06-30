@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMA005",
+  "rule_name": "MA Trend Quality",
+  "category": "MA",
+  "subcategory": "Moving Average Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MA Trend Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMA"
+  ]
+}

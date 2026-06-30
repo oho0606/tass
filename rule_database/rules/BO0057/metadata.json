@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0057",
+  "rule_name": "Breakout Body Above Half Range",
+  "category": "BO",
+  "subcategory": "Breakout Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Body Above Half Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

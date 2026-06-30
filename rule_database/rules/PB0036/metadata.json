@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0036",
+  "rule_name": "Pullback Volume Increasing",
+  "category": "PB",
+  "subcategory": "Volume Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Volume Increasing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0049",
+  "rule_name": "Moving Average Flat",
+  "category": "MA",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Moving Average Flat",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

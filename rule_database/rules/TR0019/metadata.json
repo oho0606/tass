@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0019",
+  "rule_name": "Trend Momentum Increasing",
+  "category": "TR",
+  "subcategory": "Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Trend Momentum Increasing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

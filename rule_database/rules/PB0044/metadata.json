@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0044",
+  "rule_name": "Pullback High Below Prior Lower High",
+  "category": "PB",
+  "subcategory": "Trend Continuation Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback High Below Prior Lower High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

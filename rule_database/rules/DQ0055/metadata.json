@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0055",
+  "rule_name": "Session Data Complete",
+  "category": "DQ",
+  "subcategory": "Overall Data Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Session Data Complete",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

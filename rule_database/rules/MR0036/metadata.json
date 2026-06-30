@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0036",
+  "rule_name": "Bollinger Band Width At N-Period High",
+  "category": "MR",
+  "subcategory": "High Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

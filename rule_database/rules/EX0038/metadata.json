@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0038",
+  "rule_name": "Exit Close Above Reversal Bar Low",
+  "category": "EX",
+  "subcategory": "Reversal Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Above Reversal Bar Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

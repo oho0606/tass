@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0027",
+  "rule_name": "Recent Swing High",
+  "category": "MS",
+  "subcategory": "Swing High / Swing Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Recent Swing High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

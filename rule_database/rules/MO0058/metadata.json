@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0058",
+  "rule_name": "Momentum Below Zero",
+  "category": "MO",
+  "subcategory": "Momentum Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Momentum Below Zero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

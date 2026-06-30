@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVO006",
+  "rule_name": "Breakout Volatility",
+  "category": "VO",
+  "subcategory": "Volatility Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Volatility",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVO"
+  ]
+}

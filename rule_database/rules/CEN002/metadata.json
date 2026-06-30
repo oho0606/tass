@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEN002",
+  "rule_name": "Breakout Entry",
+  "category": "EN",
+  "subcategory": "Entry Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Entry",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEN"
+  ]
+}

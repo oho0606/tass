@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0059",
+  "rule_name": "Entry Gap Down At Entry Bar",
+  "category": "EN",
+  "subcategory": "Entry Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Gap Down At Entry Bar",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

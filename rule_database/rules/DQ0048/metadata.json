@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0048",
+  "rule_name": "After Hours Trade Present",
+  "category": "DQ",
+  "subcategory": "Abnormal Market Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "After Hours Trade Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

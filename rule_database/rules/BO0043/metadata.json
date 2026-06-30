@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0043",
+  "rule_name": "High Above Horizontal Resistance",
+  "category": "BO",
+  "subcategory": "Resistance Breakout Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "High Above Horizontal Resistance",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

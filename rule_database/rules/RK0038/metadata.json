@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0038",
+  "rule_name": "Volume Increasing",
+  "category": "RK",
+  "subcategory": "Liquidity Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Increasing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

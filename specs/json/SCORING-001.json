@@ -1,0 +1,38 @@
+{
+  "engine_id": "SCORING-001",
+  "version": "1.0",
+  "status": "frozen",
+  "maximum_score": 1000,
+  "engine_weights": {
+    "trend": 200,
+    "moving_average": 150,
+    "price_action": 100,
+    "volume": 150,
+    "momentum": 150,
+    "volatility": 100,
+    "market_structure": 50,
+    "support_resistance": 20,
+    "breakout": 20,
+    "pullback": 20,
+    "pattern": 20,
+    "candlestick": 20,
+    "gap": 10,
+    "risk": 50,
+    "entry": 50,
+    "exit": 50,
+    "market_regime": 30,
+    "multi_timeframe": 30,
+    "confirmation": 30,
+    "data_quality": 20
+  },
+  "grades": {
+    "SSS": {"min": 950, "max": 1000, "stars": "★★★★★"},
+    "SS": {"min": 900, "max": 949, "stars": "★★★★★"},
+    "S": {"min": 850, "max": 899, "stars": "★★★★☆"},
+    "A": {"min": 800, "max": 849, "stars": "★★★★☆"},
+    "B": {"min": 750, "max": 799, "stars": "★★★☆☆"},
+    "C": {"min": 700, "max": 749, "stars": "★★☆☆☆"},
+    "D": {"min": 650, "max": 699, "stars": "★☆☆☆☆"},
+    "F": {"min": 0, "max": 649, "stars": "Not Recommended"}
+  }
+}

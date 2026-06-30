@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0058",
+  "rule_name": "SMA200 Slope Flat",
+  "category": "MR",
+  "subcategory": "Market Regime Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA200 Slope Flat",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

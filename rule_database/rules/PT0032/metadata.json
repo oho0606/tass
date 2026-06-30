@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0032",
+  "rule_name": "Descending Channel Formed",
+  "category": "PT",
+  "subcategory": "Channel & Wedge Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Descending Channel Formed",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

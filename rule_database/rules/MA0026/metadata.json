@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0026",
+  "rule_name": "SMA Alignment Weakening",
+  "category": "MA",
+  "subcategory": "Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "SMA Alignment Weakening",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

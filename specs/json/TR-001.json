@@ -1,0 +1,29 @@
+{
+  "rule_id": "TR-001",
+  "version": "1.0.0",
+  "category": "TR",
+  "type": "atomic",
+  "function": "evaluate_higher_high",
+  "inputs": ["high", "close", "volume"],
+  "parameters": {
+    "lookback": 40,
+    "pivot_strength": 3,
+    "min_hh": 2
+  },
+  "conditions": {
+    "pass": ["hh_count >= min_hh", "avg_rise > 0", "quality_raw >= 0.55"],
+    "warn": ["hh_count >= min_hh", "quality_raw >= 0.35"],
+    "fail": ["hh_count < min_hh", "quality_raw < 0.35"]
+  },
+  "scoring": {
+    "max": 20,
+    "grades": [
+      {"name": "Excellent", "score": 20, "threshold": 0.85},
+      {"name": "Strong", "score": 17, "threshold": 0.70},
+      {"name": "Good", "score": 14, "threshold": 0.55},
+      {"name": "Weak", "score": 8, "threshold": 0.35},
+      {"name": "Fail", "score": 0, "threshold": 0.0}
+    ]
+  },
+  "outputs": ["status", "score", "confidence_delta", "risk_delta", "reasons", "metadata"]
+}

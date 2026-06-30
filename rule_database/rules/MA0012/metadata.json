@@ -1,0 +1,26 @@
+{
+  "rule_id": "MA0012",
+  "rule_name": "Price Above EMA20",
+  "category": "MA",
+  "subcategory": "EMA Position",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above EMA20",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Rejected",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/ma/ma0012_price_above_ema20.py",
+  "backtest_verdict": "REJECT",
+  "backtest_evaluated_at": "2026-06-30T01:32:34Z",
+  "backtest_symbols": 30,
+  "rejection_reason": "Aggregate backtest verdict REVISE — not promoted to Adopted (TASS-009: rules not passing backtest must not be adopted).",
+  "finalized_at": "2026-06-30T01:53:25Z"
+}

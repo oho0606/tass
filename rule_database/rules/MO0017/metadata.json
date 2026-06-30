@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0017",
+  "rule_name": "MACD Histogram Positive",
+  "category": "MO",
+  "subcategory": "MACD",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "MACD Histogram Positive",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

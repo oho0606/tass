@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0019",
+  "rule_name": "Gap Down Bar Bearish",
+  "category": "GP",
+  "subcategory": "Gap Down",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Down Bar Bearish",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

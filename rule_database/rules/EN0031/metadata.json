@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0031",
+  "rule_name": "Entry Close Above Prior Swing Low",
+  "category": "EN",
+  "subcategory": "Reversal Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Close Above Prior Swing Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

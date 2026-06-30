@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0053",
+  "rule_name": "Support Level Multiple Touches",
+  "category": "SR",
+  "subcategory": "Support & Resistance Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Support Level Multiple Touches",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

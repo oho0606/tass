@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0007",
+  "rule_name": "Volume Above N-Period High",
+  "category": "VL",
+  "subcategory": "Absolute Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

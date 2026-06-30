@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0015",
+  "rule_name": "Breakout Bar Volume Above N-Period High",
+  "category": "BO",
+  "subcategory": "Volume Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Volume Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

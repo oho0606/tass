@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0032",
+  "rule_name": "Weekly Daily Close Below N-Period Low",
+  "category": "MT",
+  "subcategory": "Breakout Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Daily Close Below N-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

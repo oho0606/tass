@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0039",
+  "rule_name": "CCI Cross Above 100",
+  "category": "MO",
+  "subcategory": "CCI",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "CCI Cross Above 100",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

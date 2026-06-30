@@ -1,0 +1,19 @@
+{
+  "rule_id": "CGP003",
+  "rule_name": "Gap Quality",
+  "category": "GP",
+  "subcategory": "Gap Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CGP"
+  ]
+}

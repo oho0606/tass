@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0041",
+  "rule_name": "Pullback Following Advance Leg",
+  "category": "PB",
+  "subcategory": "Trend Continuation Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Following Advance Leg",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

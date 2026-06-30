@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0047",
+  "rule_name": "Price Above Fibonacci 50.0 Level",
+  "category": "SR",
+  "subcategory": "Fibonacci Levels",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above Fibonacci 50.0 Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

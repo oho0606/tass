@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0048",
+  "rule_name": "Narrow Daily Range",
+  "category": "MR",
+  "subcategory": "Low Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Narrow Daily Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

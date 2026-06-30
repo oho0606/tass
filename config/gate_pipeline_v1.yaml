@@ -1,0 +1,22 @@
+gates:
+  data_quality:
+    enabled: true
+  market:
+    enabled: true
+    kospi_symbol: "^KS11"
+    kosdaq_symbol: "^KQ11"
+    # listing: use the index matching the symbol's market (KS→KOSPI, KQ→KOSDAQ)
+    combine_mode: listing
+    crash_drawdown: 0.08
+    warning_penalty: 20
+  liquidity:
+    enabled: true
+    warning_penalty: 10
+  trend:
+    enabled: true
+    warning_penalty: 20
+  volatility:
+    enabled: true
+    warn_threshold: 0.10
+    fail_threshold: 0.15
+    warning_penalty: 15

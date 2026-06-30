@@ -1,0 +1,89 @@
+# TASS MR Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-024_MR_Rule_Catalog_v1.0.md
+# 60 atomic Market Regime rules (MR0001–MR0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: MR
+category_name: Market Regime
+rule_count: 60
+next_category: MT
+
+subcategories:
+  - name: Bull Market
+    rules:
+      - { id: MR0001, name: Close Above SMA200 }
+      - { id: MR0002, name: Close Above SMA60 }
+      - { id: MR0003, name: Close Above SMA20 }
+      - { id: MR0004, name: SMA20 Above SMA60 }
+      - { id: MR0005, name: SMA60 Above SMA200 }
+      - { id: MR0006, name: SMA20 Rising }
+      - { id: MR0007, name: SMA60 Rising }
+      - { id: MR0008, name: SMA200 Rising }
+      - { id: MR0009, name: N-Period Return Positive }
+      - { id: MR0010, name: Close At N-Period High }
+
+  - name: Bear Market
+    rules:
+      - { id: MR0011, name: Close Below SMA200 }
+      - { id: MR0012, name: Close Below SMA60 }
+      - { id: MR0013, name: Close Below SMA20 }
+      - { id: MR0014, name: SMA20 Below SMA60 }
+      - { id: MR0015, name: SMA60 Below SMA200 }
+      - { id: MR0016, name: SMA20 Falling }
+      - { id: MR0017, name: SMA60 Falling }
+      - { id: MR0018, name: SMA200 Falling }
+      - { id: MR0019, name: N-Period Return Negative }
+      - { id: MR0020, name: Close At N-Period Low }
+
+  - name: Sideways Market
+    rules:
+      - { id: MR0021, name: Close Between SMA20 And SMA60 }
+      - { id: MR0022, name: SMA20 Flat }
+      - { id: MR0023, name: SMA60 Flat }
+      - { id: MR0024, name: Close Within N-Period Range }
+      - { id: MR0025, name: N-Period Return Near Zero }
+      - { id: MR0026, name: SMA20 Near SMA60 }
+      - { id: MR0027, name: Price Range Narrow }
+      - { id: MR0028, name: ADX Below Threshold }
+      - { id: MR0029, name: Close Near N-Period Midpoint }
+      - { id: MR0030, name: Overlapping Range Bars Present }
+
+  - name: High Volatility Regime
+    rules:
+      - { id: MR0031, name: ATR Above N-Period Average }
+      - { id: MR0032, name: ATR At N-Period High }
+      - { id: MR0033, name: Historical Volatility Above N-Period Average }
+      - { id: MR0034, name: Historical Volatility At N-Period High }
+      - { id: MR0035, name: Bollinger Band Width Above Average }
+      - { id: MR0036, name: Bollinger Band Width At N-Period High }
+      - { id: MR0037, name: True Range Above N-Period Average }
+      - { id: MR0038, name: Wide Daily Range }
+      - { id: MR0039, name: Volatility Above Prior Period }
+      - { id: MR0040, name: Consecutive Wide Range Bars }
+
+  - name: Low Volatility Regime
+    rules:
+      - { id: MR0041, name: ATR Below N-Period Average }
+      - { id: MR0042, name: ATR At N-Period Low }
+      - { id: MR0043, name: Historical Volatility Below N-Period Average }
+      - { id: MR0044, name: Historical Volatility At N-Period Low }
+      - { id: MR0045, name: Bollinger Band Width Below Average }
+      - { id: MR0046, name: Bollinger Band Width At N-Period Low }
+      - { id: MR0047, name: True Range Below N-Period Average }
+      - { id: MR0048, name: Narrow Daily Range }
+      - { id: MR0049, name: Volatility Below Prior Period }
+      - { id: MR0050, name: Consecutive Narrow Range Bars }
+
+  - name: Market Regime Strength
+    rules:
+      - { id: MR0051, name: ADX Above Threshold }
+      - { id: MR0052, name: ADX Rising }
+      - { id: MR0053, name: ADX At N-Period High }
+      - { id: MR0054, name: ADX Falling }
+      - { id: MR0055, name: Consecutive Close Above SMA200 }
+      - { id: MR0056, name: Consecutive Close Below SMA200 }
+      - { id: MR0057, name: SMA200 Slope Steep }
+      - { id: MR0058, name: SMA200 Slope Flat }
+      - { id: MR0059, name: Plus DI Above Minus DI }
+      - { id: MR0060, name: Minus DI Above Plus DI }

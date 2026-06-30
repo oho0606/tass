@@ -1,0 +1,19 @@
+{
+  "rule_id": "CVL007",
+  "rule_name": "Selling Pressure",
+  "category": "VL",
+  "subcategory": "Volume Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Selling Pressure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CVL"
+  ]
+}

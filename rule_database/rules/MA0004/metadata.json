@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0004",
+  "rule_name": "Price Above SMA120",
+  "category": "MA",
+  "subcategory": "Price Position",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above SMA120",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

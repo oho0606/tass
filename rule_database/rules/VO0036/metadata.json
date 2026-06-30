@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0036",
+  "rule_name": "Price Inside Bollinger Bands",
+  "category": "VO",
+  "subcategory": "Bollinger Bands",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Inside Bollinger Bands",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

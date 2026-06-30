@@ -1,0 +1,17 @@
+{
+  "rule_id": "MO0060",
+  "rule_name": "Momentum Falling",
+  "category": "MO",
+  "subcategory": "Momentum Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Momentum Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

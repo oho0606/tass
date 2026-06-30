@@ -1,0 +1,89 @@
+# TASS MA Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-015_MA_Rule_Catalog_v1.0.md
+# 60 atomic Moving Average rules (MA0001–MA0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: MA
+category_name: Moving Average
+rule_count: 60
+next_category: PA
+
+subcategories:
+  - name: Price Position
+    rules:
+      - { id: MA0001, name: Price Above SMA5 }
+      - { id: MA0002, name: Price Above SMA20 }
+      - { id: MA0003, name: Price Above SMA60 }
+      - { id: MA0004, name: Price Above SMA120 }
+      - { id: MA0005, name: Price Above SMA240 }
+      - { id: MA0006, name: Price Below SMA5 }
+      - { id: MA0007, name: Price Below SMA20 }
+      - { id: MA0008, name: Price Below SMA60 }
+      - { id: MA0009, name: Price Below SMA120 }
+      - { id: MA0010, name: Price Below SMA240 }
+
+  - name: EMA Position
+    rules:
+      - { id: MA0011, name: Price Above EMA5 }
+      - { id: MA0012, name: Price Above EMA20 }
+      - { id: MA0013, name: Price Above EMA60 }
+      - { id: MA0014, name: Price Above EMA120 }
+      - { id: MA0015, name: Price Above EMA240 }
+      - { id: MA0016, name: Price Below EMA5 }
+      - { id: MA0017, name: Price Below EMA20 }
+      - { id: MA0018, name: Price Below EMA60 }
+      - { id: MA0019, name: Price Below EMA120 }
+      - { id: MA0020, name: Price Below EMA240 }
+
+  - name: Alignment
+    rules:
+      - { id: MA0021, name: SMA Bullish Alignment }
+      - { id: MA0022, name: SMA Bearish Alignment }
+      - { id: MA0023, name: EMA Bullish Alignment }
+      - { id: MA0024, name: EMA Bearish Alignment }
+      - { id: MA0025, name: SMA Alignment Improving }
+      - { id: MA0026, name: SMA Alignment Weakening }
+      - { id: MA0027, name: EMA Alignment Improving }
+      - { id: MA0028, name: EMA Alignment Weakening }
+      - { id: MA0029, name: Full Bullish Alignment }
+      - { id: MA0030, name: Full Bearish Alignment }
+
+  - name: Crossovers
+    rules:
+      - { id: MA0031, name: SMA Golden Cross }
+      - { id: MA0032, name: SMA Death Cross }
+      - { id: MA0033, name: EMA Golden Cross }
+      - { id: MA0034, name: EMA Death Cross }
+      - { id: MA0035, name: Short MA Cross Above Mid MA }
+      - { id: MA0036, name: Short MA Cross Below Mid MA }
+      - { id: MA0037, name: Mid MA Cross Above Long MA }
+      - { id: MA0038, name: Mid MA Cross Below Long MA }
+      - { id: MA0039, name: Multiple Golden Cross }
+      - { id: MA0040, name: Multiple Death Cross }
+
+  - name: Slope
+    rules:
+      - { id: MA0041, name: SMA Rising }
+      - { id: MA0042, name: SMA Falling }
+      - { id: MA0043, name: EMA Rising }
+      - { id: MA0044, name: EMA Falling }
+      - { id: MA0045, name: SMA Slope Increasing }
+      - { id: MA0046, name: SMA Slope Decreasing }
+      - { id: MA0047, name: EMA Slope Increasing }
+      - { id: MA0048, name: EMA Slope Decreasing }
+      - { id: MA0049, name: Moving Average Flat }
+      - { id: MA0050, name: Moving Average Turning }
+
+  - name: Distance & Structure
+    rules:
+      - { id: MA0051, name: Price Extended Above MA }
+      - { id: MA0052, name: Price Extended Below MA }
+      - { id: MA0053, name: Price Near Moving Average }
+      - { id: MA0054, name: Moving Average Compression }
+      - { id: MA0055, name: Moving Average Expansion }
+      - { id: MA0056, name: Moving Average Convergence }
+      - { id: MA0057, name: Moving Average Divergence }
+      - { id: MA0058, name: Dynamic Support Holding }
+      - { id: MA0059, name: Dynamic Resistance Holding }
+      - { id: MA0060, name: Moving Average Structure Stable }

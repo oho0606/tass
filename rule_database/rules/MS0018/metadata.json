@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0018",
+  "rule_name": "Lower Low Below Prior",
+  "category": "MS",
+  "subcategory": "Lower High / Lower Low",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Lower Low Below Prior",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

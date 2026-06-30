@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0033",
+  "rule_name": "Entry Low At N-Period Low",
+  "category": "EN",
+  "subcategory": "Reversal Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Low At N-Period Low",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

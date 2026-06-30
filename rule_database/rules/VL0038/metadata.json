@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0038",
+  "rule_name": "Volume Dry Up",
+  "category": "VL",
+  "subcategory": "Volume Spike",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Dry Up",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

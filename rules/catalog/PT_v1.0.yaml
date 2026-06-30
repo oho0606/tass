@@ -1,0 +1,89 @@
+# TASS PT Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-020_PT_Rule_Catalog_v1.0.md
+# 60 atomic Pattern rules (PT0001–PT0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: PT
+category_name: Pattern
+rule_count: 60
+next_category: CS
+
+subcategories:
+  - name: Continuation Patterns
+    rules:
+      - { id: PT0001, name: Bull Flag Formed }
+      - { id: PT0002, name: Bear Flag Formed }
+      - { id: PT0003, name: Bull Flag Active }
+      - { id: PT0004, name: Bear Flag Active }
+      - { id: PT0005, name: Bull Pennant Formed }
+      - { id: PT0006, name: Bear Pennant Formed }
+      - { id: PT0007, name: Bull Pennant Active }
+      - { id: PT0008, name: Bear Pennant Active }
+      - { id: PT0009, name: Rectangle Continuation Formed }
+      - { id: PT0010, name: Rectangle Continuation Active }
+
+  - name: Reversal Patterns
+    rules:
+      - { id: PT0011, name: Head And Shoulders Formed }
+      - { id: PT0012, name: Inverse Head And Shoulders Formed }
+      - { id: PT0013, name: Head And Shoulders Active }
+      - { id: PT0014, name: Inverse Head And Shoulders Active }
+      - { id: PT0015, name: Rounding Top Formed }
+      - { id: PT0016, name: Rounding Bottom Formed }
+      - { id: PT0017, name: Rounding Top Active }
+      - { id: PT0018, name: Rounding Bottom Active }
+      - { id: PT0019, name: V Top Formed }
+      - { id: PT0020, name: V Bottom Formed }
+
+  - name: Triangle Patterns
+    rules:
+      - { id: PT0021, name: Ascending Triangle Formed }
+      - { id: PT0022, name: Descending Triangle Formed }
+      - { id: PT0023, name: Symmetrical Triangle Formed }
+      - { id: PT0024, name: Ascending Triangle Active }
+      - { id: PT0025, name: Descending Triangle Active }
+      - { id: PT0026, name: Symmetrical Triangle Active }
+      - { id: PT0027, name: Triangle Upper Trendline Present }
+      - { id: PT0028, name: Triangle Lower Trendline Present }
+      - { id: PT0029, name: Triangle Apex Present }
+      - { id: PT0030, name: Triangle Boundaries Converging }
+
+  - name: Channel & Wedge Patterns
+    rules:
+      - { id: PT0031, name: Ascending Channel Formed }
+      - { id: PT0032, name: Descending Channel Formed }
+      - { id: PT0033, name: Horizontal Channel Formed }
+      - { id: PT0034, name: Rising Wedge Formed }
+      - { id: PT0035, name: Falling Wedge Formed }
+      - { id: PT0036, name: Ascending Channel Active }
+      - { id: PT0037, name: Descending Channel Active }
+      - { id: PT0038, name: Horizontal Channel Active }
+      - { id: PT0039, name: Rising Wedge Active }
+      - { id: PT0040, name: Falling Wedge Active }
+
+  - name: Double Top / Double Bottom
+    rules:
+      - { id: PT0041, name: Double Top Formed }
+      - { id: PT0042, name: Double Bottom Formed }
+      - { id: PT0043, name: Double Top Active }
+      - { id: PT0044, name: Double Bottom Active }
+      - { id: PT0045, name: Double Top Peaks Equal }
+      - { id: PT0046, name: Double Bottom Troughs Equal }
+      - { id: PT0047, name: Double Top Neckline Present }
+      - { id: PT0048, name: Double Bottom Neckline Present }
+      - { id: PT0049, name: Double Top First Peak Formed }
+      - { id: PT0050, name: Double Bottom First Trough Formed }
+
+  - name: Pattern Quality
+    rules:
+      - { id: PT0051, name: Pattern Upper Boundary Defined }
+      - { id: PT0052, name: Pattern Lower Boundary Defined }
+      - { id: PT0053, name: Pattern Boundaries Parallel }
+      - { id: PT0054, name: Pattern Boundaries Converging }
+      - { id: PT0055, name: Pattern Minimum Duration Met }
+      - { id: PT0056, name: Pattern Trendline Touches Met }
+      - { id: PT0057, name: Pattern Height Defined }
+      - { id: PT0058, name: Pattern Width Defined }
+      - { id: PT0059, name: Pattern Neckline Defined }
+      - { id: PT0060, name: Pattern Structure Complete }

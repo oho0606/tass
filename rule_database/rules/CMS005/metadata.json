@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMS005",
+  "rule_name": "Lower Low Sequence",
+  "category": "MS",
+  "subcategory": "Market Structure Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Lower Low Sequence",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMS"
+  ]
+}

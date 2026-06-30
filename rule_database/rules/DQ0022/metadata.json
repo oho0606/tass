@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0022",
+  "rule_name": "Reverse Split Present",
+  "category": "DQ",
+  "subcategory": "Corporate Actions",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Reverse Split Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

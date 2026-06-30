@@ -1,0 +1,17 @@
+{
+  "rule_id": "EN0034",
+  "rule_name": "Entry High At N-Period High",
+  "category": "EN",
+  "subcategory": "Reversal Entry",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry High At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

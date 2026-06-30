@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0051",
+  "rule_name": "Weekly Trend Supports Daily Trend",
+  "category": "MT",
+  "subcategory": "Multi Timeframe Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Weekly Trend Supports Daily Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

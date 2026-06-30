@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0060",
+  "rule_name": "External Swing Present",
+  "category": "MS",
+  "subcategory": "Market Structure Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "External Swing Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

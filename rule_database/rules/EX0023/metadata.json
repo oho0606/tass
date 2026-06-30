@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0023",
+  "rule_name": "Exit Close Below SMA20 After Touch",
+  "category": "EX",
+  "subcategory": "Pullback Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below SMA20 After Touch",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,193 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev,api,data]"
+
+      - name: Ruff
+        run: ruff check engine config api main.py scripts
+
+      - name: Black
+        run: black --check engine config api main.py scripts
+
+      - name: isort
+        run: isort --check-only engine config api main.py scripts
+
+      - name: mypy
+        run: mypy
+
+      - name: Unit & Integration Tests
+        run: pytest tests/ -q --cov=engine --cov-report=xml -m "not regression"
+
+      - name: Regression Tests
+        if: matrix.python-version == '3.12'
+        run: pytest tests/regression/ -q -m regression
+
+      - name: Upload coverage
+        if: matrix.python-version == '3.12'
+        uses: codecov/codecov-action@v4
+        with:
+          fail_ci_if_error: false
+
+  api-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev,api,data]"
+
+      - name: Generate picks for smoke test
+        run: python scripts/run_daily_picks.py --universe config/universe_sample.csv
+
+      - name: Phase 6 validation
+        run: python scripts/validate_phase6_picks.py --universe config/universe_sample.csv
+
+      - name: Verify adopted-only scoring
+        run: python scripts/verify_adopted_scoring.py
+
+      - name: Regime baseline validation
+        run: python scripts/validate_regime_baselines.py --universe config/universe_krx_mvp.csv
+
+      - name: Recommendation threshold check
+        run: python scripts/tune_recommendation_thresholds.py --universe config/universe_krx_mvp.csv --regime current --verify-only
+
+      - name: Recommendation threshold check (full mode baseline)
+        run: python scripts/tune_recommendation_thresholds.py --universe config/universe_krx_mvp.csv --settings config/settings_full.yaml --recommendation-config config/recommendation_full_v1.yaml --regime current --verify-only
+
+      - name: API smoke tests
+        run: pytest tests/api/ -q
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install & build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Lint
+        run: npm run lint
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[api,data]"
+
+      - name: Validate compose configuration
+        run: python scripts/verify_docker_compose.py
+
+      - name: Generate picks for stack smoke
+        run: python scripts/run_daily_picks.py --universe config/universe_sample.csv
+
+      - name: Build backend image
+        run: docker build -t tass-backend:test .
+
+      - name: Build frontend image
+        run: docker build -t tass-frontend:test ./frontend
+
+      - name: Compose config validate
+        run: docker compose config
+
+      - name: Compose stack smoke test
+        run: |
+          docker compose up -d --build
+          for i in $(seq 1 60); do
+            curl -sf http://localhost:8000/health && break
+            sleep 3
+          done
+          curl -sf http://localhost:8000/health
+          curl -sf http://localhost:8000/picks/today
+          for i in $(seq 1 60); do
+            curl -sf http://localhost:3000/ && break
+            sleep 3
+          done
+          curl -sf http://localhost:3000/
+          docker compose down -v
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[api,data]"
+
+      - name: Generate picks for E2E
+        run: python scripts/run_daily_picks.py --universe config/universe_sample.csv
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend & Playwright
+        working-directory: frontend
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Run Playwright E2E
+        working-directory: frontend
+        run: npm run test:e2e

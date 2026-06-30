@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0039",
+  "rule_name": "Price Above BOS Level",
+  "category": "MS",
+  "subcategory": "Break of Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above BOS Level",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

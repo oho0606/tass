@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0033",
+  "rule_name": "Pullback Volume Lower Than Advance Volume",
+  "category": "PB",
+  "subcategory": "Volume Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Volume Lower Than Advance Volume",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

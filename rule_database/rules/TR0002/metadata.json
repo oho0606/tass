@@ -1,0 +1,22 @@
+{
+  "rule_id": "TR0002",
+  "rule_name": "Higher Low Quality",
+  "category": "TR",
+  "subcategory": "Quality",
+  "version": "1.0.0",
+  "status": "Draft",
+  "priority": "High",
+  "weight": 1.0,
+  "description": "Higher Low Quality",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [],
+  "mvp_operational": true,
+  "lifecycle_stage": "Adopted",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/tr/atomic.py",
+  "backtest_verdict": "ADOPT",
+  "backtest_evaluated_at": "2026-06-30T01:06:45Z",
+  "backtest_symbols": 30
+}

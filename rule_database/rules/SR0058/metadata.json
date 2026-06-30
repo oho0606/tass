@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0058",
+  "rule_name": "Resistance Level Holding",
+  "category": "SR",
+  "subcategory": "Support & Resistance Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Resistance Level Holding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

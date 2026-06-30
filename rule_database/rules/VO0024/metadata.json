@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0024",
+  "rule_name": "Historical Volatility Below Prior",
+  "category": "VO",
+  "subcategory": "Historical Volatility",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Historical Volatility Below Prior",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

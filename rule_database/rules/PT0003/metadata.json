@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0003",
+  "rule_name": "Bull Flag Active",
+  "category": "PT",
+  "subcategory": "Continuation Patterns",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bull Flag Active",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0052",
+  "rule_name": "Breakout Bar Bearish",
+  "category": "BO",
+  "subcategory": "Breakout Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar Bearish",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

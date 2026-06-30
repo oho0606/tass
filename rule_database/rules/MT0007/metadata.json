@@ -1,0 +1,17 @@
+{
+  "rule_id": "MT0007",
+  "rule_name": "Daily 4H Downtrend Match",
+  "category": "MT",
+  "subcategory": "Trend Alignment",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Daily 4H Downtrend Match",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

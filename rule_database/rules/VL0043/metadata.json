@@ -1,0 +1,17 @@
+{
+  "rule_id": "VL0043",
+  "rule_name": "Up Bar Volume Below Average",
+  "category": "VL",
+  "subcategory": "Volume Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Up Bar Volume Below Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0034",
+  "rule_name": "Bollinger Band Width Contracting Confirms Consolidation",
+  "category": "CF",
+  "subcategory": "Volatility Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Contracting Confirms Consolidation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

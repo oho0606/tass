@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0018",
+  "rule_name": "Identical OHLC Values",
+  "category": "DQ",
+  "subcategory": "Data Integrity",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Identical OHLC Values",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

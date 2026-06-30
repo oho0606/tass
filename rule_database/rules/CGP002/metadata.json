@@ -1,0 +1,19 @@
+{
+  "rule_id": "CGP002",
+  "rule_name": "Bearish Gap",
+  "category": "GP",
+  "subcategory": "Gap Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish Gap",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CGP"
+  ]
+}

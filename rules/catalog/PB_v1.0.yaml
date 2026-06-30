@@ -1,0 +1,89 @@
+# TASS PB Rule Catalog v1.0 — Frozen
+# Human doc: docs/TASS-020_PB_Rule_Catalog_v1.0.md
+# 60 atomic Pullback rules (PB0001–PB0060)
+
+catalog_version: "1.0"
+status: Frozen
+category_code: PB
+category_name: Pullback
+rule_count: 60
+next_category: PT
+
+subcategories:
+  - name: Healthy Pullback
+    rules:
+      - { id: PB0001, name: Pullback In Progress }
+      - { id: PB0002, name: Retracement Below 38.2 Percent }
+      - { id: PB0003, name: Retracement Between 38.2 And 50 Percent }
+      - { id: PB0004, name: Retracement Between 50 And 61.8 Percent }
+      - { id: PB0005, name: Pullback Low Above Prior Swing Low }
+      - { id: PB0006, name: Pullback High Below Prior Swing High }
+      - { id: PB0007, name: Pullback Duration Fewer Than N Bars }
+      - { id: PB0008, name: Pullback Range Narrower Than Prior Leg }
+      - { id: PB0009, name: Pullback Close Above Prior Leg Midpoint }
+      - { id: PB0010, name: Pullback Bar Count Fewer Than N }
+
+  - name: Deep Pullback
+    rules:
+      - { id: PB0011, name: Retracement Above 61.8 Percent }
+      - { id: PB0012, name: Retracement Above 78.6 Percent }
+      - { id: PB0013, name: Pullback Low Below Prior Swing Low }
+      - { id: PB0014, name: Pullback Low Below Prior Higher Low }
+      - { id: PB0015, name: Pullback Duration Greater Than N Bars }
+      - { id: PB0016, name: Pullback Range Wider Than Prior Leg }
+      - { id: PB0017, name: Pullback Depth Above N-Period Average }
+      - { id: PB0018, name: Price Below 50 Percent Retracement Level }
+      - { id: PB0019, name: Pullback Low At N-Period Low }
+      - { id: PB0020, name: Pullback Bar Count Greater Than N }
+
+  - name: Moving Average Pullback
+    rules:
+      - { id: PB0021, name: Price Touching SMA20 During Pullback }
+      - { id: PB0022, name: Price Touching SMA60 During Pullback }
+      - { id: PB0023, name: Price Touching EMA20 During Pullback }
+      - { id: PB0024, name: Price Touching EMA60 During Pullback }
+      - { id: PB0025, name: Price Closing Above SMA20 During Pullback }
+      - { id: PB0026, name: Price Closing Below SMA20 During Pullback }
+      - { id: PB0027, name: Price Closed Above SMA20 After Touch }
+      - { id: PB0028, name: Price Closed Above SMA60 After Touch }
+      - { id: PB0029, name: Price Above SMA During Pullback }
+      - { id: PB0030, name: Price Below SMA During Pullback }
+
+  - name: Volume Pullback
+    rules:
+      - { id: PB0031, name: Pullback Volume Below N-Period Average }
+      - { id: PB0032, name: Pullback Volume Decreasing }
+      - { id: PB0033, name: Pullback Volume Lower Than Advance Volume }
+      - { id: PB0034, name: Pullback Volume At N-Period Low }
+      - { id: PB0035, name: Pullback Volume Below Prior Bar }
+      - { id: PB0036, name: Pullback Volume Increasing }
+      - { id: PB0037, name: Pullback Volume Above N-Period Average }
+      - { id: PB0038, name: Pullback Volume Higher Than Advance Volume }
+      - { id: PB0039, name: Pullback Volume Spike }
+      - { id: PB0040, name: Pullback Volume Flat }
+
+  - name: Trend Continuation Pullback
+    rules:
+      - { id: PB0041, name: Pullback Following Advance Leg }
+      - { id: PB0042, name: Pullback Following Decline Leg }
+      - { id: PB0043, name: Pullback Low Above Prior Higher Low }
+      - { id: PB0044, name: Pullback High Below Prior Lower High }
+      - { id: PB0045, name: Higher Low Formed During Pullback }
+      - { id: PB0046, name: Lower High Formed During Pullback }
+      - { id: PB0047, name: Pullback Low Above Rising SMA }
+      - { id: PB0048, name: Pullback High Below Falling SMA }
+      - { id: PB0049, name: Pullback Within Up Trend Channel }
+      - { id: PB0050, name: Pullback Within Down Trend Channel }
+
+  - name: Pullback Quality
+    rules:
+      - { id: PB0051, name: Pullback Overlapping Prior Bars }
+      - { id: PB0052, name: Pullback Body Size Decreasing }
+      - { id: PB0053, name: Pullback Range Contracting }
+      - { id: PB0054, name: Pullback Range Expanding }
+      - { id: PB0055, name: Pullback Gap Present }
+      - { id: PB0056, name: Pullback Close Near Bar High }
+      - { id: PB0057, name: Pullback Close Near Bar Low }
+      - { id: PB0058, name: Pullback Wick Rejection At Support }
+      - { id: PB0059, name: Pullback Wick Rejection At MA }
+      - { id: PB0060, name: Pullback Candle Count Decreasing }

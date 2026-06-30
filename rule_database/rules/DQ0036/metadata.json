@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0036",
+  "rule_name": "Low Volume Session",
+  "category": "DQ",
+  "subcategory": "Liquidity & Trading Status",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Low Volume Session",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0032",
+  "rule_name": "Breakout Bar True Range Above N-Period High",
+  "category": "BO",
+  "subcategory": "Volatility Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Bar True Range Above N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

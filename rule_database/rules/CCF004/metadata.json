@@ -1,0 +1,19 @@
+{
+  "rule_id": "CCF004",
+  "rule_name": "Breakout Confirmation",
+  "category": "CF",
+  "subcategory": "Confirmation Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CCF"
+  ]
+}

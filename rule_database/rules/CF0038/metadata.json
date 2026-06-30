@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0038",
+  "rule_name": "True Range Above Average Confirms Bearish Trend",
+  "category": "CF",
+  "subcategory": "Volatility Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range Above Average Confirms Bearish Trend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

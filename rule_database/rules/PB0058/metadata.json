@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0058",
+  "rule_name": "Pullback Wick Rejection At Support",
+  "category": "PB",
+  "subcategory": "Pullback Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback Wick Rejection At Support",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

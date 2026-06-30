@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0007",
+  "rule_name": "Exit Close Below Prior Close",
+  "category": "EX",
+  "subcategory": "Trend Following Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below Prior Close",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

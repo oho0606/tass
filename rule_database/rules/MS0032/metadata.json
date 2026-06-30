@@ -1,0 +1,17 @@
+{
+  "rule_id": "MS0032",
+  "rule_name": "Bearish Break of Structure",
+  "category": "MS",
+  "subcategory": "Break of Structure",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish Break of Structure",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

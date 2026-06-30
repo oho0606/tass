@@ -1,0 +1,17 @@
+{
+  "rule_id": "SR0035",
+  "rule_name": "Price Below S1",
+  "category": "SR",
+  "subcategory": "Pivot Levels",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Below S1",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

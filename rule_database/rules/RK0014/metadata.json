@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0014",
+  "rule_name": "Historical Volatility Falling",
+  "category": "RK",
+  "subcategory": "Volatility Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Historical Volatility Falling",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

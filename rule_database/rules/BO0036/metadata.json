@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0036",
+  "rule_name": "Price Below Lower Bollinger Band",
+  "category": "BO",
+  "subcategory": "Volatility Breakout",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Below Lower Bollinger Band",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

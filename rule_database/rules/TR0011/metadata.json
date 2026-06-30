@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0011",
+  "rule_name": "Strong Uptrend",
+  "category": "TR",
+  "subcategory": "Strength",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Strong Uptrend",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

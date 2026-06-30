@@ -1,0 +1,19 @@
+{
+  "rule_id": "CCS002",
+  "rule_name": "Bearish Candle Group",
+  "category": "CS",
+  "subcategory": "Candlestick Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bearish Candle Group",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CCS"
+  ]
+}

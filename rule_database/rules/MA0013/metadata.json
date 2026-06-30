@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0013",
+  "rule_name": "Price Above EMA60",
+  "category": "MA",
+  "subcategory": "EMA Position",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above EMA60",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

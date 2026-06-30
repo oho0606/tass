@@ -1,0 +1,17 @@
+{
+  "rule_id": "DQ0005",
+  "rule_name": "Volume Missing",
+  "category": "DQ",
+  "subcategory": "Missing Data",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Missing",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

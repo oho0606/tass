@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0015",
+  "rule_name": "Bollinger Band Width Expanding",
+  "category": "RK",
+  "subcategory": "Volatility Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bollinger Band Width Expanding",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "rule_id": "CEN005",
+  "rule_name": "Entry Confirmation",
+  "category": "EN",
+  "subcategory": "Entry Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Entry Confirmation",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CEN"
+  ]
+}

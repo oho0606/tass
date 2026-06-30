@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0057",
+  "rule_name": "Gap Partially Filled Intraday",
+  "category": "GP",
+  "subcategory": "Gap Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Partially Filled Intraday",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

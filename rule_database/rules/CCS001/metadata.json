@@ -1,0 +1,19 @@
+{
+  "rule_id": "CCS001",
+  "rule_name": "Bullish Candle Group",
+  "category": "CS",
+  "subcategory": "Candlestick Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Bullish Candle Group",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CCS"
+  ]
+}

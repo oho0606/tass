@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0027",
+  "rule_name": "Breakaway Gap Up Size Exceeds N-Period Average Range",
+  "category": "GP",
+  "subcategory": "Breakaway Gap",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakaway Gap Up Size Exceeds N-Period Average Range",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

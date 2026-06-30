@@ -1,0 +1,19 @@
+{
+  "rule_id": "CMS003",
+  "rule_name": "Structure Break",
+  "category": "MS",
+  "subcategory": "Market Structure Composite",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Structure Break",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog",
+    "Composite",
+    "CMS"
+  ]
+}

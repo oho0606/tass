@@ -1,0 +1,17 @@
+{
+  "rule_id": "PT0046",
+  "rule_name": "Double Bottom Troughs Equal",
+  "category": "PT",
+  "subcategory": "Double Top / Double Bottom",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Double Bottom Troughs Equal",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

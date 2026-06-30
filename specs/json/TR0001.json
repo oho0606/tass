@@ -1,0 +1,29 @@
+{
+  "rule_id": "TR0001",
+  "rule_name": "Higher High",
+  "category": "TR",
+  "subcategory": "Direction",
+  "version": "1.0.0",
+  "status": "Draft",
+  "priority": "High",
+  "weight": 1.0,
+  "description": "Determine whether recent swing highs show higher-high quality.",
+  "inputs": ["high", "close", "volume", "ohlcv"],
+  "parameters": {
+    "lookback": 40,
+    "pivot_strength": 3,
+    "min_hh_count": 2
+  },
+  "dependencies": [],
+  "outputs": {
+    "verdict": ["PASS", "FAIL", "UNKNOWN"],
+    "score": { "min": 0, "max": 20 },
+    "confidence_delta": true,
+    "risk_delta": true,
+    "metadata": true
+  },
+  "python": {
+    "module": "engine.rules.tr.tr0001_higher_high",
+    "class": "TR0001HigherHighRule"
+  }
+}

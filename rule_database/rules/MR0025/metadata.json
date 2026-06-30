@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0025",
+  "rule_name": "N-Period Return Near Zero",
+  "category": "MR",
+  "subcategory": "Sideways Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "N-Period Return Near Zero",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

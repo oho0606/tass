@@ -1,0 +1,17 @@
+{
+  "rule_id": "EX0029",
+  "rule_name": "Exit Close Below Prior Pullback High",
+  "category": "EX",
+  "subcategory": "Pullback Exit",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Exit Close Below Prior Pullback High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

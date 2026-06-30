@@ -1,0 +1,17 @@
+{
+  "rule_id": "CF0043",
+  "rule_name": "Price And Volatility Agreement",
+  "category": "CF",
+  "subcategory": "Multi-Indicator Confirmation",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price And Volatility Agreement",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

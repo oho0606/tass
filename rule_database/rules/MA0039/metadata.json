@@ -1,0 +1,17 @@
+{
+  "rule_id": "MA0039",
+  "rule_name": "Multiple Golden Cross",
+  "category": "MA",
+  "subcategory": "Crossovers",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Multiple Golden Cross",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

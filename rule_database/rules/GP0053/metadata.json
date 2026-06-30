@@ -1,0 +1,17 @@
+{
+  "rule_id": "GP0053",
+  "rule_name": "Gap Size Exceeds Prior Gap Size",
+  "category": "GP",
+  "subcategory": "Gap Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Gap Size Exceeds Prior Gap Size",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

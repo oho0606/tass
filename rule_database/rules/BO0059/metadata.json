@@ -1,0 +1,17 @@
+{
+  "rule_id": "BO0059",
+  "rule_name": "Breakout Gap Up",
+  "category": "BO",
+  "subcategory": "Breakout Quality",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Breakout Gap Up",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

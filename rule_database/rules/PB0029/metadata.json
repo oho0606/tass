@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0029",
+  "rule_name": "Price Above SMA During Pullback",
+  "category": "PB",
+  "subcategory": "Moving Average Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Above SMA During Pullback",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

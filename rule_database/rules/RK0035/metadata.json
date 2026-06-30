@@ -1,0 +1,17 @@
+{
+  "rule_id": "RK0035",
+  "rule_name": "Turnover Below 20-Period Average",
+  "category": "RK",
+  "subcategory": "Liquidity Risk",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Turnover Below 20-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

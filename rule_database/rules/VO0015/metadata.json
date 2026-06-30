@@ -1,0 +1,17 @@
+{
+  "rule_id": "VO0015",
+  "rule_name": "True Range At N-Period High",
+  "category": "VO",
+  "subcategory": "True Range",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range At N-Period High",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0028",
+  "rule_name": "Price Closed Above SMA60 After Touch",
+  "category": "PB",
+  "subcategory": "Moving Average Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Price Closed Above SMA60 After Touch",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

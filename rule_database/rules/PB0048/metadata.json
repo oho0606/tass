@@ -1,0 +1,17 @@
+{
+  "rule_id": "PB0048",
+  "rule_name": "Pullback High Below Falling SMA",
+  "category": "PB",
+  "subcategory": "Trend Continuation Pullback",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Pullback High Below Falling SMA",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

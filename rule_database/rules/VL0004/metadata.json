@@ -1,0 +1,24 @@
+{
+  "rule_id": "VL0004",
+  "rule_name": "Volume Above Prior Volume",
+  "category": "VL",
+  "subcategory": "Absolute Volume",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Volume Above Prior Volume",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ],
+  "mvp_operational": true,
+  "lifecycle_stage": "Adopted",
+  "updated_at": "2026-06-20",
+  "implementation": "engine/rules/vl/vl0004_volume_above_prior_volume.py",
+  "backtest_verdict": "ADOPT",
+  "backtest_evaluated_at": "2026-06-30T01:34:42Z",
+  "backtest_symbols": 30
+}

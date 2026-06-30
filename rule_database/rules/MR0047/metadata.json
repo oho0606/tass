@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0047",
+  "rule_name": "True Range Below N-Period Average",
+  "category": "MR",
+  "subcategory": "Low Volatility Regime",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "True Range Below N-Period Average",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

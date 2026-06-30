@@ -1,0 +1,17 @@
+{
+  "rule_id": "TR0031",
+  "rule_name": "Positive Slope",
+  "category": "TR",
+  "subcategory": "Slope",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Positive Slope",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}

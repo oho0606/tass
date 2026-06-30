@@ -1,0 +1,17 @@
+{
+  "rule_id": "MR0030",
+  "rule_name": "Overlapping Range Bars Present",
+  "category": "MR",
+  "subcategory": "Sideways Market",
+  "version": "1.0.0",
+  "status": "Frozen",
+  "priority": "Medium",
+  "weight": 1.0,
+  "description": "Overlapping Range Bars Present",
+  "inputs": [],
+  "outputs": [],
+  "dependencies": [],
+  "tags": [
+    "Catalog"
+  ]
+}
