@@ -1,10 +1,8 @@
 import type { components } from "./schema";
 
-// When NEXT_PUBLIC_API_URL is empty (""), requests go to the same origin and
-// Next.js rewrites (next.config.ts) proxy them to the backend.
-// For local development, set NEXT_PUBLIC_API_URL=http://localhost:8000 in .env.local.
-const API_BASE =
-  (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000").replace(/\/$/, "");
+// In local dev: set NEXT_PUBLIC_API_URL=http://localhost:8000 in .env.local
+// In Vercel production: leave NEXT_PUBLIC_API_URL unset → "" → same-origin rewrites proxy to Render
+const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(/\/$/, "");
 
 async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, {
