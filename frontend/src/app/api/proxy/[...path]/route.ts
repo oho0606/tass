@@ -25,12 +25,13 @@ async function handler(
   });
 
   try {
+    const hasBody = !["GET", "HEAD"].includes(req.method);
+    const body = hasBody ? await req.text() : undefined;
+
     const res = await fetch(url, {
       method: req.method,
       headers,
-      body: ["GET", "HEAD"].includes(req.method) ? undefined : req.body,
-      // @ts-expect-error Node 18+ only
-      duplex: "half",
+      body,
     });
 
     const resHeaders = new Headers();
